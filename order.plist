@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>N</key>
+	<string>TW_SP_BW_CO_RW_LW_BO_WH_BU_BR_BL_FR_FL_</string>
+	<key>N - 2</key>
+	<string>TW_SP_BW_CO_RW_LW_BO_WH_BU_BR_BL_FR_FL_</string>
+	<key>NW</key>
+	<string>TW_BP_BW_CO_LW_RW_BO_BL_FL_WH_BU_BR_FR_</string>
+	<key>NW - 2</key>
+	<string>TW_BP_BW_CO_LW_RW_BO_BL_FL_WH_BU_BR_FR_</string>
+	<key>W</key>
+	<string>TW_SP_BW_LW_CO_RW_BU_BO_BL_FL_WH_BR_FR_</string>
+	<key>SW</key>
+	<string>TW_LW_RW_BU_CO_BO_FL_BL_WH_SP_BW_FR_BR_</string>
+	<key>S</key>
+	<string>TW_LW_RW_BU_CO_BO_WH_SP_BW_FL_FR_BL_BR_</string>
+	<key>SE</key>
+	<string>TW_RW_LW_BU_CO_BO_FR_BR_WH_SP_BW_FL_BL</string>
+	<key>E</key>
+	<string>TW_SP_BW_RW_CO_LW_BU_BO_BR_FR_WH_BL_FL_</string>
+	<key>NE</key>
+	<string>TW_SP_BW_CO_RW_LW_BO_BR_FR_WH_BU_BL_FL_</string>
+</dict>
+</plist>
