@@ -50,6 +50,7 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     
     Rocket* rocket;
     float rocket_angle;
+    NSString* rocket_sprite;
 
 //    id wheel45;
 //    id wheel;

@@ -21,10 +21,11 @@ enum Rocket_Type { RT_STANDARD, RT_MYROCKET };
 //    CCParticleSystem* expl;
 }
 
-- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type;
+- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr;
 - (void) update;
 
 @property (nonatomic) b2Body *body;
 @property (nonatomic, retain) CCSprite* sprite;
+@property (assign, readwrite) BOOL died;
 
 @end

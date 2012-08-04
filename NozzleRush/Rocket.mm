@@ -12,8 +12,9 @@
 @implementation Rocket
 
 @synthesize body, sprite;
+@synthesize died;
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type {
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr {
    
     if((self = [super init])) {				
         
@@ -22,9 +23,10 @@
         self.tag = ROCKET_TAG;
         
         
+        NSLog(@"Rocket sprite = %@",spr);
         
-        
-        sprite = [CCSprite spriteWithFile:@"r225.png"];     //Added by MSyasko on 1.07.2012
+//        sprite = [CCSprite spriteWithFile:@"r225.png"];     //Added by MSyasko on 1.07.2012
+        sprite = [CCSprite spriteWithFile:spr];     //Added by MSyasko on 1.07.2012
         sprite.tag = 0;
         [[Common instance].tileMap addChild:sprite z:0];    //corrected by Andrew Osipov 28.05.12        
         

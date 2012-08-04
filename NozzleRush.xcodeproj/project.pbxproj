@@ -446,6 +446,35 @@
 		DD69A69E1561E104001FF24B /* car6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6961561E104001FF24B /* car6.png */; };
 		DD69A69F1561E104001FF24B /* car7.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6971561E104001FF24B /* car7.png */; };
 		DD69A6A01561E104001FF24B /* car8.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6981561E104001FF24B /* car8.png */; };
+		DDC6788115CCAEDB0093473F /* asfalt_164x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787715CCAEDB0093473F /* asfalt_164x94.png */; };
+		DDC6788215CCAEDB0093473F /* asfalt_164x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787815CCAEDB0093473F /* asfalt_164x94_shifted.png */; };
+		DDC6788315CCAEDB0093473F /* background_tiles_default_198x160.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787915CCAEDB0093473F /* background_tiles_default_198x160.png */; };
+		DDC6788415CCAEDB0093473F /* border_default_166x136.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787A15CCAEDB0093473F /* border_default_166x136.png */; };
+		DDC6788515CCAEDB0093473F /* column_165x246.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787B15CCAEDB0093473F /* column_165x246.png */; };
+		DDC6788615CCAEDB0093473F /* map_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787C15CCAEDB0093473F /* map_1.tmx */; };
+		DDC6788715CCAEDB0093473F /* moonBack165x95.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787D15CCAEDB0093473F /* moonBack165x95.png */; };
+		DDC6788815CCAEDB0093473F /* moonBack165x95_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787E15CCAEDB0093473F /* moonBack165x95_shifted.png */; };
+		DDC6788915CCAEDB0093473F /* razmetka_165x95.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6787F15CCAEDB0093473F /* razmetka_165x95.png */; };
+		DDC6788A15CCAEDB0093473F /* track_objects_222x186.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6788015CCAEDB0093473F /* track_objects_222x186.png */; };
+		DDC6789715CCAFF30093473F /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6788D15CCAFF30093473F /* column_165x250.png */; };
+		DDC6789815CCAFF30093473F /* map_mars_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDC6788E15CCAFF30093473F /* map_mars_1.tmx */; };
+		DDC6789915CCAFF30093473F /* mars_back_164x94 _shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6788F15CCAFF30093473F /* mars_back_164x94 _shifted.png */; };
+		DDC6789A15CCAFF30093473F /* mars_back_164x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789015CCAFF30093473F /* mars_back_164x94.png */; };
+		DDC6789B15CCAFF30093473F /* mars_border_164x134.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789115CCAFF30093473F /* mars_border_164x134.png */; };
+		DDC6789C15CCAFF30093473F /* NEW_ts6_280x253.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789215CCAFF30093473F /* NEW_ts6_280x253.png */; };
+		DDC6789D15CCAFF30093473F /* ts2_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789315CCAFF30093473F /* ts2_396x279.png */; };
+		DDC6789E15CCAFF30093473F /* ts4_163x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789415CCAFF30093473F /* ts4_163x94.png */; };
+		DDC6789F15CCAFF30093473F /* ts4_163x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789515CCAFF30093473F /* ts4_163x94_shifted.png */; };
+		DDC678A015CCAFF30093473F /* ts7razmetka_165x96.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC6789615CCAFF30093473F /* ts7razmetka_165x96.png */; };
+		DDC678AB15CCB1C50093473F /* background_tiles_default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A215CCB1C50093473F /* background_tiles_default.png */; };
+		DDC678AC15CCB1C50093473F /* column.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A315CCB1C50093473F /* column.png */; };
+		DDC678AD15CCB1C50093473F /* moon001.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A415CCB1C50093473F /* moon001.tmx */; };
+		DDC678AE15CCB1C50093473F /* moonBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A515CCB1C50093473F /* moonBack.png */; };
+		DDC678AF15CCB1C50093473F /* moonBack_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A615CCB1C50093473F /* moonBack_shifted.png */; };
+		DDC678B015CCB1C50093473F /* NEW_border_166x136.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A715CCB1C50093473F /* NEW_border_166x136.png */; };
+		DDC678B115CCB1C50093473F /* new_new_new_asfalt.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A815CCB1C50093473F /* new_new_new_asfalt.png */; };
+		DDC678B215CCB1C50093473F /* razmetka.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678A915CCB1C50093473F /* razmetka.png */; };
+		DDC678B315CCB1C50093473F /* track_objects_222x186.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC678AA15CCB1C50093473F /* track_objects_222x186.png */; };
 		F2D93A40158F2F7E0060C88E /* Heal.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2D93A3F158F2F7E0060C88E /* Heal.mm */; };
 /* End PBXBuildFile section */
 
@@ -1086,6 +1115,35 @@
 		DD69A6971561E104001FF24B /* car7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car7.png; sourceTree = "<group>"; };
 		DD69A6981561E104001FF24B /* car8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car8.png; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
+		DDC6787715CCAEDB0093473F /* asfalt_164x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94.png; sourceTree = "<group>"; };
+		DDC6787815CCAEDB0093473F /* asfalt_164x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94_shifted.png; sourceTree = "<group>"; };
+		DDC6787915CCAEDB0093473F /* background_tiles_default_198x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_tiles_default_198x160.png; sourceTree = "<group>"; };
+		DDC6787A15CCAEDB0093473F /* border_default_166x136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border_default_166x136.png; sourceTree = "<group>"; };
+		DDC6787B15CCAEDB0093473F /* column_165x246.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x246.png; sourceTree = "<group>"; };
+		DDC6787C15CCAEDB0093473F /* map_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map_1.tmx; sourceTree = "<group>"; };
+		DDC6787D15CCAEDB0093473F /* moonBack165x95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonBack165x95.png; sourceTree = "<group>"; };
+		DDC6787E15CCAEDB0093473F /* moonBack165x95_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonBack165x95_shifted.png; sourceTree = "<group>"; };
+		DDC6787F15CCAEDB0093473F /* razmetka_165x95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = razmetka_165x95.png; sourceTree = "<group>"; };
+		DDC6788015CCAEDB0093473F /* track_objects_222x186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_objects_222x186.png; sourceTree = "<group>"; };
+		DDC6788D15CCAFF30093473F /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
+		DDC6788E15CCAFF30093473F /* map_mars_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map_mars_1.tmx; sourceTree = "<group>"; };
+		DDC6788F15CCAFF30093473F /* mars_back_164x94 _shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mars_back_164x94 _shifted.png"; sourceTree = "<group>"; };
+		DDC6789015CCAFF30093473F /* mars_back_164x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_164x94.png; sourceTree = "<group>"; };
+		DDC6789115CCAFF30093473F /* mars_border_164x134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_border_164x134.png; sourceTree = "<group>"; };
+		DDC6789215CCAFF30093473F /* NEW_ts6_280x253.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEW_ts6_280x253.png; sourceTree = "<group>"; };
+		DDC6789315CCAFF30093473F /* ts2_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts2_396x279.png; sourceTree = "<group>"; };
+		DDC6789415CCAFF30093473F /* ts4_163x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts4_163x94.png; sourceTree = "<group>"; };
+		DDC6789515CCAFF30093473F /* ts4_163x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts4_163x94_shifted.png; sourceTree = "<group>"; };
+		DDC6789615CCAFF30093473F /* ts7razmetka_165x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts7razmetka_165x96.png; sourceTree = "<group>"; };
+		DDC678A215CCB1C50093473F /* background_tiles_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_tiles_default.png; sourceTree = "<group>"; };
+		DDC678A315CCB1C50093473F /* column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column.png; sourceTree = "<group>"; };
+		DDC678A415CCB1C50093473F /* moon001.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon001.tmx; sourceTree = "<group>"; };
+		DDC678A515CCB1C50093473F /* moonBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonBack.png; sourceTree = "<group>"; };
+		DDC678A615CCB1C50093473F /* moonBack_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonBack_shifted.png; sourceTree = "<group>"; };
+		DDC678A715CCB1C50093473F /* NEW_border_166x136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEW_border_166x136.png; sourceTree = "<group>"; };
+		DDC678A815CCB1C50093473F /* new_new_new_asfalt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_new_new_asfalt.png; sourceTree = "<group>"; };
+		DDC678A915CCB1C50093473F /* razmetka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = razmetka.png; sourceTree = "<group>"; };
+		DDC678AA15CCB1C50093473F /* track_objects_222x186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_objects_222x186.png; sourceTree = "<group>"; };
 		DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaysCastCallback.h; sourceTree = "<group>"; };
 		F2D93A3E158F2F7E0060C88E /* Heal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heal.h; sourceTree = "<group>"; };
 		F2D93A3F158F2F7E0060C88E /* Heal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Heal.mm; sourceTree = "<group>"; };
@@ -1208,6 +1266,9 @@
 		3657776D15BFD4540066D0D7 /* Moon */ = {
 			isa = PBXGroup;
 			children = (
+				DDC678A115CCB1C50093473F /* Moon01 */,
+				DDC6788C15CCAFF30093473F /* Mars02 */,
+				DDC6787615CCAEDB0093473F /* Moon02 */,
 				3657776E15BFD4540066D0D7 /* asfalt_164x94.png */,
 				3657776F15BFD4540066D0D7 /* asfalt_164x94_shifted.png */,
 				3657777015BFD4540066D0D7 /* background_tiles_default_198x160.png */,
@@ -2212,6 +2273,56 @@
 			name = Weapon;
 			sourceTree = "<group>";
 		};
+		DDC6787615CCAEDB0093473F /* Moon02 */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6787715CCAEDB0093473F /* asfalt_164x94.png */,
+				DDC6787815CCAEDB0093473F /* asfalt_164x94_shifted.png */,
+				DDC6787915CCAEDB0093473F /* background_tiles_default_198x160.png */,
+				DDC6787A15CCAEDB0093473F /* border_default_166x136.png */,
+				DDC6787B15CCAEDB0093473F /* column_165x246.png */,
+				DDC6787C15CCAEDB0093473F /* map_1.tmx */,
+				DDC6787D15CCAEDB0093473F /* moonBack165x95.png */,
+				DDC6787E15CCAEDB0093473F /* moonBack165x95_shifted.png */,
+				DDC6787F15CCAEDB0093473F /* razmetka_165x95.png */,
+				DDC6788015CCAEDB0093473F /* track_objects_222x186.png */,
+			);
+			path = Moon02;
+			sourceTree = "<group>";
+		};
+		DDC6788C15CCAFF30093473F /* Mars02 */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6788D15CCAFF30093473F /* column_165x250.png */,
+				DDC6788E15CCAFF30093473F /* map_mars_1.tmx */,
+				DDC6788F15CCAFF30093473F /* mars_back_164x94 _shifted.png */,
+				DDC6789015CCAFF30093473F /* mars_back_164x94.png */,
+				DDC6789115CCAFF30093473F /* mars_border_164x134.png */,
+				DDC6789215CCAFF30093473F /* NEW_ts6_280x253.png */,
+				DDC6789315CCAFF30093473F /* ts2_396x279.png */,
+				DDC6789415CCAFF30093473F /* ts4_163x94.png */,
+				DDC6789515CCAFF30093473F /* ts4_163x94_shifted.png */,
+				DDC6789615CCAFF30093473F /* ts7razmetka_165x96.png */,
+			);
+			path = Mars02;
+			sourceTree = "<group>";
+		};
+		DDC678A115CCB1C50093473F /* Moon01 */ = {
+			isa = PBXGroup;
+			children = (
+				DDC678A215CCB1C50093473F /* background_tiles_default.png */,
+				DDC678A315CCB1C50093473F /* column.png */,
+				DDC678A415CCB1C50093473F /* moon001.tmx */,
+				DDC678A515CCB1C50093473F /* moonBack.png */,
+				DDC678A615CCB1C50093473F /* moonBack_shifted.png */,
+				DDC678A715CCB1C50093473F /* NEW_border_166x136.png */,
+				DDC678A815CCB1C50093473F /* new_new_new_asfalt.png */,
+				DDC678A915CCB1C50093473F /* razmetka.png */,
+				DDC678AA15CCB1C50093473F /* track_objects_222x186.png */,
+			);
+			path = Moon01;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2539,6 +2650,35 @@
 				04CBE3C515C5403A0019DF36 /* TW.plist in Resources */,
 				04CBE3C715C5409F0019DF36 /* RW.plist in Resources */,
 				04CBE3C915C540BD0019DF36 /* LW.plist in Resources */,
+				DDC6788115CCAEDB0093473F /* asfalt_164x94.png in Resources */,
+				DDC6788215CCAEDB0093473F /* asfalt_164x94_shifted.png in Resources */,
+				DDC6788315CCAEDB0093473F /* background_tiles_default_198x160.png in Resources */,
+				DDC6788415CCAEDB0093473F /* border_default_166x136.png in Resources */,
+				DDC6788515CCAEDB0093473F /* column_165x246.png in Resources */,
+				DDC6788615CCAEDB0093473F /* map_1.tmx in Resources */,
+				DDC6788715CCAEDB0093473F /* moonBack165x95.png in Resources */,
+				DDC6788815CCAEDB0093473F /* moonBack165x95_shifted.png in Resources */,
+				DDC6788915CCAEDB0093473F /* razmetka_165x95.png in Resources */,
+				DDC6788A15CCAEDB0093473F /* track_objects_222x186.png in Resources */,
+				DDC6789715CCAFF30093473F /* column_165x250.png in Resources */,
+				DDC6789815CCAFF30093473F /* map_mars_1.tmx in Resources */,
+				DDC6789915CCAFF30093473F /* mars_back_164x94 _shifted.png in Resources */,
+				DDC6789A15CCAFF30093473F /* mars_back_164x94.png in Resources */,
+				DDC6789B15CCAFF30093473F /* mars_border_164x134.png in Resources */,
+				DDC6789C15CCAFF30093473F /* NEW_ts6_280x253.png in Resources */,
+				DDC6789D15CCAFF30093473F /* ts2_396x279.png in Resources */,
+				DDC6789E15CCAFF30093473F /* ts4_163x94.png in Resources */,
+				DDC6789F15CCAFF30093473F /* ts4_163x94_shifted.png in Resources */,
+				DDC678A015CCAFF30093473F /* ts7razmetka_165x96.png in Resources */,
+				DDC678AB15CCB1C50093473F /* background_tiles_default.png in Resources */,
+				DDC678AC15CCB1C50093473F /* column.png in Resources */,
+				DDC678AD15CCB1C50093473F /* moon001.tmx in Resources */,
+				DDC678AE15CCB1C50093473F /* moonBack.png in Resources */,
+				DDC678AF15CCB1C50093473F /* moonBack_shifted.png in Resources */,
+				DDC678B015CCB1C50093473F /* NEW_border_166x136.png in Resources */,
+				DDC678B115CCB1C50093473F /* new_new_new_asfalt.png in Resources */,
+				DDC678B215CCB1C50093473F /* razmetka.png in Resources */,
+				DDC678B315CCB1C50093473F /* track_objects_222x186.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

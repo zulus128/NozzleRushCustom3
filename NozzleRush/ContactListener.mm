@@ -20,6 +20,15 @@ void ContactListener::BeginContact(b2Contact *contact) {
 //                if(actor2 != nil)
 //                    NSLog(@"actor2 tag = %d", actor2.tag);
         
+        
+if(actor2 != nil)
+    if (actor2.tag == ROCKET_TAG) {
+    
+        NSLog(@"Rocket Contact!");
+        ((Rocket*)actor2).died = YES;
+    }
+        
+        
         if ((actor1.tag == WALL_TAG) || (actor1.tag == CAR_TAG)) 
             if((actor2 != nil) && (actor2.tag == CAR_TAG)) 
                 if( ((Car*)actor2).typ == CT_ME) {

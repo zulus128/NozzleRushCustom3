@@ -182,7 +182,7 @@
         
         //        NSLog(@"vel = %f", rocket.body->GetLinearVelocity().Normalize());
         
-        if (rocket.body->GetLinearVelocity().Normalize() < 0.4) {
+        if ((rocket.body->GetLinearVelocity().Normalize() < 0.4) || rocket.died) {
             
             //            [rocket release];
             [[Common instance] markObjectForDelete:rocket];
@@ -477,14 +477,14 @@
     }      
     
     // Set the proper sprite for a rocket
-    if (rocket != nil)
-        if (rocket.sprite.tag == 0) {
-            CCTexture2D* texture = [[CCTextureCache sharedTextureCache] addImage:rocketAngle];
-            NSLog(@"Angle = %@", rocketAngle);
-            [rocket.sprite setTexture:texture];
-            
-            rocket.sprite.tag = 1;
-        }
+//    if (rocket != nil)
+//        if (rocket.sprite.tag == 0) {
+//            CCTexture2D* texture = [[CCTextureCache sharedTextureCache] addImage:rocketAngle];
+//            NSLog(@"Angle = %@", rocketAngle);
+//            [rocket.sprite setTexture:texture];
+//            
+//            rocket.sprite.tag = 1;
+//        }
     
     if(bb != b)
         if(([Common instance].direction.x != 0) || ([Common instance].direction.y != 0) || (typ != CT_ME) || firsttime) {
@@ -639,6 +639,12 @@
             mach_angle = b;
             
             rocket_angle = r;
+            
+            rocket_sprite = rocketAngle;
+            
+//            if(typ == CT_ME) {
+//                NSLog(@"direction = %@, rocket = %@", direction, rocketAngle);
+//            }
         }
     bb = b;
     firsttime = NO;
@@ -799,7 +805,8 @@
             angle = 90 + CC_RADIANS_TO_DEGREES(atan2f( -tChp.x, tChp.y )) + ((stuck>100)?180:0);
 //            angle = CC_RADIANS_TO_DEGREES(atan2f( -targetChp.x, targetChp.y ));
 
-            
+            if(stuck > 110)
+                stuck = 0;
         }
     
     
@@ -866,7 +873,7 @@
                 b2Vec2 bodyP = self.body->GetPosition();
                 if (rocket == nil) {
                     //                    [rocket release];
-                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?RT_MYROCKET:RT_STANDARD];
+                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?RT_MYROCKET:RT_STANDARD Sprite:rocket_sprite];
                     rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
                 }
             }
