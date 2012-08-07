@@ -19,7 +19,7 @@
 #define PTM_RATIO 32
 
 #define MAX_CHECKPOINTS 50
-#define CHP_NAME @"checkpoint"
+#define CHP_NAME @"Checkpoint"
 #define TRP_NAME @"Tramplin"
 #define OIL_NAME @"oilSpot"
 #define HEAL_NAME @"healingPoint"

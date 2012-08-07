@@ -122,7 +122,7 @@ enum {
         [[[Common instance].tileMap layerNamed:@"RoadLayer shifted"] setZOrder:-7];
         [[[Common instance].tileMap layerNamed:@"RoadLayer"] setZOrder:-6];
         [[[Common instance].tileMap layerNamed:@"RazmetkaLayer"] setZOrder:-5];
-        [[[Common instance].tileMap layerNamed:@"BackBorderLayer_1"] setZOrder:-4];
+        [[[Common instance].tileMap layerNamed:@"BackBorderLayer"] setZOrder:-4];
 
 
         [[[Common instance].tileMap layerNamed:@"TrackObjectsLayerLow"] setZOrder:-3];
@@ -131,7 +131,7 @@ enum {
         [[[Common instance].tileMap layerNamed:@"TrackObjectsLayerUpper"] setZOrder:-1];
 
         //zOrder:0 for cars
-        [[[Common instance].tileMap layerNamed:@"FrontBorderLayer_2"] setZOrder:1];
+        [[[Common instance].tileMap layerNamed:@"FrontBorderLayer"] setZOrder:1];
         
         
         debug = NO;
@@ -197,18 +197,22 @@ enum {
     [[Common instance].me setPosX: sp.x Y:sp.y];
 
     int xxx = sp.x;
+    int yyy = sp.y;
     int b = -1;
     
     for(Car* enemy in [Common instance].enemies) {
     
-        xxx -= 250;
+        xxx -= 220;
+//        b *= (-1);
+//        [enemy setPosX: xxx Y:sp.y + (b * 50)];
+        yyy -= 250;
         b *= (-1);
-        [enemy setPosX: xxx Y:sp.y + (b * 50)];
+        [enemy setPosX: xxx + (b * 50) Y:yyy];
         
-        enemy.checkpoint = 39;
+        enemy.checkpoint = 1;//39;
     }
 
-    [Common instance].me.checkpoint = 0;
+    [Common instance].me.checkpoint = 1;
     [Common instance].laps = 0;
     
     [Common instance].started = NO;
