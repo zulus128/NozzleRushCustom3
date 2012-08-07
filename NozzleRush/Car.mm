@@ -769,7 +769,7 @@
     
     
 //    if(typ != CT_ME)
-//        NSLog(@"distChg = %d", prevDistToChp - distToChp);
+//        NSLog(@"distChg = %d point = %d", prevDistToChp - distToChp, checkpoint);
     
 
     CGPoint t = [[Common instance] getCheckpoint:self.checkpoint];
