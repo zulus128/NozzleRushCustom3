@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SpeedKoeff</key>
+	<integer>20</integer>
+	<key>SpeedTime</key>
+	<integer>10</integer>
+	<key>SlowEnemyKoeff</key>
+	<integer>20</integer>
+	<key>SlowEnemyRadius</key>
+	<integer>100</integer>
+	<key>SlowEnemyTime</key>
+	<integer>10</integer>
+	<key>FightDenyRadius</key>
+	<integer>100</integer>
+	<key>FightDenyTime</key>
+	<integer>10</integer>
+</dict>
+</plist>

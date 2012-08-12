@@ -1,6 +1,7 @@
 #import "ContactListener.h"
 #import "Common.h"
 #import "Car.h"
+#import "Heal.h"
 
 void ContactListener::BeginContact(b2Contact *contact) {
     //	Actor *actor1 = (Actor *)contact->GetFixtureA()->GetBody()->GetUserData();
@@ -30,23 +31,22 @@ if(actor2 != nil)
         
         
         if ((actor1.tag == WALL_TAG) || (actor1.tag == CAR_TAG)) 
-            if((actor2 != nil) && (actor2.tag == CAR_TAG)) 
-                if( ((Car*)actor2).typ == CT_ME) {
-
-                    [Common instance].myLife -= 0.05;
+            if((actor2 != nil) && (actor2.tag == CAR_TAG))
+                [((Car*)actor2) lifeMinus];
+//                if( ((Car*)actor2).typ == CT_ME) {
+//                    [Common instance].myLife -= 0.05;
 //                    return;
-                }
+//                }
 
-        if (actor1.tag == CAR_TAG) 
-            if((actor2 != nil) && (actor2.tag == CAR_TAG)) 
-                if( ((Car*)actor1).typ == CT_ME) {
-                    
-                    [Common instance].myLife -= 0.05;
+//        if (actor1.tag == CAR_TAG) 
+//            if((actor2 != nil) && (actor2.tag == CAR_TAG)) 
+//                if( ((Car*)actor1).typ == CT_ME) {
+//                    [Common instance].myLife -= 0.05;
 //                    return;
-                }
+//                }
             
-        if([Common instance].myLife < 0)
-            [Common instance].myLife = 0;
+//        if([Common instance].myLife < 0)
+//            [Common instance].myLife = 0;
         
         if (actor1.tag == TRAMPLIN_TAG) {
             
@@ -73,8 +73,12 @@ if(actor2 != nil)
         
         if (actor1.tag == HEAL_TAG) {
             
-            if((actor2 != nil) && (actor2.tag == CAR_TAG))
-                [Common instance].heal = YES;
+            if((actor2 != nil) && (actor2.tag == CAR_TAG)) {
+//                [Common instance].heal = YES;
+                Heal* h = ((Heal*)actor1);
+                [h hide:((Car*)actor2)];
+            
+            }
             
             return;
             

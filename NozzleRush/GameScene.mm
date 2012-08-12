@@ -10,6 +10,7 @@
 #import "HudLayer.h"
 #import "Common.h"
 #import "ContactListener.h"
+#import "SpeedBonus.h"
 
 enum {
 	kTagParentNode = 1,
@@ -160,6 +161,8 @@ enum {
         [self processTramplins];
         [self processOilSpots];
         [self processHeals];
+
+        [self processBonuses];
         
         [Common instance].me = [[Car alloc] initWithType:CT_ME];        
         
@@ -218,7 +221,7 @@ enum {
     [Common instance].started = NO;
     [Common instance].cntCD = 0;
     
-    [Common instance].myLife = 1;
+//    [Common instance].myLife = 1;
     
     [self scheduleUpdate];
 
@@ -274,18 +277,12 @@ enum {
         
     }
     
-    if ([Common instance].heal) {
-        
-        [Common instance].heal = NO;
-        
-//        [self.timer invalidate];
-//        self.timer = nil;
-//        self.timer = [NSTimer scheduledTimerWithTimeInterval:5.0f target:self selector:@selector(timerSel) userInfo:nil repeats:NO];
-        
-//        [[[Common instance].tileMap layerNamed:@"TrackObjectsLayer"] setTileGID:0 at:ccp(51,74)]; 
-        
-        [heal hide];
-    }
+//    if ([Common instance].heal) {
+//        
+//        [Common instance].heal = NO;
+//        
+//        [heal hide];
+//    }
 
         [[Common instance] deleteMarkedObjects];
 }
@@ -446,28 +443,53 @@ enum {
     
 }
 
--(void) processHeals {
-    
+-(void) processBonuses {
     
     CCTMXObjectGroup *objects = [[Common instance].tileMap  objectGroupNamed:@"Objects"];
-    NSAssert(objects != nil, @"'Objects for heals' object group not found");
+    NSAssert(objects != nil, @"'Objects for bonuses' object group not found");
     
-    tr_cnt = 0;
+    bon_cnt = 0;
     NSMutableDictionary *sp;
     do {
-       
-        NSString* s = [NSString stringWithFormat:@"%@%d", HEAL_NAME, (tr_cnt + 1)];
-        sp = [objects objectNamed:s];        
+        
+        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bon_cnt + 1)];
+        sp = [objects objectNamed:s];
         if(sp != nil) {
-
+            
             float x = [[sp valueForKey:@"x"] integerValue];
             float y = [[sp valueForKey:@"y"] integerValue];
             b2PolygonShape shape = [self getShape:sp];
-            heal = [[Heal alloc]initWithShape:shape X:x Y:y];
-            tr_cnt++;
+//            Heal* h = [[Heal alloc]initWithShape:shape X:x Y:y];
+            [[SpeedBonus alloc]initWithShape:shape X:x Y:y];
+            bon_cnt++;
         }
-
+        
     } while (sp != nil);
+}
+
+-(void) processHeals {
+    
+    
+//    CCTMXObjectGroup *objects = [[Common instance].tileMap  objectGroupNamed:@"Objects"];
+//    NSAssert(objects != nil, @"'Objects for heals' object group not found");
+//    
+//    tr_cnt = 0;
+//    NSMutableDictionary *sp;
+//    do {
+//       
+//        NSString* s = [NSString stringWithFormat:@"%@%d", HEAL_NAME, (tr_cnt + 1)];
+//        sp = [objects objectNamed:s];        
+//        if(sp != nil) {
+//
+//            float x = [[sp valueForKey:@"x"] integerValue];
+//            float y = [[sp valueForKey:@"y"] integerValue];
+//            b2PolygonShape shape = [self getShape:sp];
+//            heal = [[Heal alloc]initWithShape:shape X:x Y:y];
+//            tr_cnt++;
+//        }
+//
+//    } while (sp != nil);
+
     
 }
 
@@ -572,14 +594,14 @@ enum {
     //	world->DrawDebugData();	
     //	kmGLPopMatrix();
     
-    if(!debug) {
+    if(debug) {
         
         glLineWidth(3);
         ccDrawColor4B( 255, 255, 255, 255);
         
         for (int i = 0; i < [[Common instance] getCheckpointCnt]; i++) {
             
-            CGPoint p = [[Common instance] getCheckpoint:i];
+            CGPoint p = [[Common instance] getCheckpointPos:i];
             //            ccDrawPoint([[Common instance]ort2iso:p]);
             ccDrawPoint(p);
         }

@@ -10,11 +10,12 @@
 #import "Box2D.h"
 #import "Car.h"
 
-@interface Heal : CCNode {
+@interface SpeedBonus : CCNode {
     
     int x,y;
     CGPoint tile;
     CCSprite* sprite;
+    Car* ccar;
 }
 
 - (id) initWithShape:(b2PolygonShape)sh X:(float)xx Y:(float)yy;

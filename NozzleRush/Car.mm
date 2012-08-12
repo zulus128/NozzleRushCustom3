@@ -23,6 +23,8 @@
 @synthesize diskname, wheelname;
 @synthesize checkpoint;
 @synthesize distToChp;
+@synthesize life;
+@synthesize speedKoeff;
 
 - (id) initWithType:(int) type {
     
@@ -31,6 +33,9 @@
         typ = type;
         
         speed = 1;
+        
+        self.life = 1;
+        self.speedKoeff = 1;
         
         NSLog(@"car created");
         
@@ -41,7 +46,7 @@
         [[Common instance].tileMap addChild:sprite z:0];   //corrected by Andrew Osipov 28.05.12
         
 
-        sprite.scale = 0.5f;
+        sprite.scale = 0.5f / 2.1f;
         
         
         
@@ -146,7 +151,7 @@
 //    bodyDef.position.Set(p.x/PTM_RATIO, p.y/PTM_RATIO);
     body->SetTransform(b2Vec2(x / PTM_RATIO, y / PTM_RATIO), 0);
 
-    [[Common instance] getCheckpoint:1];
+    [[Common instance] getCheckpointPos:1];
     
     angle = 180;
     
@@ -549,93 +554,6 @@
             }
 
             
-//            CCTexture2D* tex1 = [[CCTextureCache sharedTextureCache] addImage:name1];
-//            [sprite1 setTexture: tex1];
-//            
-//            CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:name2];
-//            [sprite2 setTexture: tex2];
-//            
-//            CCTexture2D* tex3 = [[CCTextureCache sharedTextureCache] addImage:name3];
-//            [sprite3 setTexture: tex3];
-//            sprite3.position = w1Position;
-//            [sprite reorderChild:sprite3 z:w1ZOrder];
-//            
-//            testSprite.position = w1MuzzlePosition;
-            
-//            if(wanim != nil) {
-//                
-//                [sprite1 stopAllActions];
-//                [sprite1 runAction:wanim];
-//            }
-//            
-//            [spriteDisk1 stopAllActions];
-//            [spriteDisk2 stopAllActions];
-            
-            //        if(danim != nil) {
-            //            
-            //            [spriteDisk1 runAction:danim];
-            //            [spriteDisk2 runAction:[[danim copy]autorelease]];
-            //        }
-
-//            switch (disk) {
-//                case DT_NONE:
-//                    spriteDisk1.visible = NO;
-//                    spriteDisk2.visible = NO;
-//                    break;
-//                    
-//                case DT_SIDE: {
-//                    
-//                    spriteDisk1.position = ccp(-17.5, -29); 
-//                    spriteDisk2.position = ccp(16.5, -29); 
-//                    
-//                    CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:@"DiskiBokom1_1.png"];
-//                    [spriteDisk1 setTexture: tex2];
-//                    [spriteDisk2 setTexture: tex2];
-//
-//                    [spriteDisk1 runAction:diskiSide];
-//                    [spriteDisk2 runAction:[[diskiSide copy]autorelease]];
-//                    spriteDisk1.visible = YES;
-//                    spriteDisk2.visible = YES;
-//                    break;
-//                }
-//                case DT_45: {
-//                    
-//                    spriteDisk1.position = ccp(-7, -29); 
-//                    spriteDisk2.position = ccp(-35, -12); 
-//                    
-//                    CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:@"Diski45-1_1.png"];
-//                    [spriteDisk1 setTexture: tex2];
-//                    [spriteDisk2 setTexture: tex2];
-//                    
-//                    [spriteDisk1 runAction:diski45];
-//                    [spriteDisk2 runAction:[[diski45 copy]autorelease]];
-//                    spriteDisk1.visible = YES;
-//                    spriteDisk2.visible = YES;
-//                    break;
-//                }  
-//                case DT_45FLIP: {
-//                    
-////                    spriteDisk1.position = ccp(140, -45);      // iPad
-////                    spriteDisk2.position = ccp(25, -115); 
-//                    
-//                    spriteDisk1.position = ccp(34.5, -12);      
-//                    spriteDisk2.position = ccp(6.5, -29);
-//                    
-//                    CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:@"Diski45Flip1_1.png"];
-//                    [spriteDisk1 setTexture: tex2];
-//                    [spriteDisk2 setTexture: tex2];
-//
-//                    [spriteDisk1 runAction:diski45Flip];
-//                    [spriteDisk2 runAction:[[diski45Flip copy]autorelease]];
-//                    spriteDisk1.visible = YES;
-//                    spriteDisk2.visible = YES;
-//                    break;
-//                }
-//                default:
-//                    break;
-//            }
-
-
             mach_angle = b;
             
             rocket_angle = r;
@@ -648,23 +566,11 @@
         }
     bb = b;
     firsttime = NO;
-//    if (self.body->GetLinearVelocity().Normalize() < 0.3) {
-//    
-//        [sprite1 stopAllActions];
-//        [spriteDisk1 stopAllActions];
-//        [spriteDisk2 stopAllActions];
-//    }
-
-
-    
     
     speedcnt++;
-//    NSLog(@"SPEED! %d", speed);
     
 //    if((speed > 0) && (speedcnt > speed)) {
      if(speedcnt > speed) {
-        
-//        NSLog(@"SPEED!");
         
         framecnt++;
         NSString* name1 = [NSString stringWithFormat:@"%@%d.png", self.diskname, framecnt];
@@ -736,7 +642,7 @@
     
     
     CGPoint p1 = sprite.position;
-    CGPoint p2 = [[Common instance] getCheckpoint:self.checkpoint];//[[Common instance] getCurCheckpoint];
+    CGPoint p2 = [[Common instance] getCheckpointPos:self.checkpoint];//[[Common instance] getCurCheckpoint];
     distToChp = ccpDistance(p1, p2);
     
     //        if(typ == CT_ME)
@@ -772,11 +678,10 @@
 //        NSLog(@"distChg = %d point = %d", prevDistToChp - distToChp, checkpoint);
     
 
-    CGPoint t = [[Common instance] getCheckpoint:self.checkpoint];
+    CGPoint t = [[Common instance] getCheckpointPos:self.checkpoint];
     CGPoint t1 = [[Common instance] iso2ort:t];
 
-    b2Vec2 eyeOffset = b2Vec2(0, 0/*1.5*/);
-//    self.eye = body->GetWorldPoint(eyeOffset);
+//    b2Vec2 eyeOffset = b2Vec2(0, 0/*1.5*/);
     self.eye = body->GetPosition();
     
     
@@ -791,19 +696,10 @@
         stuck++;
     else stuck = 0;
 
-//        stuck++;
-        
         if(stuck > 20) {
             
             NSLog(@"STUCK!!!! %d", stuck);
-//            stuck = -1;
-            
-//            CGPoint t = [[Common instance] getCheckpoint:self.checkpoint];
-//            CGPoint t1 = [[Common instance] iso2ort:t];
-//            b2Vec2 toTarget = b2Vec2(t1.x / PTM_RATIO, t1.y /PTM_RATIO);
-            
             angle = 90 + CC_RADIANS_TO_DEGREES(atan2f( -tChp.x, tChp.y )) + ((stuck>100)?180:0);
-//            angle = CC_RADIANS_TO_DEGREES(atan2f( -targetChp.x, targetChp.y ));
 
             if(stuck > 110)
                 stuck = 0;
@@ -833,6 +729,7 @@
         b2Vec2 fforce1 = b2Vec2(x2, y2);
         fforce1.Normalize();
         fforce1 *= (float32)0.08f;
+        fforce1 *= self.speedKoeff;
         body->ApplyLinearImpulse(fforce1, body->GetPosition());
         
         //////////////////////////////////////////
@@ -905,7 +802,7 @@
     force1.Normalize();
     force1 *= (float32)0.08f;
 //    force1 = self.eye + force1;
-    
+    force1 *= self.speedKoeff;
     body->ApplyLinearImpulse(force1, body->GetPosition());
     
     b2Vec2 toTarget = force1;
@@ -917,16 +814,17 @@
 
 //       NSLog(@"desAngle = %f", CC_RADIANS_TO_DEGREES(desAngle));
 
-    float l0 = [self processRayCastForAngle:angle forTarget:target length:50];
-    float l1 = [self processRayCastForAngle:(angle + 45) forTarget:target1 length:28];
-    float l2 = [self processRayCastForAngle:(angle - 45) forTarget:target2 length:28];
-    float l3 = [self processRayCastForAngle:(angle + 15.5f) forTarget:target3 length:10];
-    float l4 = [self processRayCastForAngle:(angle - 15.5f) forTarget:target4 length:10];
+    int bonus;
+    float l0 = [self processRayCastForAngle:angle forTarget:target length:50 isBonus:bonus];
+    float l1 = [self processRayCastForAngle:(angle + 45) forTarget:target1 length:28 isBonus:bonus];
+    if (bonus) { angle += 45; return; }
+    float l2 = [self processRayCastForAngle:(angle - 45) forTarget:target2 length:28 isBonus:bonus];
+    if (bonus) { angle -= 45; return; }
+    float l3 = [self processRayCastForAngle:(angle + 15.5f) forTarget:target3 length:10 isBonus:bonus];
+    if (bonus) { angle += 15.5f; return; }
+    float l4 = [self processRayCastForAngle:(angle - 15.5f) forTarget:target4 length:10 isBonus:bonus];
+    if (bonus) { angle -= 15.5f; return; }
 
-//    targetChp = force1;
-//    targetChp.Normalize();
-//    targetChp *= 100;
-//    targetChp = self.eye + targetChp;
 
     float k = 3.01;
 
@@ -958,30 +856,12 @@
                 }
     }
 
-//    if ((l0 < 999) && (fabs(l1 - l2) > 6)) {
-//        
-//        NSLog(@"turn l0 = %f", l0);
-//        
-//        if (l1 < l2) {
-//            
-//            angle -= 11.25;
-//        }
-//        else {
-//            
-//            angle += 11.25;
-//        }
-//    }
-    //    NSLog(@"vel = %f", body->GetLinearVelocity().Normalize());
-    
-//    NSLog(@"target- %f, %f", self.target1.x, self.target1.y);
-//    [self processRayCastForAngle:0 tar:target1];
-//    NSLog(@"target+ %f, %f", self.target1.x, self.target1.y);
-    
 }
 
-- (float) processRayCastForAngle: (float)ang forTarget:(b2Vec2&) tar length:(int)len {
+- (float) processRayCastForAngle: (float)ang forTarget:(b2Vec2&) tar length:(int)len isBonus:(int&)bonus {
     
     float l = 1000;
+    bonus = 0;
     RaysCastCallback callback;
     b2Vec2 f2 = b2Vec2(cos(CC_DEGREES_TO_RADIANS(ang)), sin(CC_DEGREES_TO_RADIANS(ang)));
     tar = f2;
@@ -992,9 +872,29 @@
     if (callback.m_fixture) {
         
         l = (eye - callback.m_point).Length();
+        CCNode* actor = (CCNode*)callback.m_fixture->GetBody()->GetUserData();
+        if (actor.tag == HEAL_TAG) {
+//            NSLog(@"BONUS!!!");
+            bonus = actor.tag;
+        }
     }
     
     return l;
+}
+
+- (void) lifeMinus {
+    
+    self.life -= 0.05f;
+    if(self.life < 0)
+        self.life = 0;
+
+}
+
+- (void) lifePlusFromHeal {
+    
+    self.life += 0.05f;
+    if(self.life > 1)
+        self.life = 1;
 }
 
 @end

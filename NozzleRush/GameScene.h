@@ -15,44 +15,20 @@
 
 @interface GameScene : CCLayer {
     
-//    CCTMXTiledMap *_tileMap;
-    CCTMXLayer *_background;	
+    CCTMXLayer *_background;
     CCTMXLayer *_background1;	
-	
-//    b2World* world;	
-    
-//    CCTexture2D *spriteTexture_;
-    
     GLESDebugDraw *m_debugDraw;		// strong ref
-    
-//    CGPoint debugPoint;
-//    b2PolygonShape debugShape;
     BOOL debug;
-    
-//    b2Body *body;
-    
     NSMutableArray* debugs;
-    
-//    Car* me;
-//    Car* enemy;
-    
     Heal* heal;
-    
     int tr_cnt;
-    
-//    BOOL started;
-    
+    int bon_cnt;
 }
 
-//@property (nonatomic, retain) CCTMXTiledMap *tileMap;
-//@property (nonatomic, retain) CCTMXLayer *background;
 @property (nonatomic, retain) CCLayer *hudLayer;
 
 + (id) scene;
 - (void) setViewpointCenter:(CGPoint) position;
 - (b2PolygonShape) getShape:(id) object;
-//- (void) pause:(id) sender;
-
-//@property (nonatomic, retain) NSTimer* timer;
 
 @end

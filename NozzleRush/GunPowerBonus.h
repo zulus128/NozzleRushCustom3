@@ -10,7 +10,7 @@
 #import "Box2D.h"
 #import "Car.h"
 
-@interface Heal : CCNode {
+@interface GunPowerBonus : CCNode {
     
     int x,y;
     CGPoint tile;

@@ -17,7 +17,7 @@
 @synthesize world;
 @synthesize laps, laps_cnt/*, checkpoint, distToChp*/;
 @synthesize gametype;
-@synthesize  gamescene;
+@synthesize gamescene;
 @synthesize heal;
 @synthesize machinegun;
 //@synthesize enemy, me;
@@ -26,7 +26,7 @@
 @synthesize enemies;
 @synthesize enemiesCnt;
 @synthesize mapType;
-@synthesize myLife;
+//@synthesize myLife;
 @synthesize camera;
 @synthesize me;
 
@@ -84,12 +84,17 @@
     return chp_cnt;
 }
 
-//- (CGPoint) getCurCheckpoint {
-//
-//    return [self getCheckpoint:self.checkpoint];
+//- (int) getBonusesCnt {
+//    
+//    if (bns_cnt > 0)
+//        return bns_cnt;
+//    
+//    [self doBonuses];
+//    
+//    return bns_cnt;
 //}
 
-- (CGPoint) getCheckpoint:(int) c {
+- (CGPoint) getCheckpointPos:(int) c {
     
     if(chp_cnt > 0)
         return [self ort2iso: chp[c]];
@@ -118,6 +123,42 @@
 
     return ccp(0, 0);
 }
+
+//- (void) doBonuses {
+//
+//    CCTMXObjectGroup *objects = [self.tileMap objectGroupNamed:@"Objects"];
+//    NSAssert(objects != nil, @"'Objects' object group not found 2");
+//    
+//    bns_cnt = 0;
+//    NSMutableDictionary *sp;
+//    do {
+//        
+//        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bns_cnt + 1)];
+//        sp = [objects objectNamed:s];
+//        if(sp != nil) {
+//            
+//            float x = [[sp valueForKey:@"x"] integerValue];
+//            float y = [[sp valueForKey:@"y"] integerValue];
+//            bns[bns_cnt++] = ccp(x, y);
+//            NSLog(@"Bonus%d x = %f, y = %f", bns_cnt, x, y);
+//        }
+//        
+//    } while (sp != nil);
+//
+//}
+//
+//- (CGPoint) getBonusPos:(int) c {
+//    
+//    if(bns_cnt > 0)
+//        return [self ort2iso: bns[c]];
+//    
+//    [self doBonuses];
+//        
+//    if (bns_cnt > 0)
+//        return [self ort2iso: bns[c]];
+//    
+//    return ccp(0, 0);
+//}
 
 - (BOOL) bum:(CGPoint) p {
   
@@ -195,7 +236,7 @@
         [self initPhysics];
         
         self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_map_3.tmx"];
-//        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"map_1.tmx"];
+//        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_dim_dif1_7.tmx"];
         
         chp_cnt = -1;
         
@@ -207,6 +248,9 @@
         
 		NSString *appFile = [[NSBundle mainBundle] pathForResource:@"countdown" ofType:@"plist"];
 		cd_params = [[NSDictionary alloc] initWithContentsOfFile:appFile];
+
+		NSString *appFile1 = [[NSBundle mainBundle] pathForResource:@"bonus" ofType:@"plist"];
+		bonus_params = [[NSDictionary alloc] initWithContentsOfFile:appFile1];
         
 		NSString *order_file = [[NSBundle mainBundle] pathForResource:@"order1" ofType:@"plist"];
         details_order = [[NSDictionary alloc] initWithContentsOfFile:order_file];
@@ -290,6 +334,12 @@
     
 	NSString *s = [cd_params objectForKey:[NSString stringWithFormat:@"msg%d", n]];
 	return s;
+}
+
+- (int) getBonusParam: (NSString*)n {
+    
+	NSNumber* s = [bonus_params valueForKey:n];
+	return [s intValue];
 }
 
 - (CGPoint) ort2iso:(CGPoint) pos {

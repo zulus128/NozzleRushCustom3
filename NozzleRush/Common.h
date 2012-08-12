@@ -19,7 +19,10 @@
 #define PTM_RATIO 32
 
 #define MAX_CHECKPOINTS 50
+#define MAX_BONUSES 50
+
 #define CHP_NAME @"Checkpoint"
+#define BNS_NAME @"SpawnObject"
 #define TRP_NAME @"Tramplin"
 #define OIL_NAME @"oilSpot"
 #define HEAL_NAME @"healingPoint"
@@ -50,10 +53,13 @@ enum game_type { GT_RACE, GT_FREERIDE };
     
     CGPoint chp[MAX_CHECKPOINTS];
     int chp_cnt;
+    CGPoint bns[MAX_BONUSES];
+    int bns_cnt;
     
     NSMutableSet* remove_objects;
     
     NSDictionary* cd_params;
+    NSDictionary* bonus_params;
 
     
     NSDictionary* details_order;
@@ -75,9 +81,10 @@ enum game_type { GT_RACE, GT_FREERIDE };
 
 - (CGPoint) iso2ort:(CGPoint) pos;
 
-- (CGPoint) getCheckpoint:(int) c;
-//- (CGPoint) getCurCheckpoint;
+- (CGPoint) getCheckpointPos:(int) c;
 - (int) getCheckpointCnt;
+//- (CGPoint) getBonusesPos:(int) c;
+//- (int) getBonusesCnt;
 - (CGPoint)tileCoordForPosition:(CGPoint)position;
 - (BOOL) bum:(CGPoint) p;
 
@@ -86,7 +93,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
 
 - (int) getCDCount;
 - (NSString*) getCDParam: (int)n;
-
+- (int) getBonusParam: (NSString*)n;
 - (NSString*) getDetail:(NSString*)key number:(int)num; 
 - (int) getDetailCnt:(NSString*)key;
 - (NSString*) getBeaParam: (NSString*)n player_index: (int)ind;
@@ -107,7 +114,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
 @property (assign, readwrite) int cntCD;
 @property (assign, readwrite) int enemiesCnt;
 @property (nonatomic, retain) NSString* mapType;
-@property (assign, readwrite) float myLife;
+//@property (assign, readwrite) float myLife;
 
 @property (nonatomic, retain) NSMutableSet* enemies;
 @property (assign, readwrite) int camera;

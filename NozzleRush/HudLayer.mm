@@ -179,11 +179,11 @@
 
 - (void) updateScore {
     
-    NSString* str = [NSString stringWithFormat:@"CHECKPOINT: %d, LAP: %d, DISTANCE TO CHECKPOINT: %d, MYLIFE: %.2f", [Common instance].me.checkpoint, [Common instance].laps, [Common instance].me.distToChp, [Common instance].myLife];
+    NSString* str = [NSString stringWithFormat:@"CHECKPOINT: %d, LAP: %d, DISTANCE TO CHECKPOINT: %d, MYLIFE: %.2f", [Common instance].me.checkpoint, [Common instance].laps, [Common instance].me.distToChp, [Common instance].me.life];
     [score setString:str];
     
 
-    float lifePercentage = [Common instance].myLife;
+    float lifePercentage = [Common instance].me.life;
     [healthBar setTextureRect:CGRectMake(0, 0, healthBar.contentSize.width, hl*lifePercentage)];
     float hy = healthBY - (healthBar.contentSize.height/lifePercentage)*(1 - lifePercentage)/2;
     healthBar.position = ccp(healthBX, hy);
