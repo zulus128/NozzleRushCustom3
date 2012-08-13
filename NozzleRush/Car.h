@@ -53,6 +53,7 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
 - (CGPoint) getGroundPosition;
 - (void) lifeMinus;
 - (void) lifePlusFromHeal;
+- (void) lifePlusFromRemBonus;
 
 @property (nonatomic) b2Body *body;
 @property (readwrite) b2Vec2 eye;

@@ -897,4 +897,12 @@
         self.life = 1;
 }
 
+- (void) lifePlusFromRemBonus {
+
+    self.life += (float)[[Common instance] getBonusParam:@"RemontKoeff"]/100;
+    if(self.life > 1)
+        self.life = 1;
+    
+}
+
 @end

@@ -11,6 +11,7 @@
 #import "Common.h"
 #import "ContactListener.h"
 #import "SpeedBonus.h"
+#import "RemBonus.h"
 
 enum {
 	kTagParentNode = 1,
@@ -460,7 +461,7 @@ enum {
             float y = [[sp valueForKey:@"y"] integerValue];
             b2PolygonShape shape = [self getShape:sp];
 //            Heal* h = [[Heal alloc]initWithShape:shape X:x Y:y];
-            [[SpeedBonus alloc]initWithShape:shape X:x Y:y];
+            [[RemBonus alloc]initWithShape:shape X:x Y:y];
             bon_cnt++;
         }
         

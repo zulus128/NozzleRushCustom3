@@ -10,13 +10,12 @@
 #import "Box2D.h"
 #import "Car.h"
 
-@interface RemBonus : CCNode {
+@interface BulletTimeBonus : CCNode {
     
     int x,y;
     CGPoint tile;
     CCSprite* sprite;
     Car* ccar;
-    int cnt;
 }
 
 - (id) initWithShape:(b2PolygonShape)sh X:(float)xx Y:(float)yy;

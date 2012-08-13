@@ -434,6 +434,8 @@
 		DD9A35A015D7A8C500EAFC09 /* razmetka_165x95.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A358915D7A8C500EAFC09 /* razmetka_165x95.png */; };
 		DD9A35A115D7A8C500EAFC09 /* track_objects_222x186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A358A15D7A8C500EAFC09 /* track_objects_222x186.png */; };
 		DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9A35A315D81A5800EAFC09 /* bonus.plist */; };
+		DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */; };
+		DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */; };
 		F2D93A40158F2F7E0060C88E /* Heal.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2D93A3F158F2F7E0060C88E /* Heal.mm */; };
 /* End PBXBuildFile section */
 
@@ -1067,6 +1069,10 @@
 		DD9A358A15D7A8C500EAFC09 /* track_objects_222x186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_objects_222x186.png; sourceTree = "<group>"; };
 		DD9A35A315D81A5800EAFC09 /* bonus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bonus.plist; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
+		DDBCF55115D8BAE200813074 /* AddWeaponBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWeaponBonus.h; sourceTree = "<group>"; };
+		DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddWeaponBonus.mm; sourceTree = "<group>"; };
+		DDBCF55515D8BBDC00813074 /* BulletTimeBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletTimeBonus.h; sourceTree = "<group>"; };
+		DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BulletTimeBonus.mm; sourceTree = "<group>"; };
 		DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaysCastCallback.h; sourceTree = "<group>"; };
 		F2D93A3E158F2F7E0060C88E /* Heal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heal.h; sourceTree = "<group>"; };
 		F2D93A3F158F2F7E0060C88E /* Heal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Heal.mm; sourceTree = "<group>"; };
@@ -1276,6 +1282,10 @@
 				DD55AE0415D827A3006F4E45 /* SlowEnemyBonus.mm */,
 				DD55AE0615D82C65006F4E45 /* FightDenyBonus.h */,
 				DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */,
+				DDBCF55115D8BAE200813074 /* AddWeaponBonus.h */,
+				DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */,
+				DDBCF55515D8BBDC00813074 /* BulletTimeBonus.h */,
+				DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */,
 				DDAF759C159BE43100E69A82 /* QueryCallback.h */,
 				DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */,
 				369FAF11152089290056C20F /* AppDelegate.h */,
@@ -2666,6 +2676,8 @@
 				DD55AE0215D8215A006F4E45 /* SpeedBonus.mm in Sources */,
 				DD55AE0515D827A3006F4E45 /* SlowEnemyBonus.mm in Sources */,
 				DD55AE0815D82C66006F4E45 /* FightDenyBonus.mm in Sources */,
+				DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */,
+				DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
