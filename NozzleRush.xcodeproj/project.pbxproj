@@ -390,6 +390,13 @@
 		DD00037C159FDCFD0012E4D2 /* Diski45-1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */; };
 		DD0680341597E7A8006D5D67 /* Rocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0680331597E7A8006D5D67 /* Rocket.mm */; };
 		DD06803C1597E926006D5D67 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06803B1597E926006D5D67 /* rock.png */; };
+		DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */; };
+		DD1C9C4E15DCBBAD00FF2A17 /* Denied_Weapon_Aura_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4815DCBBAD00FF2A17 /* Denied_Weapon_Aura_bonus.png */; };
+		DD1C9C4F15DCBBAD00FF2A17 /* Repair_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4915DCBBAD00FF2A17 /* Repair_bonus.png */; };
+		DD1C9C5015DCBBAD00FF2A17 /* Slow_Aura_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4A15DCBBAD00FF2A17 /* Slow_Aura_bonus.png */; };
+		DD1C9C5115DCBBAD00FF2A17 /* Speed_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4B15DCBBAD00FF2A17 /* Speed_Up_bonus.png */; };
+		DD1C9C5215DCBBAD00FF2A17 /* Weapon_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */; };
+		DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */; };
 		DD2357DE15D79E68003B97A4 /* heal.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2357DD15D79E68003B97A4 /* heal.png */; };
 		DD2C00A315C4DD8E00CF2E62 /* order1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A115C4DD8E00CF2E62 /* order1.plist */; };
 		DD2C00A415C4DD8E00CF2E62 /* players1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A215C4DD8E00CF2E62 /* players1.plist */; };
@@ -1019,6 +1026,14 @@
 		DD0680321597E7A8006D5D67 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
 		DD0680331597E7A8006D5D67 /* Rocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rocket.mm; sourceTree = "<group>"; };
 		DD06803B1597E926006D5D67 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ammo_bonus.png; sourceTree = "<group>"; };
+		DD1C9C4815DCBBAD00FF2A17 /* Denied_Weapon_Aura_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Denied_Weapon_Aura_bonus.png; sourceTree = "<group>"; };
+		DD1C9C4915DCBBAD00FF2A17 /* Repair_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repair_bonus.png; sourceTree = "<group>"; };
+		DD1C9C4A15DCBBAD00FF2A17 /* Slow_Aura_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slow_Aura_bonus.png; sourceTree = "<group>"; };
+		DD1C9C4B15DCBBAD00FF2A17 /* Speed_Up_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Speed_Up_bonus.png; sourceTree = "<group>"; };
+		DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weapon_Up_bonus.png; sourceTree = "<group>"; };
+		DD1C9C5415DCC4D200FF2A17 /* Bonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonus.h; sourceTree = "<group>"; };
+		DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bonus.mm; sourceTree = "<group>"; };
 		DD2357DD15D79E68003B97A4 /* heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heal.png; sourceTree = "<group>"; };
 		DD2C00A115C4DD8E00CF2E62 /* order1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order1.plist; sourceTree = "<group>"; };
 		DD2C00A215C4DD8E00CF2E62 /* players1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = players1.plist; sourceTree = "<group>"; };
@@ -1272,6 +1287,8 @@
 				3662183B159435E400433AFD /* MachParticleSystem.mm */,
 				F2D93A3E158F2F7E0060C88E /* Heal.h */,
 				F2D93A3F158F2F7E0060C88E /* Heal.mm */,
+				DD1C9C5415DCC4D200FF2A17 /* Bonus.h */,
+				DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */,
 				DD55ADF915D82002006F4E45 /* RemBonus.h */,
 				DD55ADFA15D82002006F4E45 /* RemBonus.mm */,
 				DD55ADFD15D820B0006F4E45 /* GunPowerBonus.h */,
@@ -2146,6 +2163,12 @@
 			isa = PBXGroup;
 			children = (
 				DD2357DD15D79E68003B97A4 /* heal.png */,
+				DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */,
+				DD1C9C4815DCBBAD00FF2A17 /* Denied_Weapon_Aura_bonus.png */,
+				DD1C9C4915DCBBAD00FF2A17 /* Repair_bonus.png */,
+				DD1C9C4A15DCBBAD00FF2A17 /* Slow_Aura_bonus.png */,
+				DD1C9C4B15DCBBAD00FF2A17 /* Speed_Up_bonus.png */,
+				DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */,
 			);
 			name = Bonuses;
 			sourceTree = "<group>";
@@ -2490,6 +2513,12 @@
 				DD9A35A015D7A8C500EAFC09 /* razmetka_165x95.png in Resources */,
 				DD9A35A115D7A8C500EAFC09 /* track_objects_222x186.png in Resources */,
 				DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */,
+				DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */,
+				DD1C9C4E15DCBBAD00FF2A17 /* Denied_Weapon_Aura_bonus.png in Resources */,
+				DD1C9C4F15DCBBAD00FF2A17 /* Repair_bonus.png in Resources */,
+				DD1C9C5015DCBBAD00FF2A17 /* Slow_Aura_bonus.png in Resources */,
+				DD1C9C5115DCBBAD00FF2A17 /* Speed_Up_bonus.png in Resources */,
+				DD1C9C5215DCBBAD00FF2A17 /* Weapon_Up_bonus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2678,6 +2707,7 @@
 				DD55AE0815D82C66006F4E45 /* FightDenyBonus.mm in Sources */,
 				DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */,
 				DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */,
+				DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,23 +6,11 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "cocos2d.h"
-#import "Box2D.h"
-#import "Car.h"
+#import "Bonus.h"
 
-@interface FightDenyBonus : CCNode {
+@interface FightDenyBonus : Bonus {
     
-    int x,y;
-    CGPoint tile;
-    CCSprite* sprite;
-    Car* ccar;
 }
 
-- (id) initWithShape:(b2PolygonShape)sh X:(float)xx Y:(float)yy;
-
-- (void) hide: (Car*) car;
-- (void) show;
-
-@property (nonatomic, retain) NSTimer* timer;
 
 @end

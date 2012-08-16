@@ -6,19 +6,33 @@
 	<integer>10</integer>
 	<key>RemontTime</key>
 	<integer>10</integer>
+	<key>RemontWeight</key>
+	<integer>5</integer>
 	<key>SpeedKoeff</key>
 	<integer>20</integer>
 	<key>SpeedTime</key>
 	<integer>10</integer>
+	<key>SpeedWeight</key>
+	<integer>2</integer>
 	<key>SlowEnemyKoeff</key>
 	<integer>20</integer>
 	<key>SlowEnemyRadius</key>
 	<integer>100</integer>
+	<key>SlowEnemyWeight</key>
+	<integer>0</integer>
 	<key>SlowEnemyTime</key>
 	<integer>10</integer>
 	<key>FightDenyRadius</key>
 	<integer>100</integer>
 	<key>FightDenyTime</key>
 	<integer>10</integer>
+	<key>FightDenyWeight</key>
+	<integer>0</integer>
+	<key>GunPowerKoeff</key>
+	<integer>2</integer>
+	<key>GunPowerTime</key>
+	<integer>10</integer>
+	<key>GunPowerWeight</key>
+	<integer>1</integer>
 </dict>
 </plist>

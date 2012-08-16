@@ -13,34 +13,14 @@
 
 @synthesize timer;
 
-- (id) initWithShape:(b2PolygonShape)sh X:(float)xx Y:(float)yy {
+- (id) initWithShape:(b2PolygonShape)sh X:(float)xx Y:(float)yy spawn:(int)sp {
     
-    if((self = [super init])) {
-        
-        
-        x = xx;
-        y = yy;
-        
-        b2BodyDef bodyDef;
-        bodyDef.position.Set(x/PTM_RATIO, y/PTM_RATIO);
-        b2Body *bodyw = [Common instance].world->CreateBody(&bodyDef);
-        
-        b2FixtureDef fixtureDef;
-        fixtureDef.shape = &sh;
-        fixtureDef.isSensor = true;
-        bodyw->CreateFixture(&fixtureDef);
-        
-        //        CCNode* o = [[CCNode alloc] init];
-        //        o.tag = HEAL_TAG;
-        //        bodyw->SetUserData(o);
-        
-        self.tag = HEAL_TAG;
-        bodyw->SetUserData(self);
+    if(self = [super initWithShape:sh X:xx Y:yy spawn:sp]) {
         
         CGPoint ppp = [[Common instance] ort2iso:ccp(x,y)];
         //        tile = [[Common instance] tileCoordForPosition:ppp];
         
-        sprite = [CCSprite spriteWithFile:@"heal.png"];
+        sprite = [CCSprite spriteWithFile:@"Speed_Up_bonus.png"];
         sprite.position = ppp;
         [[Common instance].tileMap addChild:sprite z:0];
         
@@ -68,7 +48,7 @@
     
     [self.timer invalidate];
     self.timer = nil;
-    [self show];
+//    [self show];
     
 }
 

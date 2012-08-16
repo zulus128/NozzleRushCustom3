@@ -38,6 +38,8 @@
 #define CAR_TAG 2000
 #define ROCKET_TAG 2001
 
+#define SECONDS_TILL_BONUS 3.0f
+
 enum game_type { GT_RACE, GT_FREERIDE };
 
 //enum _entityCategory {
@@ -54,6 +56,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
     CGPoint chp[MAX_CHECKPOINTS];
     int chp_cnt;
     CGPoint bns[MAX_BONUSES];
+    BOOL bns_occup[MAX_BONUSES];
     int bns_cnt;
     
     NSMutableSet* remove_objects;
@@ -73,6 +76,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
     
     int detail;
     
+    NSMutableArray* bonuses;
+
 }
 
 + (Common*) instance;
@@ -85,6 +90,9 @@ enum game_type { GT_RACE, GT_FREERIDE };
 - (int) getCheckpointCnt;
 //- (CGPoint) getBonusesPos:(int) c;
 //- (int) getBonusesCnt;
+
+- (void) putBonuses;
+
 - (CGPoint)tileCoordForPosition:(CGPoint)position;
 - (BOOL) bum:(CGPoint) p;
 

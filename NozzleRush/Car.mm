@@ -874,7 +874,7 @@
         l = (eye - callback.m_point).Length();
         CCNode* actor = (CCNode*)callback.m_fixture->GetBody()->GetUserData();
         if (actor.tag == HEAL_TAG) {
-//            NSLog(@"BONUS!!!");
+            NSLog(@"BONUS!!!");
             bonus = actor.tag;
         }
     }

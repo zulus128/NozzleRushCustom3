@@ -9,6 +9,13 @@
 #import "Common.h"
 #import "RaysCastCallback.h"
 #import "QueryCallback.h"
+#import "RemBonus.h"
+#import "SpeedBonus.h"
+#import "GunPowerBonus.h"
+#import "SlowEnemyBonus.h"
+#import "FightDenyBonus.h"
+#import "AddWeaponBonus.h"
+#import "BulletTimeBonus.h"
 
 @implementation Common
 
@@ -124,28 +131,126 @@
     return ccp(0, 0);
 }
 
-//- (void) doBonuses {
-//
-//    CCTMXObjectGroup *objects = [self.tileMap objectGroupNamed:@"Objects"];
-//    NSAssert(objects != nil, @"'Objects' object group not found 2");
-//    
-//    bns_cnt = 0;
-//    NSMutableDictionary *sp;
-//    do {
-//        
-//        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bns_cnt + 1)];
-//        sp = [objects objectNamed:s];
-//        if(sp != nil) {
-//            
-//            float x = [[sp valueForKey:@"x"] integerValue];
-//            float y = [[sp valueForKey:@"y"] integerValue];
-//            bns[bns_cnt++] = ccp(x, y);
-//            NSLog(@"Bonus%d x = %f, y = %f", bns_cnt, x, y);
-//        }
-//        
-//    } while (sp != nil);
-//
-//}
+- (void) putBonuses {
+
+//    NSLog(@"putBonuses");
+    
+    if (bns_cnt == 0)
+        [self doBonuses];
+    
+    int bmax = bns_cnt / 3;
+    
+    NSMutableArray *to_delete = [[NSMutableArray alloc] init];
+    for (Bonus* bb in bonuses)
+        if(bb.forDelete) {
+            bns_occup[bb.spawnPoint] = NO;
+//            [bonuses removeObject:bb];
+            [to_delete addObject:bb];
+            [bb release];
+        }
+    
+    [bonuses removeObjectsInArray:to_delete];
+    [to_delete release];
+    
+    while ([bonuses count] < bmax) {
+        
+        float b1 = CCRANDOM_0_1() * [self getBonusParam:@"RemontWeight"];
+        int c = 1; float cc = b1;
+        
+        float b2 = CCRANDOM_0_1() * [self getBonusParam:@"SpeedWeight"];
+        if (b2 > cc) { cc = b2; c = 2; }
+
+        float b3 = CCRANDOM_0_1() * [self getBonusParam:@"GunPowerWeight"];
+        if (b3 > cc) { cc = b3; c = 3; }
+
+        float b4 = CCRANDOM_0_1() * [self getBonusParam:@"SlowEnemyWeight"];
+        if (b4 > cc) { cc = b4; c = 4; }
+
+        float b5 = CCRANDOM_0_1() * [self getBonusParam:@"AddWeaponWeight"];
+        if (b5 > cc) { cc = b5; c = 5; }
+
+        float b6 = CCRANDOM_0_1() * [self getBonusParam:@"FightDenyWeight"];
+        if (b6 > cc) { cc = b6; c = 6; }
+
+        float b7 = CCRANDOM_0_1() * [self getBonusParam:@"BulletTimeWeight"];
+        if (b7 > cc) { cc = b7; c = 7; }
+        
+        b2PolygonShape shape;
+        int num = 4;
+        b2Vec2 vertices[] = {
+            b2Vec2(1.0f, 1.0f),
+            b2Vec2(1.0f, 1.0f),
+            b2Vec2(1.0f, 1.0f),
+            b2Vec2(1.0f, 1.0f),
+        };
+        shape.Set(vertices, num);
+        int bp = -1;
+        while (bp < 0) {
+
+            int i = CCRANDOM_0_1() * bns_cnt;
+//            NSLog(@"        CCRANDOM_0_1() %d, %d", bns_cnt, i);
+            if (!bns_occup[i]) {
+                bp = i;
+                bns_occup[i] = YES;
+            }
+        }
+        
+        NSLog(@"Bonus type %d selected!", c);
+        
+        switch (c) {
+
+            default:
+            case 1:
+                [bonuses addObject:[[RemBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 2:
+                [bonuses addObject:[[SpeedBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 3:
+                [bonuses addObject:[[GunPowerBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 4:
+                [bonuses addObject:[[SlowEnemyBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 5:
+                [bonuses addObject:[[AddWeaponBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 6:
+                [bonuses addObject:[[FightDenyBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+            case 7:
+                [bonuses addObject:[[BulletTimeBonus alloc]initWithShape:shape X:bns[bp].x Y:bns[bp].y spawn:bp]];
+                break;
+        }
+
+    }
+    
+}
+
+- (void) doBonuses {
+
+    CCTMXObjectGroup *objects = [self.tileMap objectGroupNamed:@"Objects"];
+    NSAssert(objects != nil, @"'Objects' object group not found 2");
+    
+    bns_cnt = 0;
+    NSMutableDictionary *sp;
+    do {
+        
+        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bns_cnt + 1)];
+        sp = [objects objectNamed:s];
+        if(sp != nil) {
+            
+            float x = [[sp valueForKey:@"x"] integerValue];
+            float y = [[sp valueForKey:@"y"] integerValue];
+            bns[bns_cnt++] = ccp(x, y);
+
+            NSLog(@"Bonus%d x = %f, y = %f", bns_cnt, x, y);
+        }
+        
+    } while (sp != nil);
+
+}
+
 //
 //- (CGPoint) getBonusPos:(int) c {
 //    
@@ -271,6 +376,11 @@
         bodies_ref = [[NSMutableDictionary alloc] init];
         [bodies_ref setObject:jeep_corr forKey:@"jeep"];
         
+        
+        [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(putBonuses) userInfo:nil repeats:YES];
+        
+        
+        bonuses = [[NSMutableArray alloc] init];
     }
 	return self;	
 }
@@ -396,6 +506,8 @@
     [players_ref release];
     
     [bodies_ref release];
+    
+    [bonuses release];
     
     [super dealloc];
 }

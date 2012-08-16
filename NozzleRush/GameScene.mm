@@ -163,7 +163,7 @@ enum {
         [self processOilSpots];
         [self processHeals];
 
-        [self processBonuses];
+//        [self processBonuses];
         
         [Common instance].me = [[Car alloc] initWithType:CT_ME];        
         
@@ -195,7 +195,7 @@ enum {
 
 //    sp.x = 4962;//temporary
 //    sp.y = 7052;//temporary
-//    
+//
 //    NSLog(@"SpawPnoint x=%f, y=%f", sp.x, sp.y);
     
     [[Common instance].me setPosX: sp.x Y:sp.y];
@@ -223,6 +223,8 @@ enum {
     [Common instance].cntCD = 0;
     
 //    [Common instance].myLife = 1;
+    
+    [[Common instance] putBonuses];
     
     [self scheduleUpdate];
 
@@ -444,29 +446,29 @@ enum {
     
 }
 
--(void) processBonuses {
-    
-    CCTMXObjectGroup *objects = [[Common instance].tileMap  objectGroupNamed:@"Objects"];
-    NSAssert(objects != nil, @"'Objects for bonuses' object group not found");
-    
-    bon_cnt = 0;
-    NSMutableDictionary *sp;
-    do {
-        
-        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bon_cnt + 1)];
-        sp = [objects objectNamed:s];
-        if(sp != nil) {
-            
-            float x = [[sp valueForKey:@"x"] integerValue];
-            float y = [[sp valueForKey:@"y"] integerValue];
-            b2PolygonShape shape = [self getShape:sp];
-//            Heal* h = [[Heal alloc]initWithShape:shape X:x Y:y];
-            [[RemBonus alloc]initWithShape:shape X:x Y:y];
-            bon_cnt++;
-        }
-        
-    } while (sp != nil);
-}
+//-(void) processBonuses {
+//    
+//    CCTMXObjectGroup *objects = [[Common instance].tileMap  objectGroupNamed:@"Objects"];
+//    NSAssert(objects != nil, @"'Objects for bonuses' object group not found");
+//    
+//    bon_cnt = 0;
+//    NSMutableDictionary *sp;
+//    do {
+//        
+//        NSString* s = [NSString stringWithFormat:@"%@%d", BNS_NAME, (bon_cnt + 1)];
+//        sp = [objects objectNamed:s];
+//        if(sp != nil) {
+//            
+//            float x = [[sp valueForKey:@"x"] integerValue];
+//            float y = [[sp valueForKey:@"y"] integerValue];
+//            b2PolygonShape shape = [self getShape:sp];
+////            Heal* h = [[Heal alloc]initWithShape:shape X:x Y:y];
+////            [[RemBonus alloc]initWithShape:shape X:x Y:y];
+//            bon_cnt++;
+//        }
+//        
+//    } while (sp != nil);
+//}
 
 -(void) processHeals {
     
