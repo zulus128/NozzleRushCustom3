@@ -11,6 +11,7 @@
 #import "Common.h"
 #import "ContactListener.h"
 #import "SpeedBonus.h"
+#import "Bonus.h"
 #import "RemBonus.h"
 
 enum {
@@ -224,7 +225,7 @@ enum {
     
 //    [Common instance].myLife = 1;
     
-    [[Common instance] putBonuses];
+//    [[Common instance] putBonuses];
     
     [self scheduleUpdate];
 
@@ -462,8 +463,12 @@ enum {
 //            float x = [[sp valueForKey:@"x"] integerValue];
 //            float y = [[sp valueForKey:@"y"] integerValue];
 //            b2PolygonShape shape = [self getShape:sp];
+//            
+//            
+//
+//            
 ////            Heal* h = [[Heal alloc]initWithShape:shape X:x Y:y];
-////            [[RemBonus alloc]initWithShape:shape X:x Y:y];
+//            [[RemBonus alloc]initWithShape:shape X:x Y:y spawn:9];
 //            bon_cnt++;
 //        }
 //        
@@ -601,6 +606,29 @@ enum {
         
         glLineWidth(3);
         ccDrawColor4B( 255, 255, 255, 255);
+        
+        
+        for (Bonus* bonus in [[Common instance] getBonuses])
+        for (b2Fixture* f = bonus.body->GetFixtureList(); f; f = f->GetNext()) {
+            
+            b2PolygonShape* sh = (b2PolygonShape*)f->GetShape();
+            
+            int32 cnt = sh->GetVertexCount();
+            b2Vec2 p0 = sh->GetVertex(0);
+            b2Vec2 p00 = p0;
+            float x = bonus.body->GetPosition().x * PTM_RATIO;
+            float y = bonus.body->GetPosition().y * PTM_RATIO;
+            for (int i = 1; i < cnt; i++) {
+                
+                b2Vec2 p = sh->GetVertex(i);
+                ccDrawLine( [[Common instance] ort2iso:ccp(x + p0.x * PTM_RATIO, y + p0.y * PTM_RATIO)], [[Common instance] ort2iso:ccp(x + p.x * PTM_RATIO, y + p.y * PTM_RATIO)] );
+                p0 = p;
+            }
+            ccDrawLine( [[Common instance] ort2iso:ccp(x + p0.x * PTM_RATIO, y + p0.y * PTM_RATIO)], [[Common instance] ort2iso:ccp(x + p00.x * PTM_RATIO, y + p00.y * PTM_RATIO)] );
+            
+        }
+    
+
         
         for (int i = 0; i < [[Common instance] getCheckpointCnt]; i++) {
             

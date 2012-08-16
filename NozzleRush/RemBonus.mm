@@ -34,6 +34,8 @@
     
     NSLog(@"RemBonus hide");
     
+    [super hide:car];
+    
     [self.timer invalidate];
     self.timer = nil;
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(timerSel) userInfo:nil repeats:YES];

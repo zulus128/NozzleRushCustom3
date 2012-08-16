@@ -22,23 +22,31 @@
         
         b2BodyDef bodyDef;
         bodyDef.position.Set(x/PTM_RATIO, y/PTM_RATIO);
-        b2Body *bodyw = [Common instance].world->CreateBody(&bodyDef);
+        self.body = [Common instance].world->CreateBody(&bodyDef);
         
         b2FixtureDef fixtureDef;
         fixtureDef.shape = &sh;
         fixtureDef.isSensor = true;
-        bodyw->CreateFixture(&fixtureDef);
+        fixture = self.body->CreateFixture(&fixtureDef);
         
         self.tag = HEAL_TAG;
-        bodyw->SetUserData(self);
+        self.body->SetUserData(self);
      
-        NSLog(@"Bonus created");
+//        NSLog(@"Bonus created x=%f, y=%f", xx, yy);
     }
     return self;
 }
 
+- (void) preDie {
+
+    self.body->DestroyFixture(fixture);
+    self.predie = NO;
+    
+}
+
 - (void) hide: (Car*) car {
     
+    self.predie = YES;
 }
 
 - (void) show {

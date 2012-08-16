@@ -22,7 +22,7 @@
     NSMutableArray* debugs;
     Heal* heal;
     int tr_cnt;
-//    int bon_cnt;
+    int bon_cnt;
 }
 
 @property (nonatomic, retain) CCLayer *hudLayer;

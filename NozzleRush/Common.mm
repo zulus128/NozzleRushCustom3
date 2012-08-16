@@ -131,6 +131,11 @@
     return ccp(0, 0);
 }
 
+- (NSMutableArray*) getBonuses {
+    
+    return bonuses;
+}
+
 - (void) putBonuses {
 
 //    NSLog(@"putBonuses");
@@ -176,14 +181,17 @@
         if (b7 > cc) { cc = b7; c = 7; }
         
         b2PolygonShape shape;
-        int num = 4;
-        b2Vec2 vertices[] = {
-            b2Vec2(1.0f, 1.0f),
-            b2Vec2(1.0f, 1.0f),
-            b2Vec2(1.0f, 1.0f),
-            b2Vec2(1.0f, 1.0f),
-        };
-        shape.Set(vertices, num);
+//        int num = 4;
+//        b2Vec2 vertices[] = {
+//            b2Vec2(1.0f, 1.0f),
+//            b2Vec2(1.0f, -1.0f),
+//            b2Vec2(-1.0f, -1.0f),
+//            b2Vec2(-1.0f, 1.0f),
+//        };
+//        
+//        shape.Set(vertices, num);
+        shape.SetAsBox(1.0f, 1.0f);
+
         int bp = -1;
         while (bp < 0) {
 
@@ -329,7 +337,7 @@
 	self.world = new b2World(gravity);
 	// Do we want to let bodies sleep?
 	self.world->SetAllowSleeping(true);
-	self.world->SetContinuousPhysics(true);
+//	self.world->SetContinuousPhysics(true);
         
 }
 
@@ -526,6 +534,12 @@
     }
     
     [remove_objects removeAllObjects];
+    
+    for (Bonus* bb in bonuses)
+        if (bb.predie) {
+            [bb preDie];
+        }
+
 }
 
 @end

@@ -9,6 +9,7 @@
 #import "cocos2d.h"
 #import "Box2D.h"
 #import "Car.h"
+#import "Bonus.h"
 
 #define SCALE 0.4f
 
@@ -106,6 +107,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
 - (int) getDetailCnt:(NSString*)key;
 - (NSString*) getBeaParam: (NSString*)n player_index: (int)ind;
 - (NSString*) getBodyParam: (NSString*)n forBody:(NSString*)bo;
+
+- (NSMutableArray*) getBonuses;
 
 @property (assign, readwrite) CGPoint direction;
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;
