@@ -201,10 +201,10 @@
    <polygon points="6,0 9,-1603 -1163,-1607 -1220,-22"/>
   </object>
   <object x="10339" y="5705">
-   <polygon points="11,11 588,584 126,1046 -521,373"/>
+   <polygon points="6,6 588,584 126,1046 -521,373"/>
   </object>
   <object x="5998" y="5714">
-   <polygon points="0,0 4354,4 4359,1081 30,1154"/>
+   <polygon points="0,0 4345,-5 4359,1081 30,1154"/>
   </object>
   <object x="5620" y="6092">
    <polygon points="0,0 380,-377 936,168 534,559"/>

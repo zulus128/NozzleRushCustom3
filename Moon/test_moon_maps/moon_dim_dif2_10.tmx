@@ -29,6 +29,10 @@
  <tileset firstgid="72" name="razmetka_165x95" tilewidth="165" tileheight="95">
   <image source="razmetka_165x95.png" width="512" height="512"/>
  </tileset>
+ <tileset firstgid="87" name="background_tiles_default_198x160" tilewidth="198" tileheight="160">
+  <tileoffset x="-2" y="-2"/>
+  <image source="background_tiles_default_198x160.png" width="512" height="1024"/>
+ </tileset>
  <layer name="BackBackgroundLayer1" width="150" height="150">
   <data encoding="base64" compression="zlib">
    eJzt0UENAEEQw7BZ/qSPQn+9SrYUBHl39xRFrv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0sBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/0AVITFfo=
@@ -71,7 +75,7 @@
  </layer>
  <layer name="FrontBackgroundObjects" width="150" height="150">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCnAV+fAAE=
+   eJzt3U1ywjAMBlBuybT3P0iHXWBSYoJtycp7q26AFH+R5PB3uwEAUMXv5NsBAHP9RB9AYeYo+JyaxJY81HGf/Hi9siODazF7cWRELaqYO7UPADhr9t5vNnNSXhXncj6zXcuRtej+z98zqEF8Y1Z+5HS+o1qkRwJHnO/H9DeobW+eWuEal9oEa8o4e7XUvIzHTbuI9fv2MfU5zpiddTmdRx+ihxX2eS1aas/I+uR8pIUeuW/m+VOl5hHrbI5W7BUrHjPrkbO63q2tuYgtdaCWvfVc7br4meP9uT0fp1zH21uDo1n+CntG2SSC3MXK8Pyb/9tkWCtqki0izchfxs+G6X35rHytMiLjescarFNOresyu0f2erzH/WSvm6xDlurK0KMe1/sz7hXoK9saq2trusLrgzyrUOfPvBbOeJmyteJnZqlj5kzk2mlfGf63b48h8+tSVxb5/tGW21pTMjPn16HWXFfWa4Y964u5vL7R8xg1taz9thY5r6lIj4zxWn+y9aLR+zz7yHqc16xILZpnZJ+L2AvKDpCBWlRbtj0itLAv5Ir04zzUILZ6zFJH9+H8p6eoGibHcF0R30Ws5gBZ2D/yzqhr83K3lojfi+yVkREzl99IAKAyfSyn13ms53fTAkTJVIP0v1gZ3xv6ms9MeeU71pIKMuRY7wRaZahZxLH+RJA74MrUwOuKXHu545VM8CAHQGVqHBGOcieXALBPjwR6UlMAYJ8eCQAAAAAAAAAAAAAAAAAAAAAAAAAAAADAJ/4AjNZCMg==
   </data>
  </layer>
  <layer name="ColumnLayer" width="150" height="150">
@@ -155,12 +159,6 @@
   <object name="Checkpoint12" x="3531" y="2987">
    <polygon points="0,0 -37,-37 -16,-58 21,-21"/>
   </object>
-  <object name="OilSpot1" x="7206" y="6270">
-   <polygon points="0,0 -4,6 -13,5 -15,7 -25,1 -35,-1 -38,-4 -39,-19 -44,-22 -43,-31 -37,-37 -29,-45 -8,-54 4,-48 9,-45 9,-39 13,-35 12,-22 9,-11 9,-5"/>
-  </object>
-  <object name="OilSpot2" x="7798" y="4362">
-   <polygon points="0,0 -13,5 -26,2 -31,-1 -35,-1 -38,-4 -37,-7 -40,-10 -43,-21 -39,-29 -34,-40 -27,-47 -22,-56 -16,-56 -7,-49 -3,-49 6,-50 12,-44 10,-40 9,-35 12,-30 16,-26 14,-20 15,-15 16,-12 13,-9 8,-10 5,-7 3,-5"/>
-  </object>
   <object name="SpawnObject1" x="4636" y="2588">
    <polygon points="0,0 32,32 50,17 17,-15"/>
   </object>
@@ -179,6 +177,8 @@
   <object name="SpawnObject6" x="3497" y="5303">
    <polygon points="0,0 32,32 50,17 17,-15"/>
   </object>
+  <object name="OilSpot2" x="7751" y="4311" width="62" height="52"/>
+  <object name="OilSpot1" x="7164" y="6214" width="55" height="59"/>
  </objectgroup>
  <layer name="FrontBorderLayer" width="150" height="150">
   <data encoding="base64" compression="zlib">
@@ -187,10 +187,10 @@
  </layer>
  <objectgroup name="Collisions" width="150" height="150">
   <object x="2846" y="3384">
-   <polygon points="0,0 965,-983 64,-1870 -897,-897"/>
+   <polygon points="0,0 969,-977 64,-1870 -897,-897"/>
   </object>
   <object x="4416" y="2748">
-   <polygon points="-2,-2 753,-759 -186,-1693 -868,-878"/>
+   <polygon points="-2,-2 758,-756 -186,-1693 -868,-878"/>
   </object>
   <object x="3199" y="2747">
    <polygon points="0,0 1214,-2 888,-1172 -316,-1132"/>
@@ -216,17 +216,17 @@
   <object x="7432" y="6840">
    <polygon points="0,0 -2961,1 -2972,1108 -74,1490"/>
   </object>
-  <object x="5212" y="7148">
+  <object x="5213" y="7147">
    <polygon points="-4,8 -2967,-2955 -3714,-2206 -718,846"/>
   </object>
   <object x="3132" y="5644">
-   <polygon points="-8,29 -13,-3291 -1185,-3455 -1168,-232"/>
+   <polygon points="-8,29 -12,-3296 -1185,-3455 -1168,-232"/>
   </object>
   <object x="3556" y="3364">
    <polygon points="2,3 188,-188 1083,685 914,950"/>
   </object>
   <object x="3740" y="3180">
-   <polygon points="0,0 1411,-11 1458,1150 225,1023"/>
+   <polygon points="4,-3 1411,-11 1458,1150 225,1023"/>
   </object>
   <object x="4513" y="3271">
    <polygon points="-14,-10 639,-663 1469,171 823,809"/>
@@ -235,40 +235,40 @@
    <polygon points="-4,-6 1621,0 1619,1253 -15,1039"/>
   </object>
   <object x="6771" y="2613">
-   <polygon points="4,0 861,851 351,1433 -559,583"/>
+   <polygon points="4,0 864,858 351,1433 -559,583"/>
   </object>
   <object x="7630" y="3466">
-   <polygon points="0,0 1,951 -1029,869 -1235,-277"/>
+   <polygon points="4,2 3,954 -1029,869 -1235,-277"/>
   </object>
   <object x="7627" y="4413">
-   <polygon points="0,0 -558,571 -1418,-230 -938,-910"/>
+   <polygon points="6,6 -765,778 -1697,-151 -938,-910"/>
   </object>
   <object x="7068" y="4987">
    <polygon points="2,-543 3,1215 -1046,840 -1082,-318 -568,-953"/>
   </object>
   <object x="6862" y="6411">
-   <polygon points="0,0 212,-212 -1088,-1543 -1403,-1167"/>
+   <polygon points="0,0 208,-210 -1088,-1543 -1403,-1167"/>
   </object>
   <object x="6857" y="6409">
-   <polygon points="0,0 -1884,3 -1811,-1395 -625,-1660"/>
+   <polygon points="5,3 -1882,3 -1811,-1395 -625,-1660"/>
   </object>
   <object x="4970" y="6412">
    <polygon points="4,-1 -1429,-1432 -822,-2257 694,-688"/>
   </object>
   <object x="3542" y="4980">
-   <polygon points="0,0 16,-1610 713,-1489 1046,299"/>
+   <polygon points="0,0 16,-1614 713,-1489 1046,299"/>
   </object>
-  <object x="5155" y="2465">
-   <polygon points="0,0 -8,0 -29,-21 -29,-89 60,-88 73,-77 81,-73 114,-54 115,27 78,22 77,29 68,32 59,31 51,23 41,19"/>
+  <object x="5268" y="2490">
+   <polygon points="0,0 2,-80 -128,-88 -116,-6"/>
   </object>
-  <object x="6867" y="2405">
-   <polygon points="0,0 -11,-3 -20,-14 -17,-21 -27,-31 -20,-54 -2,-72 6,-78 23,-81 42,-74 55,-69 58,-60 63,-61 71,-55 82,-44 85,-37 80,-32 74,-26 68,-20 69,-17 64,-14 70,-10 52,2 38,8 32,6 9,7"/>
+  <object x="6857" y="2405">
+   <polygon points="0,0 66,10 78,-66 6,-64"/>
   </object>
-  <object x="5859" y="6561">
-   <polygon points="0,0 -27,5 -37,-5 -36,-26 -51,-53 -35,-69 -4,-90 11,-89 20,-84 30,-74 31,-65 35,-57 35,-47 52,-28 41,-17 28,-14 22,-8 34,2 35,15 29,21 15,7 9,7 5,9 4,12 -1,17 -10,14 -13,7 -19,-1"/>
+  <object x="5827" y="6565">
+   <polygon points="0,0 66,12 83,-35 61,-79 10,-54"/>
   </object>
-  <object x="5702" y="6538">
-   <polygon points="0,0 -12,6 -26,0 -40,-20 -35,-25 -48,-30 -52,-38 -46,-50 -53,-55 -57,-71 -49,-79 -36,-92 -28,-102 -8,-100 7,-99 12,-102 22,-94 34,-82 40,-70 37,-63 36,-46 45,-47 47,-41 40,-40 32,-36 29,-33 24,-28 19,-23 23,-21 21,-15 16,-10"/>
+  <object x="5656" y="6508">
+   <polygon points="0,0 36,38 84,-14 68,-68 13,-55"/>
   </object>
  </objectgroup>
 </map>

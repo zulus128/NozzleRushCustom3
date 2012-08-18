@@ -96,7 +96,7 @@
  </layer>
  <layer name="BackBorderLayer" width="150" height="150">
   <data encoding="base64" compression="zlib">
-   eJzt2zlu3EAQBdC5h2A58EV5dIlBG4YsaoHYXUu/B0zCYKj6/VETiHw8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyOT36+fp8Th++vnz+omehRzOTv268ft0i7s7NWTtlr0836xODdmyt5fnm92pIUv2u+3lCBMzvrp+TLjdl+22lyMsyPjq+jHxtpd228sRFmZ8df1YcPu/dtvLEVZ1aojOfre9HGF1p4ao7HfbyxGiOjWszn63vRwhulPDqux328sRsnRqmJ199Lw7dCs64yuzss8yb/duPUX/AR+4O/ssnRo6dytzr053ZZ+tU0PXbmXv1em97J8f33vWIGOnho7dqtCr01X2XZzzPRfu0VtVenXq3q1KZ/GZarN07la1s/hIxVm6dqviWVzpNEt1nc6i0yzVdTqLTrNU1+ksOs1SXaez6DRLdZ3OotMs1XU6i06zVNfpLDrNUl2ns6gyyx3vtGf/P26Vs/iKCrPc+YxL5m5VOIuvem+WTNnPeG4q03z/6tSrzM/+zHwWL8N8b3Xq1Sljt1Y835mpW1mfZ/2pTN2a9Nt3df24+Vbf1rVTQ4bsJ//2XV0/Jt3yU907NURmv+i37+r6MfnW/9mlU0NE9iszztCt3To1rMw+IuPuezmzFdlHZtx9L2c2M/sMGXffy5nNyD5Txt33cmZ3vHOc+f3j7ns5s67vVw3d93JmO3ar017ObMdusUb37LvPRxzdYhbdAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKC6F4qRcp0=
+   eJzt20tO5EAQBUDfAw2zGA7qo4MXJY1QGxrhcn4qQuqNFzT56ilZUN42AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMvn78XnZtv23n7ePT/Qs5HB06s+FP++fbi3v6k4NWbtlL883q1NDtm7Zy/PN6NTrg5yzZL/aXo4wMeOz5/uEr3vaans5wg0Znz3fJ37tqdX2coTZnRqydGu1vRzhrk4N0dmvtpcj3N2pISr71fZyhKhODXdnv9pejhDdqeGu7FfbyxGydGqYnX30vCt0KzrjM7OyzzJv9269RP8CX7g6+yydGjp3K3OvDldln61TQ9duZe/V4VH2r9vP7hpk7NTQsVsVenU4y76LY75H//OpqkqvDt27VeksvlNtls7dqnYWX6k4S9duVTyLM51mqa7TWXSapbpOZ9Fpluo6nUWnWarrdBadZqmu01l0mqW6TmfRaZbqOp1Fp1mq63QWVWa54p327O+zVzmLZ1SY5co7LpnvCFQ4i2d9nuW4f5Ip+xn3pjLN979OvXo7eZ4h+5l38TLM91mnXh0y3iu7ulPZ32fPep/1tzJ1a9LfvrPn+8Vf9WNdOzVkyH7y376z5/ukr/xW904NkdnfkXGmbq3SqSEi+zszztCt1To13Jl9RMbd93Jmd2QfmXH3vZzZzOwzZNx9L2c2I/tMGXffy5ld8c5x5vePu+/lzLq+XzV038uZrditTns5sxW7xT26Z999PuLoFrPoFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVvQONb3SZ
   </data>
  </layer>
  <layer name="TrackObjectsLayerLow" width="150" height="150">
@@ -114,93 +114,57 @@
    eJzt27ENACAQAkCG+8Ec3QFsTYjmbgIKGgoSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4xyWpnAAAAAAAAAAAAAAAAAACgy+cUAE7TDgAARXYir9NhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4IYN5ssDVQ==
   </data>
  </layer>
- <objectgroup name="Objects" width="150" height="150" visible="0">
+ <objectgroup name="Objects" width="150" height="150">
   <object name="SpawnPoint" x="7424" y="7800">
    <polygon points="0,0 47,94 96,45"/>
   </object>
-  <object name="Checkpoin1" x="7991" y="7844">
+  <object name="Checkpoint1" x="7991" y="7844">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin2" x="9404" y="9247">
+  <object name="Checkpoint2" x="9404" y="9247">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin3" x="10906" y="9246">
+  <object name="Checkpoint3" x="10906" y="9246">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin4" x="12034" y="8118">
+  <object name="Checkpoint4" x="12034" y="8118">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin5" x="12037" y="6523">
+  <object name="Checkpoint5" x="12037" y="6523">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin6" x="10813" y="5302">
+  <object name="Checkpoint6" x="10813" y="5302">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin7" x="9410" y="5300">
+  <object name="Checkpoint7" x="9410" y="5300">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin8" x="8085" y="6610">
+  <object name="Checkpoint8" x="8085" y="6610">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin9" x="6865" y="6615">
+  <object name="Checkpoint9" x="6865" y="6615">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin10" x="5363" y="5114">
+  <object name="Checkpoint10" x="5363" y="5114">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin11" x="3955" y="5120">
+  <object name="Checkpoint11" x="3955" y="5120">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin12" x="2730" y="6331">
+  <object name="Checkpoint12" x="2730" y="6331">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin13" x="2727" y="7836">
+  <object name="Checkpoint13" x="2727" y="7836">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin14" x="3955" y="9061">
+  <object name="Checkpoint14" x="3955" y="9061">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin15" x="5449" y="9053">
+  <object name="Checkpoint15" x="5449" y="9053">
    <polygon points="0,0 53,51 84,20 32,-32"/>
   </object>
-  <object name="Checkpoin16" x="6678" y="7840">
+  <object name="Checkpoint16" x="6678" y="7840">
    <polygon points="0,0 53,51 84,20 32,-32"/>
-  </object>
-  <object name="OilSpot1" x="8021" y="7680">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot2" x="9429" y="9273">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot3" x="10937" y="8994">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot5" x="10938" y="5236">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot7" x="6801" y="6738">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot8" x="3888" y="4954">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot9" x="2947" y="6363">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot11" x="4169" y="8900">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot12" x="6614" y="8150">
-   <polygon points="0,0 -8,1 -9,-2 -9,-10 -10,-16 -15,-22 -18,-25 -15,-31 -5,-40 7,-48 9,-50 13,-52 21,-51 24,-51 29,-48 35,-44 38,-38 41,-32 44,-19 41,-12 39,-8 36,-5 32,-4 29,-1 29,3 27,7 24,8 18,6 15,4 14,5 11,6 6,3 4,1"/>
-  </object>
-  <object name="OilSpot4" x="12189" y="7935">
-   <polygon points="0,0 -7,-3 -14,-9 -19,-14 -18,-23 -15,-29 -8,-38 -5,-43 -3,-48 3,-54 5,-58 8,-58 12,-53 18,-50 24,-50 30,-51 33,-49 36,-44 37,-37 38,-33 41,-29 42,-27 42,-22 44,-17 41,-12 36,-12 31,-9 30,-7 28,-2 21,1 16,2"/>
-  </object>
-  <object name="OilSpot6" x="9745" y="5207">
-   <polygon points="0,0 -7,-3 -14,-9 -19,-14 -18,-23 -15,-29 -8,-38 -5,-43 -3,-48 3,-54 5,-58 8,-58 12,-53 18,-50 24,-50 30,-51 33,-49 36,-44 37,-37 38,-33 41,-29 42,-27 42,-22 44,-17 41,-12 36,-12 31,-9 30,-7 28,-2 21,1 16,2"/>
-  </object>
-  <object name="OilSpot610" x="2596" y="7840">
-   <polygon points="0,0 -7,-3 -14,-9 -19,-14 -18,-23 -15,-29 -8,-38 -5,-43 -3,-48 3,-54 5,-58 8,-58 12,-53 18,-50 24,-50 30,-51 33,-49 36,-44 37,-37 38,-33 41,-29 42,-27 42,-22 44,-17 41,-12 36,-12 31,-9 30,-7 28,-2 21,1 16,2"/>
   </object>
   <object name="SpawnObject1" x="8762" y="8498">
    <polygon points="0,0 34,34 55,13 19,-19"/>
@@ -226,13 +190,34 @@
   <object name="SpawnObject8" x="3308" y="8304">
    <polygon points="0,0 34,34 55,13 19,-19"/>
   </object>
+  <object name="OilSpot6" x="9729" y="5159" width="57" height="51"/>
+  <object name="OilSpot5" x="10925" y="5187" width="55" height="49"/>
+  <object name="OilSpot4" x="12174" y="7882" width="56" height="56"/>
+  <object name="OilSpot3" x="10926" y="8950" width="53" height="47"/>
+  <object x="9467" y="9233"/>
+  <object x="9460" y="9228"/>
+  <object x="9455" y="9229"/>
+  <object x="9455" y="9229"/>
+  <object x="9461" y="9235"/>
+  <object x="9451" y="9225"/>
+  <object x="9450" y="9242"/>
+  <object x="9442" y="9254"/>
+  <object name="OilSpot2" x="9419" y="9233" width="55" height="49"/>
+  <object name="OilSpot1" x="8006" y="7626" width="60" height="60"/>
+  <object name="OilSpot12" x="6594" y="8098" width="59" height="57"/>
+  <object name="OilSpot11" x="4156" y="8852" width="50" height="50"/>
+  <object name="OilSpot10" x="2587" y="7789" width="48" height="48"/>
+  <object x="3308" y="6444"/>
+  <object name="OilSpot9" x="2933" y="6319" width="53" height="47"/>
+  <object name="OilSpot8" x="3875" y="4905" width="54" height="50"/>
+  <object name="OilSpot7" x="6786" y="6686" width="54" height="58"/>
  </objectgroup>
  <layer name="FrontBorderLayer" width="150" height="150">
   <data encoding="base64" compression="zlib">
    eJzt2zFu5DAQRNE5iIOCT+qjb7QObWO82zVsvgco/40mlEh8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4B7vTzxvj8dHo5UzpB3AOmkHDPNe/v/SDhiWdsAF0g4YlnbABdIOGJZ2wAXSDhiWdsAF0g4YlnbABdIOGJZ2wAXSDhiWdsAF0g4YlnbABdIOGJZ2wAXSDhiWdsAF3i/77pB2wBc27WLTLN9JO+Abm3axaZavpB3wA5t2ccosz/xb8PfJfO5TTtnFT2ya5XSbdrFpltNt2sWmWU63aRebZjndpl1smuV0m3axaZbTbdrFpllOt2kXm2Y53aZdbJrldJt2sWmW023axVs7gE+bzhWvw7mad8N9dudqVtoBQ5yrOWkHDHKuZqQdMCztgAukHTAs7YALpB0wLO2AC6QdMCztgAukHTAs7YALpB0wLO2AC6QdMCztgAukHTAs7YALpB0wLO2AC6QdMCztgBf2mzvHJ94//lfSDmCdtAN4Gd7LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJzsD7K5KSU=
   </data>
  </layer>
- <objectgroup name="Collisions" width="150" height="150" visible="0">
+ <objectgroup name="Collisions" width="150" height="150">
   <object x="2556" y="8084">
    <polygon points="0,0 3,-2227 -712,-2220 -742,-58"/>
   </object>
@@ -243,25 +228,25 @@
    <polygon points="4,2 -1129,1135 -577,1741 587,553"/>
   </object>
   <object x="2387" y="6393">
-   <polygon points="-11,-9 1635,-1659 1019,-2235 -612,-616"/>
+   <polygon points="-11,-9 1639,-1655 1019,-2235 -612,-616"/>
   </object>
   <object x="3480" y="4908">
    <polygon points="0,0 2221,-1 2138,-662 -191,-725"/>
   </object>
   <object x="4111" y="5333">
-   <polygon points="0,0 1255,9 1261,851 24,916"/>
+   <polygon points="6,2 1255,9 1261,851 24,916"/>
   </object>
   <object x="5365" y="5339">
-   <polygon points="0,0 1553,1551 1125,1972 -442,426"/>
+   <polygon points="4,2 1553,1551 1125,1972 -442,426"/>
   </object>
   <object x="5445" y="4911">
-   <polygon points="0,0 544,-536 2058,1034 1507,1509"/>
+   <polygon points="-265,-269 271,-801 2058,1034 1504,1504"/>
   </object>
   <object x="6955" y="6413">
    <polygon points="-6,2 -51,-1085 988,-964 1033,-1"/>
   </object>
   <object x="7984" y="6412">
-   <polygon points="0,0 1368,-1368 359,-2395 -866,-822"/>
+   <polygon points="3,-1 1371,-1367 359,-2395 -866,-822"/>
   </object>
   <object x="9025" y="5099">
    <polygon points="0,0 2099,-3 2011,-683 -125,-711"/>
@@ -276,13 +261,13 @@
    <polygon points="11,9 1737,-1713 2425,-1073 629,650"/>
   </object>
   <object x="11468" y="9453">
-   <polygon points="0,0 -2806,25 -2768,834 31,975"/>
+   <polygon points="16,20 -2806,25 -2768,834 31,975"/>
   </object>
   <object x="7961" y="8027">
-   <polygon points="0,0 1847,1844 1320,2334 -533,502"/>
+   <polygon points="32,32 1846,1847 1320,2334 -533,502"/>
   </object>
   <object x="6842" y="8061">
-   <polygon points="-1,-5 1132,-11 1240,1226 31,1205"/>
+   <polygon points="-1,-5 1154,-1 1240,1226 31,1205"/>
   </object>
   <object x="5521" y="9394">
    <polygon points="0,0 1321,-1340 2288,-397 920,989"/>
@@ -300,31 +285,31 @@
    <polygon points="0,0 1424,-1430 2388,-533 799,844"/>
   </object>
   <object x="9564" y="5527">
-   <polygon points="0,0 1248,1 1247,1080 -43,1159"/>
+   <polygon points="0,0 1258,1 1247,1080 -43,1159"/>
   </object>
   <object x="10817" y="5523">
-   <polygon points="0,0 1048,1049 505,1610 -622,549"/>
+   <polygon points="7,7 1048,1049 505,1610 -622,549"/>
   </object>
   <object x="11855" y="7975">
    <polygon points="8,14 10,-1404 -1147,-1696 -1067,-115"/>
   </object>
   <object x="10798" y="9044">
-   <polygon points="0,0 1064,-1052 172,-1936 -785,-785"/>
+   <polygon points="8,0 1066,-1054 172,-1936 -785,-785"/>
   </object>
   <object x="10795" y="9048">
-   <polygon points="5,-3 -1306,-3 -1553,-859 -283,-960"/>
+   <polygon points="10,-4 -1309,-2 -1553,-859 -283,-960"/>
   </object>
   <object x="9484" y="9043">
-   <polygon points="0,0 -1589,-1593 -1161,-2015 421,-378"/>
+   <polygon points="0,0 -1589,-1591 -1161,-2015 421,-378"/>
   </object>
   <object x="6573" y="7633">
-   <polygon points="-332,-2 -446,-742 1683,-707 1683,2"/>
+   <polygon points="-335,1 -446,-742 1683,-707 1683,2"/>
   </object>
   <object x="5351" y="8856">
-   <polygon points="0,0 1391,-1385 701,-2071 -613,-593"/>
+   <polygon points="4,0 1391,-1385 701,-2071 -613,-593"/>
   </object>
   <object x="4035" y="8850">
-   <polygon points="-3,7 1317,4 1243,-716 -179,-894"/>
+   <polygon points="-3,7 1320,7 1243,-716 -179,-894"/>
   </object>
   <object x="4030" y="8855">
    <polygon points="0,0 -1044,-1048 -599,-1589 485,-425"/>
