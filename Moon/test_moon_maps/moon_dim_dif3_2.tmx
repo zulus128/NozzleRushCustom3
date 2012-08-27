@@ -79,7 +79,7 @@
    eJzt3LERgDAMBEEqo/+yyAkx1rzndyNS7DkpgusCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL66D3nmDO4MSGdOAenMKSCdOQVrNLSfMwbSNc+p5neHk2jVGUA6jcJeGlvnDAHOZYZDJm3CDK1BJm3CDK1BJm3CDK1BJm3CDK1BJm3CDK0B0MweBFb5Hzd/c+cANLMHAWhmDwLQzB4EoJk9CEAzexCAZvYgsMN7tviWAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACg1wOy9A8F
   </data>
  </layer>
- <layer name="Roadlayer shifted" width="150" height="150">
+ <layer name="Roadlayer Shifted" width="150" height="150">
   <data encoding="base64" compression="zlib">
    eJzt3M1qwzAQhdFA/97/jdtSRAhTl7hjS2PpHPA+XH+LLCzdbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA86/Xreb/Y83LKEhzlik1pq7YrN6WtmmZoSlu1zNSUtmp4pqmPYb/uOW83bVUyQ1ONtmqYqalGW2PN2FSjrTFmbqrRVl8rNNVoq4+Vmmq0da4Vm2q22iJn5aYaXR1LUz90dRxN3enqGJp6pKs8TUW6ytNUpKs8TUW6ytNUpKs8TUW6yrNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8Gz7a+t6ffWx499cZEvb5bcPq9xGMuIeSfa5218Wou03Z7yptjbwvl/+p3tbIplY/R5JVuS1NXVvVtrz366vYlqbmUK0t/6XnUaktXc2lSlu6mk+FtnQ1p9Ft6WpeI9vS1dxGtaWr+Y1oS1dr6N2WrtbRsy1draVXW7paT4+2dLWmM9tylmFtZ7TlLAPftto642EtvdpiPT3aYk1ntuVb0bWd0ZamAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6OUT46kbUA==
   </data>
@@ -118,42 +118,6 @@
   <object name="SpawnPoint" x="6297" y="9493">
    <polygon points="0,0 -47,-139 96,-91"/>
   </object>
-  <object name="Checkpoint1" x="5508" y="9398">
-   <polygon points="8,-8 48,32 71,6 31,-31"/>
-  </object>
-  <object name="Checkpoint2" x="3392" y="7277">
-   <polygon points="0,0 40,40 64,16 22,-25"/>
-  </object>
-  <object name="Checkpoint3" x="3381" y="5499">
-   <polygon points="17,-14 54,23 74,3 36,-36"/>
-  </object>
-  <object name="Checkpoint4" x="5078" y="3807">
-   <polygon points="18,-15 56,24 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint5" x="8922" y="3806">
-   <polygon points="16,-16 55,25 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint6" x="9862" y="4748">
-   <polygon points="16,-16 57,23 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint7" x="9867" y="7288">
-   <polygon points="15,-15 56,24 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint8" x="9676" y="7474">
-   <polygon points="15,-15 55,25 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint9" x="7524" y="7480">
-   <polygon points="12,-12 52,28 75,5 34,-34"/>
-  </object>
-  <object name="Checkpoint10" x="7342" y="7666">
-   <polygon points="14,-14 53,27 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint11" x="7331" y="9261">
-   <polygon points="14,-14 54,26 77,3 36,-36"/>
-  </object>
-  <object name="Checkpoint12" x="7139" y="9447">
-   <polygon points="15,-10 53,27 77,3 36,-36"/>
-  </object>
   <object name="SpawnObject1" x="4268" y="8325">
    <polygon points="0,0 38,38 61,16 23,-22"/>
   </object>
@@ -181,8 +145,44 @@
   <object name="SpawnObject10" x="7393" y="9487">
    <polygon points="0,0 38,38 61,16 23,-22"/>
   </object>
-  <object name="SpawnObject9" x="7235" y="9329">
+  <object name="SpawnObject9" x="7253" y="9343">
    <polygon points="0,0 38,38 61,16 23,-22"/>
+  </object>
+  <object name="Checkpoint1" x="5512" y="9392">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint2" x="3396" y="7276">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint3" x="3392" y="5486">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint4" x="5086" y="3799">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint5" x="8938" y="3798">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint6" x="9874" y="4734">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint7" x="9880" y="7274">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint8" x="9689" y="7460">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint9" x="7532" y="7465">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint10" x="7346" y="7652">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint11" x="7340" y="9246">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
+  </object>
+  <object name="Checkpoint12" x="7154" y="9435">
+   <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
  </objectgroup>
  <layer name="FrontBorderLayer" width="150" height="150">

@@ -348,9 +348,8 @@
  
         [self initPhysics];
         
-//        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_map_3.tmx"];
-//        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_dim_dif3_4.tmx"];
-        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_dim_dif2_10.tmx"];
+        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_dim_dif3_4.tmx"];
+//        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"moon_dim_dif2_10.tmx"];
         
         chp_cnt = -1;
         

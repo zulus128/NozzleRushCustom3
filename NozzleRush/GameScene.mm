@@ -137,7 +137,7 @@ enum {
         [[[Common instance].tileMap layerNamed:@"FrontBorderLayer"] setZOrder:1];
         
         
-        debug = NO;
+        debug = YES;
         
         
         
@@ -614,6 +614,7 @@ enum {
             b2PolygonShape* sh = (b2PolygonShape*)f->GetShape();
             
             int32 cnt = sh->GetVertexCount();
+            if(cnt < 1) continue;
             b2Vec2 p0 = sh->GetVertex(0);
             b2Vec2 p00 = p0;
             float x = bonus.body->GetPosition().x * PTM_RATIO;
@@ -678,6 +679,8 @@ enum {
             b2PolygonShape* sh = (b2PolygonShape*)f->GetShape();
             
             int32 cnt = sh->GetVertexCount();
+            if(cnt < 1) continue;
+
             b2Vec2 p0 = sh->GetVertex(0);
             b2Vec2 p00 = p0;
             float x = enemy.body->GetPosition().x * PTM_RATIO;
@@ -699,6 +702,8 @@ enum {
             b2PolygonShape* sh = (b2PolygonShape*)f->GetShape();
             
             int32 cnt = sh->GetVertexCount();
+            if(cnt < 1) continue;
+
             b2Vec2 p0 = sh->GetVertex(0);
             b2Vec2 p00 = p0;
             float x = [Common instance].me.body->GetPosition().x * PTM_RATIO;
@@ -721,6 +726,8 @@ enum {
             DebugStruc* ds = [debugs objectAtIndex:j];
             
             int32 cnt = ds.debugShape.GetVertexCount();
+//            NSLog(@"cnt =  %d", cnt);
+            if(cnt < 1) continue;
             b2Vec2 p0 = ds.debugShape.GetVertex(0);
             b2Vec2 p00 = p0;
             float x = ds.debugPoint.x;
