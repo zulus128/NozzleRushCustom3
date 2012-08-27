@@ -79,12 +79,12 @@
    eJzt3LERgDAMBEEqo/+yyAkx1rzndyNS7DkpgusCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL66D3nmDO4MSGdOAenMKSCdOQVrNLSfMwbSNc+p5neHk2jVGUA6jcJeGlvnDAHOZYZDJm3CDK1BJm3CDK1BJm3CDK1BJm3CDK1BJm3CDK0B0MweBFb5Hzd/c+cANLMHAWhmDwLQzB4EoJk9CEAzexCAZvYgsMN7tviWAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACg1wOy9A8F
   </data>
  </layer>
- <layer name="Roadlayer Shifted" width="150" height="150">
+ <layer name="RoadLayer Shifted" width="150" height="150">
   <data encoding="base64" compression="zlib">
    eJzt3M1qwzAQhdFA/97/jdtSRAhTl7hjS2PpHPA+XH+LLCzdbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA86/Xreb/Y83LKEhzlik1pq7YrN6WtmmZoSlu1zNSUtmp4pqmPYb/uOW83bVUyQ1ONtmqYqalGW2PN2FSjrTFmbqrRVl8rNNVoq4+Vmmq0da4Vm2q22iJn5aYaXR1LUz90dRxN3enqGJp6pKs8TUW6ytNUpKs8TUW6ytNUpKs8TUW6yrNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8G0Y2ybNhZJM8Gz7a+t6ffWx499cZEvb5bcPq9xGMuIeSfa5218Wou03Z7yptjbwvl/+p3tbIplY/R5JVuS1NXVvVtrz366vYlqbmUK0t/6XnUaktXc2lSlu6mk+FtnQ1p9Ft6WpeI9vS1dxGtaWr+Y1oS1dr6N2WrtbRsy1draVXW7paT4+2dLWmM9tylmFtZ7TlLAPftto642EtvdpiPT3aYk1ntuVb0bWd0ZamAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6OUT46kbUA==
   </data>
  </layer>
- <layer name="Roadlayer" width="150" height="150">
+ <layer name="RoadLayer" width="150" height="150">
   <data encoding="base64" compression="zlib">
    eJzt3M1qwzAQhdFs+/f+r9uWIkKYusQdWxpL54D34fpbZGHpdgMAAAAAAAAAAAAAAAAAAAAAAAAAAADgWa9fz/vFnpdTluAoV2xKW7VduSlt1TRDU9qqZaamtFXDM019DPt1z3m7aauSGZpqtFXDTE012hprxqYabY0xc1ONtvpaoalGW32s1FSjrXOt2FSz1RY5KzfV6OpYmvqhq+No6k5Xx9DUI13laSrSVZ6mIl3laSrSVZ6mIl3laSrSVZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2TCySZ4NI5vk2fDR1vf+7GPDu7/OkLDPbxtWv49gxD2U7HO1uy5G3W3Kfldpa+R9ufxP9bZGNrX6OZKsym1p6tqqtuW9X1/FtjQ1h2pt+S89j0pt6WouVdrS1XwqtKWrOY1uS1fzGtmWruY2qi1dzW9EW7paQ++2dLWOnm3pai292tLVenq0pas1ndmWswxrO6MtZxn4ttXWGQ9r6dUW6+nRFms6sy3fiq7tjLY0BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQC+fyyk3QA==
   </data>
@@ -151,39 +151,41 @@
   <object name="Checkpoint1" x="5512" y="9392">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint2" x="3396" y="7276">
+  <object name="Checkpoint2" x="3392" y="7276">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint3" x="3392" y="5486">
+  <object name="Checkpoint3" x="3395" y="5445">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint4" x="5086" y="3799">
+  <object name="Checkpoint4" x="5033" y="3795">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint5" x="8938" y="3798">
+  <object name="Checkpoint4" x="8927" y="3793">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint6" x="9874" y="4734">
+  <object name="Checkpoint6" x="9867" y="4725">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint7" x="9880" y="7274">
+  <object name="Checkpoint7" x="9877" y="7271">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint8" x="9689" y="7460">
+  <object name="Checkpoint8" x="9685" y="7459">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint9" x="7532" y="7465">
+  <object name="Checkpoint9" x="7527" y="7461">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint10" x="7346" y="7652">
+  <object name="Checkpoint10" x="7339" y="7649">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint11" x="7340" y="9246">
+  <object name="Checkpoint11" x="7338" y="9246">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
-  <object name="Checkpoint12" x="7154" y="9435">
+  <object name="Checkpoint12" x="7149" y="9439">
    <polygon points="0,0 44,44 71,17 27,-27"/>
   </object>
+  <object name="OilSpot1" x="7941" y="3845" width="60" height="49"/>
+  <object name="OilSpot2" x="7354" y="7445" width="57" height="52"/>
  </objectgroup>
  <layer name="FrontBorderLayer" width="150" height="150">
   <data encoding="base64" compression="zlib">
@@ -273,7 +275,5 @@
   <object x="4499" y="8247"/>
   <object x="4501" y="8246"/>
   <object x="4415" y="8124" width="93" height="123"/>
-  <object name="OilSpot1" x="7943" y="3847" width="60" height="49"/>
-  <object name="OilSpot2" x="7351" y="7444" width="57" height="52"/>
  </objectgroup>
 </map>

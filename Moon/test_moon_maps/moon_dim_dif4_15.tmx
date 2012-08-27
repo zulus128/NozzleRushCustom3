@@ -29,22 +29,22 @@
  <tileset firstgid="61" name="track_objects_222x186" tilewidth="222" tileheight="186">
   <image source="track_objects_222x186.png" width="1024" height="1024"/>
  </tileset>
- <layer name="BackBackgroundLayer1" width="150" height="150">
+ <layer name="BackBackgroundLayer1" width="150" height="150" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0UENAEEQw7ABtPzxHYX+epVsKQjy7u4pilz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+6QMLccb6
   </data>
  </layer>
- <layer name="BackBackgroundLayer2" width="150" height="150">
+ <layer name="BackBackgroundLayer2" width="150" height="150" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0UEJADAAA7EJmn99s9DXSiGBU3DnkLqKI9d+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCnB9Hvxvo=
   </data>
  </layer>
- <layer name="BackBackgroundLayer3" width="150" height="150">
+ <layer name="BackBackgroundLayer3" width="150" height="150" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0UENACAAAzEE4V8fFvYbS9rkFNw5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCPruLItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aqkHJp7G+g==
   </data>
  </layer>
- <layer name="BackBackgroundLayer4" width="150" height="150">
+ <layer name="BackBackgroundLayer4" width="150" height="150" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt0UEJADAAA7EJmn99s9DXSiGBU3DnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA/V3Hk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS59qulyLVfLUWu/Wopcu1XS5Frv1qKXPvVUuTar5Yi1361FLn2q6XItV8tRa79aily7VdLkWu/Wopc+9VS5NqvliLXfrUUufarpci1Xy1Frv1qKXLtV0uRa79ailz71VLk2q+WItd+tRS5B2ARxvo=
   </data>
