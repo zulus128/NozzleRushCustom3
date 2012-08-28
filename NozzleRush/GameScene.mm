@@ -108,31 +108,19 @@ enum {
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer2"] setZOrder:-20];
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer3"] setZOrder:-19];
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer4"] setZOrder:-18];
-//        [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer5"] setZOrder:-17];
-//        [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer6"] setZOrder:-16];
-        
         [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer1"] setZOrder:-15];
         [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer2"] setZOrder:-14];
         [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer3"] setZOrder:-13];
         [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer4"] setZOrder:-12];
-//        [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer5"] setZOrder:-11];
-//        [[[Common instance].tileMap layerNamed:@"FrontBackgroundLayer6"] setZOrder:-10];
-
         [[[Common instance].tileMap layerNamed:@"FrontBackgroundObjects"] setZOrder:-9];
-        
         [[[Common instance].tileMap layerNamed:@"ColumnLayer"] setZOrder:-8];
-//        [[[Common instance].tileMap layerNamed:@"CopyRoadLayer"] setZOrder:-7];
         [[[Common instance].tileMap layerNamed:@"RoadLayer Shifted"] setZOrder:-7];
         [[[Common instance].tileMap layerNamed:@"RoadLayer"] setZOrder:-6];
         [[[Common instance].tileMap layerNamed:@"RazmetkaLayer"] setZOrder:-5];
         [[[Common instance].tileMap layerNamed:@"BackBorderLayer"] setZOrder:-4];
-
-
         [[[Common instance].tileMap layerNamed:@"TrackObjectsLayerLow"] setZOrder:-3];
         [[[Common instance].tileMap layerNamed:@"TrackObjectsLayer"] setZOrder:-2];
-//        [[[Common instance].tileMap layerNamed:@"TrackObjectsLayerHigh"] setZOrder:-1];
         [[[Common instance].tileMap layerNamed:@"TrackObjectsLayerUpper"] setZOrder:-1];
-
         //zOrder:0 for cars
         [[[Common instance].tileMap layerNamed:@"FrontBorderLayer"] setZOrder:1];
         
