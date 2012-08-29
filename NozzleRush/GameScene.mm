@@ -104,6 +104,8 @@ enum {
 //        [[[Common instance].tileMap layerNamed:@"FrontBorderLayer"] setZOrder:1];
 //        //==========================   
 
+//        [[[Common instance].tileMap layerNamed:@"bbb"] setVisible:NO];
+
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer1"] setZOrder:-21];
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer2"] setZOrder:-20];
         [[[Common instance].tileMap layerNamed:@"BackBackgroundLayer3"] setZOrder:-19];
