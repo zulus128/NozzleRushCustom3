@@ -406,6 +406,25 @@
 		DD69A69F1561E104001FF24B /* car7.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6971561E104001FF24B /* car7.png */; };
 		DD69A6A01561E104001FF24B /* car8.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6981561E104001FF24B /* car8.png */; };
 		DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9A35A315D81A5800EAFC09 /* bonus.plist */; };
+		DDBBB9FC15F5BD140015045D /* ex1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FA15F5BD140015045D /* ex1.tmx */; };
+		DDBBB9FD15F5BD140015045D /* ex2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FB15F5BD140015045D /* ex2.tmx */; };
+		DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1215F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0115F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1315F5BDC10015045D /* moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0215F5BDC10015045D /* moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1415F5BDC10015045D /* moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0315F5BDC10015045D /* moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1515F5BDC10015045D /* moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0415F5BDC10015045D /* moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1615F5BDC10015045D /* moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0515F5BDC10015045D /* moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1715F5BDC10015045D /* moon_dim_dif3_16.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0615F5BDC10015045D /* moon_dim_dif3_16.tmx */; };
+		DDBBBA1815F5BDC10015045D /* moon_dim_dif3_17.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0715F5BDC10015045D /* moon_dim_dif3_17.tmx */; };
+		DDBBBA1915F5BDC10015045D /* moon_dim_dif3_18.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0815F5BDC10015045D /* moon_dim_dif3_18.tmx */; };
+		DDBBBA1A15F5BDC10015045D /* moon_dim_dif3_19.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0915F5BDC10015045D /* moon_dim_dif3_19.tmx */; };
+		DDBBBA1B15F5BDC10015045D /* moon_dim_dif3_20.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0A15F5BDC10015045D /* moon_dim_dif3_20.tmx */; };
+		DDBBBA1C15F5BDC10015045D /* moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0B15F5BDC10015045D /* moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1D15F5BDC10015045D /* moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0C15F5BDC10015045D /* moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1E15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0D15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA1F15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0E15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
+		DDBBBA2015F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0F15F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */; };
 		DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */; };
 		DDFAE15A15E033A2002DE713 /* asfalt_164x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14115E033A2002DE713 /* asfalt_164x94.png */; };
@@ -1039,6 +1058,25 @@
 		DD69A6981561E104001FF24B /* car8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car8.png; sourceTree = "<group>"; };
 		DD9A35A315D81A5800EAFC09 /* bonus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bonus.plist; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
+		DDBBB9FA15F5BD140015045D /* ex1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex1.tmx; sourceTree = "<group>"; };
+		DDBBB9FB15F5BD140015045D /* ex2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex2.tmx; sourceTree = "<group>"; };
+		DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0115F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0215F5BDC10015045D /* moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0315F5BDC10015045D /* moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0415F5BDC10015045D /* moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0515F5BDC10015045D /* moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0615F5BDC10015045D /* moon_dim_dif3_16.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon_dim_dif3_16.tmx; sourceTree = "<group>"; };
+		DDBBBA0715F5BDC10015045D /* moon_dim_dif3_17.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon_dim_dif3_17.tmx; sourceTree = "<group>"; };
+		DDBBBA0815F5BDC10015045D /* moon_dim_dif3_18.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon_dim_dif3_18.tmx; sourceTree = "<group>"; };
+		DDBBBA0915F5BDC10015045D /* moon_dim_dif3_19.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon_dim_dif3_19.tmx; sourceTree = "<group>"; };
+		DDBBBA0A15F5BDC10015045D /* moon_dim_dif3_20.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moon_dim_dif3_20.tmx; sourceTree = "<group>"; };
+		DDBBBA0B15F5BDC10015045D /* moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0C15F5BDC10015045D /* moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0D15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0E15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
+		DDBBBA0F15F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
 		DDBCF55115D8BAE200813074 /* AddWeaponBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWeaponBonus.h; sourceTree = "<group>"; };
 		DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddWeaponBonus.mm; sourceTree = "<group>"; };
 		DDBCF55515D8BBDC00813074 /* BulletTimeBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletTimeBonus.h; sourceTree = "<group>"; };
@@ -2128,6 +2166,23 @@
 		DDFAE14015E033A2002DE713 /* test_moon_maps */ = {
 			isa = PBXGroup;
 			children = (
+				DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0115F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0215F5BDC10015045D /* moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0315F5BDC10015045D /* moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0415F5BDC10015045D /* moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0515F5BDC10015045D /* moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0615F5BDC10015045D /* moon_dim_dif3_16.tmx */,
+				DDBBBA0715F5BDC10015045D /* moon_dim_dif3_17.tmx */,
+				DDBBBA0815F5BDC10015045D /* moon_dim_dif3_18.tmx */,
+				DDBBBA0915F5BDC10015045D /* moon_dim_dif3_19.tmx */,
+				DDBBBA0A15F5BDC10015045D /* moon_dim_dif3_20.tmx */,
+				DDBBBA0B15F5BDC10015045D /* moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0C15F5BDC10015045D /* moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0D15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0E15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
+				DDBBBA0F15F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx */,
 				DDFAE14115E033A2002DE713 /* asfalt_164x94.png */,
 				DDFAE14215E033A2002DE713 /* asfalt_164x94_shifted.png */,
 				DDFAE14315E033A2002DE713 /* background_tiles_default_198x160.png */,
@@ -2149,6 +2204,8 @@
 				DDFAE15315E033A2002DE713 /* moon_dim_dif4_13.tmx */,
 				DDFAE15415E033A2002DE713 /* moon_dim_dif4_14.tmx */,
 				DDFAE15515E033A2002DE713 /* moon_dim_dif4_15.tmx */,
+				DDBBB9FA15F5BD140015045D /* ex1.tmx */,
+				DDBBB9FB15F5BD140015045D /* ex2.tmx */,
 				DDFAE15615E033A2002DE713 /* moonBack165x95.png */,
 				DDFAE15715E033A2002DE713 /* moonBack165x95_shifted.png */,
 				DDFAE15815E033A2002DE713 /* razmetka_165x95.png */,
@@ -2463,6 +2520,25 @@
 				DDFAE17015E033A2002DE713 /* moonBack165x95_shifted.png in Resources */,
 				DDFAE17115E033A2002DE713 /* razmetka_165x95.png in Resources */,
 				DDFAE17215E033A2002DE713 /* track_objects_222x186.png in Resources */,
+				DDBBB9FC15F5BD140015045D /* ex1.tmx in Resources */,
+				DDBBB9FD15F5BD140015045D /* ex2.tmx in Resources */,
+				DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1215F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1315F5BDC10015045D /* moon_dim_dif3_3 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1415F5BDC10015045D /* moon_dim_dif3_4 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1515F5BDC10015045D /* moon_dim_dif3_5 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1615F5BDC10015045D /* moon_dim_dif3_6 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1715F5BDC10015045D /* moon_dim_dif3_16.tmx in Resources */,
+				DDBBBA1815F5BDC10015045D /* moon_dim_dif3_17.tmx in Resources */,
+				DDBBBA1915F5BDC10015045D /* moon_dim_dif3_18.tmx in Resources */,
+				DDBBBA1A15F5BDC10015045D /* moon_dim_dif3_19.tmx in Resources */,
+				DDBBBA1B15F5BDC10015045D /* moon_dim_dif3_20.tmx in Resources */,
+				DDBBBA1C15F5BDC10015045D /* moon_dim_dif4_1 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1D15F5BDC10015045D /* moon_dim_dif4_12 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1E15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA1F15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DDBBBA2015F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
