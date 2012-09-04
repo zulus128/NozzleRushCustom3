@@ -388,6 +388,50 @@
 		DD2357DE15D79E68003B97A4 /* heal.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2357DD15D79E68003B97A4 /* heal.png */; };
 		DD2C00A315C4DD8E00CF2E62 /* order1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A115C4DD8E00CF2E62 /* order1.plist */; };
 		DD2C00A415C4DD8E00CF2E62 /* players1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A215C4DD8E00CF2E62 /* players1.plist */; };
+		DD3072DA15F5FE2D004461F5 /* flamethrower_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AA15F5FE2C004461F5 /* flamethrower_E.png */; };
+		DD3072DB15F5FE2D004461F5 /* flamethrower_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AB15F5FE2C004461F5 /* flamethrower_N.png */; };
+		DD3072DC15F5FE2D004461F5 /* flamethrower_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AC15F5FE2C004461F5 /* flamethrower_NE.png */; };
+		DD3072DD15F5FE2D004461F5 /* flamethrower_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AD15F5FE2C004461F5 /* flamethrower_NW.png */; };
+		DD3072DE15F5FE2D004461F5 /* flamethrower_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AE15F5FE2C004461F5 /* flamethrower_S.png */; };
+		DD3072DF15F5FE2D004461F5 /* flamethrower_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072AF15F5FE2C004461F5 /* flamethrower_SE.png */; };
+		DD3072E015F5FE2D004461F5 /* flamethrower_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B015F5FE2C004461F5 /* flamethrower_SW.png */; };
+		DD3072E115F5FE2D004461F5 /* flamethrower_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B115F5FE2C004461F5 /* flamethrower_W.png */; };
+		DD3072E215F5FE2D004461F5 /* machinegun_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B315F5FE2C004461F5 /* machinegun_E.png */; };
+		DD3072E315F5FE2D004461F5 /* machinegun_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B415F5FE2C004461F5 /* machinegun_N.png */; };
+		DD3072E415F5FE2D004461F5 /* machinegun_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B515F5FE2C004461F5 /* machinegun_NE.png */; };
+		DD3072E515F5FE2D004461F5 /* machinegun_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B615F5FE2C004461F5 /* machinegun_NW.png */; };
+		DD3072E615F5FE2D004461F5 /* machinegun_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B715F5FE2C004461F5 /* machinegun_S.png */; };
+		DD3072E715F5FE2D004461F5 /* machinegun_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B815F5FE2C004461F5 /* machinegun_SE.png */; };
+		DD3072E815F5FE2D004461F5 /* machinegun_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072B915F5FE2C004461F5 /* machinegun_SW.png */; };
+		DD3072E915F5FE2D004461F5 /* machinegun_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072BA15F5FE2C004461F5 /* machinegun_W.png */; };
+		DD3072EA15F5FE2D004461F5 /* rear_machinegun_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072BC15F5FE2C004461F5 /* rear_machinegun_E.png */; };
+		DD3072EB15F5FE2D004461F5 /* rear_machinegun_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072BD15F5FE2C004461F5 /* rear_machinegun_N.png */; };
+		DD3072EC15F5FE2D004461F5 /* rear_machinegun_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072BE15F5FE2C004461F5 /* rear_machinegun_NE.png */; };
+		DD3072ED15F5FE2D004461F5 /* rear_machinegun_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072BF15F5FE2C004461F5 /* rear_machinegun_NW.png */; };
+		DD3072EE15F5FE2D004461F5 /* rear_machinegun_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C015F5FE2C004461F5 /* rear_machinegun_S.png */; };
+		DD3072EF15F5FE2D004461F5 /* rear_machinegun_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C115F5FE2C004461F5 /* rear_machinegun_SE.png */; };
+		DD3072F015F5FE2D004461F5 /* rear_machinegun_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C215F5FE2C004461F5 /* rear_machinegun_SW.png */; };
+		DD3072F115F5FE2D004461F5 /* rear_machinegun_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C315F5FE2C004461F5 /* rear_machinegun_W.png */; };
+		DD3072F215F5FE2D004461F5 /* spearthrower_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C515F5FE2C004461F5 /* spearthrower_E.png */; };
+		DD3072F315F5FE2D004461F5 /* spearthrower_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C615F5FE2C004461F5 /* spearthrower_N.png */; };
+		DD3072F415F5FE2D004461F5 /* spearthrower_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C715F5FE2C004461F5 /* spearthrower_NE.png */; };
+		DD3072F515F5FE2D004461F5 /* spearthrower_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C815F5FE2C004461F5 /* spearthrower_NW.png */; };
+		DD3072F615F5FE2D004461F5 /* spearthrower_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072C915F5FE2C004461F5 /* spearthrower_S.png */; };
+		DD3072F715F5FE2D004461F5 /* spearthrower_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072CA15F5FE2C004461F5 /* spearthrower_SE.png */; };
+		DD3072F815F5FE2D004461F5 /* spearthrower_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072CB15F5FE2C004461F5 /* spearthrower_SW.png */; };
+		DD3072F915F5FE2D004461F5 /* spearthrower_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072CC15F5FE2C004461F5 /* spearthrower_W.png */; };
+		DD3072FA15F5FE2D004461F5 /* spearthrower_bullet_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072CE15F5FE2C004461F5 /* spearthrower_bullet_E.png */; };
+		DD3072FB15F5FE2D004461F5 /* spearthrower_bullet_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072CF15F5FE2C004461F5 /* spearthrower_bullet_N.png */; };
+		DD3072FC15F5FE2D004461F5 /* spearthrower_bullet_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D015F5FE2C004461F5 /* spearthrower_bullet_NE.png */; };
+		DD3072FD15F5FE2D004461F5 /* spearthrower_bullet_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D115F5FE2C004461F5 /* spearthrower_bullet_NW.png */; };
+		DD3072FE15F5FE2D004461F5 /* spearthrower_bullet_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D215F5FE2C004461F5 /* spearthrower_bullet_S.png */; };
+		DD3072FF15F5FE2D004461F5 /* spearthrower_bullet_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D315F5FE2C004461F5 /* spearthrower_bullet_SE.png */; };
+		DD30730015F5FE2D004461F5 /* spearthrower_bullet_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D415F5FE2C004461F5 /* spearthrower_bullet_SW.png */; };
+		DD30730115F5FE2D004461F5 /* spearthrower_bullet_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D515F5FE2C004461F5 /* spearthrower_bullet_W.png */; };
+		DD30730215F5FE2D004461F5 /* w_flamethrower.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */; };
+		DD30730315F5FE2D004461F5 /* w_machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D715F5FE2C004461F5 /* w_machinegun.plist */; };
+		DD30730415F5FE2D004461F5 /* w_rear_machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */; };
+		DD30730515F5FE2D004461F5 /* w_spearthrower.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */; };
 		DD39EF1B15C37D87005F5A8B /* em_explosion.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD39EF1A15C37D87005F5A8B /* em_explosion.plist */; };
 		DD39EF1E15C37E00005F5A8B /* em_ring_explosion.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD39EF1D15C37E00005F5A8B /* em_ring_explosion.plist */; };
 		DD39EF2115C38CFD005F5A8B /* em_explosion.pex in Resources */ = {isa = PBXBuildFile; fileRef = DD39EF1F15C38CFD005F5A8B /* em_explosion.pex */; };
@@ -1034,6 +1078,50 @@
 		DD2357DD15D79E68003B97A4 /* heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heal.png; sourceTree = "<group>"; };
 		DD2C00A115C4DD8E00CF2E62 /* order1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order1.plist; sourceTree = "<group>"; };
 		DD2C00A215C4DD8E00CF2E62 /* players1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = players1.plist; sourceTree = "<group>"; };
+		DD3072AA15F5FE2C004461F5 /* flamethrower_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_E.png; sourceTree = "<group>"; };
+		DD3072AB15F5FE2C004461F5 /* flamethrower_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_N.png; sourceTree = "<group>"; };
+		DD3072AC15F5FE2C004461F5 /* flamethrower_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_NE.png; sourceTree = "<group>"; };
+		DD3072AD15F5FE2C004461F5 /* flamethrower_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_NW.png; sourceTree = "<group>"; };
+		DD3072AE15F5FE2C004461F5 /* flamethrower_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_S.png; sourceTree = "<group>"; };
+		DD3072AF15F5FE2C004461F5 /* flamethrower_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_SE.png; sourceTree = "<group>"; };
+		DD3072B015F5FE2C004461F5 /* flamethrower_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_SW.png; sourceTree = "<group>"; };
+		DD3072B115F5FE2C004461F5 /* flamethrower_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamethrower_W.png; sourceTree = "<group>"; };
+		DD3072B315F5FE2C004461F5 /* machinegun_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_E.png; sourceTree = "<group>"; };
+		DD3072B415F5FE2C004461F5 /* machinegun_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_N.png; sourceTree = "<group>"; };
+		DD3072B515F5FE2C004461F5 /* machinegun_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_NE.png; sourceTree = "<group>"; };
+		DD3072B615F5FE2C004461F5 /* machinegun_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_NW.png; sourceTree = "<group>"; };
+		DD3072B715F5FE2C004461F5 /* machinegun_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_S.png; sourceTree = "<group>"; };
+		DD3072B815F5FE2C004461F5 /* machinegun_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_SE.png; sourceTree = "<group>"; };
+		DD3072B915F5FE2C004461F5 /* machinegun_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_SW.png; sourceTree = "<group>"; };
+		DD3072BA15F5FE2C004461F5 /* machinegun_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_W.png; sourceTree = "<group>"; };
+		DD3072BC15F5FE2C004461F5 /* rear_machinegun_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_E.png; sourceTree = "<group>"; };
+		DD3072BD15F5FE2C004461F5 /* rear_machinegun_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_N.png; sourceTree = "<group>"; };
+		DD3072BE15F5FE2C004461F5 /* rear_machinegun_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_NE.png; sourceTree = "<group>"; };
+		DD3072BF15F5FE2C004461F5 /* rear_machinegun_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_NW.png; sourceTree = "<group>"; };
+		DD3072C015F5FE2C004461F5 /* rear_machinegun_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_S.png; sourceTree = "<group>"; };
+		DD3072C115F5FE2C004461F5 /* rear_machinegun_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_SE.png; sourceTree = "<group>"; };
+		DD3072C215F5FE2C004461F5 /* rear_machinegun_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_SW.png; sourceTree = "<group>"; };
+		DD3072C315F5FE2C004461F5 /* rear_machinegun_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rear_machinegun_W.png; sourceTree = "<group>"; };
+		DD3072C515F5FE2C004461F5 /* spearthrower_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_E.png; sourceTree = "<group>"; };
+		DD3072C615F5FE2C004461F5 /* spearthrower_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_N.png; sourceTree = "<group>"; };
+		DD3072C715F5FE2C004461F5 /* spearthrower_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_NE.png; sourceTree = "<group>"; };
+		DD3072C815F5FE2C004461F5 /* spearthrower_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_NW.png; sourceTree = "<group>"; };
+		DD3072C915F5FE2C004461F5 /* spearthrower_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_S.png; sourceTree = "<group>"; };
+		DD3072CA15F5FE2C004461F5 /* spearthrower_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_SE.png; sourceTree = "<group>"; };
+		DD3072CB15F5FE2C004461F5 /* spearthrower_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_SW.png; sourceTree = "<group>"; };
+		DD3072CC15F5FE2C004461F5 /* spearthrower_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_W.png; sourceTree = "<group>"; };
+		DD3072CE15F5FE2C004461F5 /* spearthrower_bullet_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_E.png; sourceTree = "<group>"; };
+		DD3072CF15F5FE2C004461F5 /* spearthrower_bullet_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_N.png; sourceTree = "<group>"; };
+		DD3072D015F5FE2C004461F5 /* spearthrower_bullet_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_NE.png; sourceTree = "<group>"; };
+		DD3072D115F5FE2C004461F5 /* spearthrower_bullet_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_NW.png; sourceTree = "<group>"; };
+		DD3072D215F5FE2C004461F5 /* spearthrower_bullet_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_S.png; sourceTree = "<group>"; };
+		DD3072D315F5FE2C004461F5 /* spearthrower_bullet_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_SE.png; sourceTree = "<group>"; };
+		DD3072D415F5FE2C004461F5 /* spearthrower_bullet_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_SW.png; sourceTree = "<group>"; };
+		DD3072D515F5FE2C004461F5 /* spearthrower_bullet_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_W.png; sourceTree = "<group>"; };
+		DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_flamethrower.plist; sourceTree = "<group>"; };
+		DD3072D715F5FE2C004461F5 /* w_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_machinegun.plist; sourceTree = "<group>"; };
+		DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_rear_machinegun.plist; sourceTree = "<group>"; };
+		DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_spearthrower.plist; sourceTree = "<group>"; };
 		DD39EF1A15C37D87005F5A8B /* em_explosion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = em_explosion.plist; sourceTree = "<group>"; };
 		DD39EF1D15C37E00005F5A8B /* em_ring_explosion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = em_ring_explosion.plist; sourceTree = "<group>"; };
 		DD39EF1F15C38CFD005F5A8B /* em_explosion.pex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = em_explosion.pex; sourceTree = "<group>"; };
@@ -2137,6 +2225,7 @@
 		DD06803A1597E90E006D5D67 /* Weapon */ = {
 			isa = PBXGroup;
 			children = (
+				DD3072A815F5FE2C004461F5 /* guns_stage1 */,
 				A4AA9A6315A08989008C0C0E /* RLauncher */,
 				A4AA9A5215A08926008C0C0E /* MGun */,
 				A4C8F40E159CE1E00068F229 /* rocketFlame.plist */,
@@ -2161,6 +2250,97 @@
 				DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */,
 			);
 			name = Bonuses;
+			sourceTree = "<group>";
+		};
+		DD3072A815F5FE2C004461F5 /* guns_stage1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072A915F5FE2C004461F5 /* flamethrower */,
+				DD3072B215F5FE2C004461F5 /* machinegun */,
+				DD3072BB15F5FE2C004461F5 /* rear_machinegun */,
+				DD3072C415F5FE2C004461F5 /* spearthrower */,
+				DD3072CD15F5FE2C004461F5 /* spearthrower_bullet */,
+				DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */,
+				DD3072D715F5FE2C004461F5 /* w_machinegun.plist */,
+				DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */,
+				DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */,
+			);
+			path = guns_stage1;
+			sourceTree = "<group>";
+		};
+		DD3072A915F5FE2C004461F5 /* flamethrower */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072AA15F5FE2C004461F5 /* flamethrower_E.png */,
+				DD3072AB15F5FE2C004461F5 /* flamethrower_N.png */,
+				DD3072AC15F5FE2C004461F5 /* flamethrower_NE.png */,
+				DD3072AD15F5FE2C004461F5 /* flamethrower_NW.png */,
+				DD3072AE15F5FE2C004461F5 /* flamethrower_S.png */,
+				DD3072AF15F5FE2C004461F5 /* flamethrower_SE.png */,
+				DD3072B015F5FE2C004461F5 /* flamethrower_SW.png */,
+				DD3072B115F5FE2C004461F5 /* flamethrower_W.png */,
+			);
+			path = flamethrower;
+			sourceTree = "<group>";
+		};
+		DD3072B215F5FE2C004461F5 /* machinegun */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072B315F5FE2C004461F5 /* machinegun_E.png */,
+				DD3072B415F5FE2C004461F5 /* machinegun_N.png */,
+				DD3072B515F5FE2C004461F5 /* machinegun_NE.png */,
+				DD3072B615F5FE2C004461F5 /* machinegun_NW.png */,
+				DD3072B715F5FE2C004461F5 /* machinegun_S.png */,
+				DD3072B815F5FE2C004461F5 /* machinegun_SE.png */,
+				DD3072B915F5FE2C004461F5 /* machinegun_SW.png */,
+				DD3072BA15F5FE2C004461F5 /* machinegun_W.png */,
+			);
+			path = machinegun;
+			sourceTree = "<group>";
+		};
+		DD3072BB15F5FE2C004461F5 /* rear_machinegun */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072BC15F5FE2C004461F5 /* rear_machinegun_E.png */,
+				DD3072BD15F5FE2C004461F5 /* rear_machinegun_N.png */,
+				DD3072BE15F5FE2C004461F5 /* rear_machinegun_NE.png */,
+				DD3072BF15F5FE2C004461F5 /* rear_machinegun_NW.png */,
+				DD3072C015F5FE2C004461F5 /* rear_machinegun_S.png */,
+				DD3072C115F5FE2C004461F5 /* rear_machinegun_SE.png */,
+				DD3072C215F5FE2C004461F5 /* rear_machinegun_SW.png */,
+				DD3072C315F5FE2C004461F5 /* rear_machinegun_W.png */,
+			);
+			path = rear_machinegun;
+			sourceTree = "<group>";
+		};
+		DD3072C415F5FE2C004461F5 /* spearthrower */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072C515F5FE2C004461F5 /* spearthrower_E.png */,
+				DD3072C615F5FE2C004461F5 /* spearthrower_N.png */,
+				DD3072C715F5FE2C004461F5 /* spearthrower_NE.png */,
+				DD3072C815F5FE2C004461F5 /* spearthrower_NW.png */,
+				DD3072C915F5FE2C004461F5 /* spearthrower_S.png */,
+				DD3072CA15F5FE2C004461F5 /* spearthrower_SE.png */,
+				DD3072CB15F5FE2C004461F5 /* spearthrower_SW.png */,
+				DD3072CC15F5FE2C004461F5 /* spearthrower_W.png */,
+			);
+			path = spearthrower;
+			sourceTree = "<group>";
+		};
+		DD3072CD15F5FE2C004461F5 /* spearthrower_bullet */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072CE15F5FE2C004461F5 /* spearthrower_bullet_E.png */,
+				DD3072CF15F5FE2C004461F5 /* spearthrower_bullet_N.png */,
+				DD3072D015F5FE2C004461F5 /* spearthrower_bullet_NE.png */,
+				DD3072D115F5FE2C004461F5 /* spearthrower_bullet_NW.png */,
+				DD3072D215F5FE2C004461F5 /* spearthrower_bullet_S.png */,
+				DD3072D315F5FE2C004461F5 /* spearthrower_bullet_SE.png */,
+				DD3072D415F5FE2C004461F5 /* spearthrower_bullet_SW.png */,
+				DD3072D515F5FE2C004461F5 /* spearthrower_bullet_W.png */,
+			);
+			path = spearthrower_bullet;
 			sourceTree = "<group>";
 		};
 		DDFAE14015E033A2002DE713 /* test_moon_maps */ = {
@@ -2539,6 +2719,50 @@
 				DDBBBA1E15F5BDC10015045D /* moon_dim_dif4_13 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
 				DDBBBA1F15F5BDC10015045D /* moon_dim_dif4_14 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
 				DDBBBA2015F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
+				DD3072DA15F5FE2D004461F5 /* flamethrower_E.png in Resources */,
+				DD3072DB15F5FE2D004461F5 /* flamethrower_N.png in Resources */,
+				DD3072DC15F5FE2D004461F5 /* flamethrower_NE.png in Resources */,
+				DD3072DD15F5FE2D004461F5 /* flamethrower_NW.png in Resources */,
+				DD3072DE15F5FE2D004461F5 /* flamethrower_S.png in Resources */,
+				DD3072DF15F5FE2D004461F5 /* flamethrower_SE.png in Resources */,
+				DD3072E015F5FE2D004461F5 /* flamethrower_SW.png in Resources */,
+				DD3072E115F5FE2D004461F5 /* flamethrower_W.png in Resources */,
+				DD3072E215F5FE2D004461F5 /* machinegun_E.png in Resources */,
+				DD3072E315F5FE2D004461F5 /* machinegun_N.png in Resources */,
+				DD3072E415F5FE2D004461F5 /* machinegun_NE.png in Resources */,
+				DD3072E515F5FE2D004461F5 /* machinegun_NW.png in Resources */,
+				DD3072E615F5FE2D004461F5 /* machinegun_S.png in Resources */,
+				DD3072E715F5FE2D004461F5 /* machinegun_SE.png in Resources */,
+				DD3072E815F5FE2D004461F5 /* machinegun_SW.png in Resources */,
+				DD3072E915F5FE2D004461F5 /* machinegun_W.png in Resources */,
+				DD3072EA15F5FE2D004461F5 /* rear_machinegun_E.png in Resources */,
+				DD3072EB15F5FE2D004461F5 /* rear_machinegun_N.png in Resources */,
+				DD3072EC15F5FE2D004461F5 /* rear_machinegun_NE.png in Resources */,
+				DD3072ED15F5FE2D004461F5 /* rear_machinegun_NW.png in Resources */,
+				DD3072EE15F5FE2D004461F5 /* rear_machinegun_S.png in Resources */,
+				DD3072EF15F5FE2D004461F5 /* rear_machinegun_SE.png in Resources */,
+				DD3072F015F5FE2D004461F5 /* rear_machinegun_SW.png in Resources */,
+				DD3072F115F5FE2D004461F5 /* rear_machinegun_W.png in Resources */,
+				DD3072F215F5FE2D004461F5 /* spearthrower_E.png in Resources */,
+				DD3072F315F5FE2D004461F5 /* spearthrower_N.png in Resources */,
+				DD3072F415F5FE2D004461F5 /* spearthrower_NE.png in Resources */,
+				DD3072F515F5FE2D004461F5 /* spearthrower_NW.png in Resources */,
+				DD3072F615F5FE2D004461F5 /* spearthrower_S.png in Resources */,
+				DD3072F715F5FE2D004461F5 /* spearthrower_SE.png in Resources */,
+				DD3072F815F5FE2D004461F5 /* spearthrower_SW.png in Resources */,
+				DD3072F915F5FE2D004461F5 /* spearthrower_W.png in Resources */,
+				DD3072FA15F5FE2D004461F5 /* spearthrower_bullet_E.png in Resources */,
+				DD3072FB15F5FE2D004461F5 /* spearthrower_bullet_N.png in Resources */,
+				DD3072FC15F5FE2D004461F5 /* spearthrower_bullet_NE.png in Resources */,
+				DD3072FD15F5FE2D004461F5 /* spearthrower_bullet_NW.png in Resources */,
+				DD3072FE15F5FE2D004461F5 /* spearthrower_bullet_S.png in Resources */,
+				DD3072FF15F5FE2D004461F5 /* spearthrower_bullet_SE.png in Resources */,
+				DD30730015F5FE2D004461F5 /* spearthrower_bullet_SW.png in Resources */,
+				DD30730115F5FE2D004461F5 /* spearthrower_bullet_W.png in Resources */,
+				DD30730215F5FE2D004461F5 /* w_flamethrower.plist in Resources */,
+				DD30730315F5FE2D004461F5 /* w_machinegun.plist in Resources */,
+				DD30730415F5FE2D004461F5 /* w_rear_machinegun.plist in Resources */,
+				DD30730515F5FE2D004461F5 /* w_spearthrower.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

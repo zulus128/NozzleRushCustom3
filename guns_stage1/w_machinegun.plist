@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>type</key>
+	<string>infinite</string>
+	<key>frame_count</key>
+	<integer>1</integer>
+	<key>frame_count_bullet</key>
+	<string>none</string>
+	<key>shot_particle_effect</key>
+	<string>mgun.plist</string>
+	<key>hit_particle_effect</key>
+	<string>em_explosion.plist</string>
+	<key>bullet_particle_effect</key>
+	<string>none</string>
+	<key>dps</key>
+	<integer>35</integer>
+	<key>shots_in_sec</key>
+	<integer>4</integer>
+	<key>damage_upgrade</key>
+	<integer>10</integer>
+	<key>bullet_speed</key>
+	<string>inf</string>
+</dict>
+</plist>
