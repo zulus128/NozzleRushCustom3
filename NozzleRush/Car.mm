@@ -877,7 +877,7 @@
 //            NSLog(@"acotr.tag = %d", actor.tag);
         if (actor != nil)
         if (actor.tag == HEAL_TAG) {
-            NSLog(@"BONUS!!!");
+//            NSLog(@"BONUS!!!");
             bonus = actor.tag;
         }
     }

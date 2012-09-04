@@ -235,14 +235,6 @@
 		36EE279115ABF94B00880A63 /* jeep_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273615ABF94B00880A63 /* jeep_SE.png */; };
 		36EE279215ABF94B00880A63 /* jeep_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273715ABF94B00880A63 /* jeep_SW.png */; };
 		36EE279315ABF94B00880A63 /* jeep_W.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273815ABF94B00880A63 /* jeep_W.png */; };
-		36EE279415ABF94B00880A63 /* machinegun_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273A15ABF94B00880A63 /* machinegun_E.png */; };
-		36EE279515ABF94B00880A63 /* machinegun_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273B15ABF94B00880A63 /* machinegun_N.png */; };
-		36EE279615ABF94B00880A63 /* machinegun_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273C15ABF94B00880A63 /* machinegun_NE.png */; };
-		36EE279715ABF94B00880A63 /* machinegun_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273D15ABF94B00880A63 /* machinegun_NW.png */; };
-		36EE279815ABF94B00880A63 /* machinegun_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273E15ABF94B00880A63 /* machinegun_S.png */; };
-		36EE279915ABF94B00880A63 /* machinegun_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE273F15ABF94B00880A63 /* machinegun_SE.png */; };
-		36EE279A15ABF94B00880A63 /* machinegun_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE274015ABF94B00880A63 /* machinegun_SW.png */; };
-		36EE279B15ABF94B00880A63 /* machinegun_W.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE274115ABF94B00880A63 /* machinegun_W.png */; };
 		36EE279C15ABF94B00880A63 /* transparent_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE274315ABF94B00880A63 /* transparent_E.png */; };
 		36EE279D15ABF94B00880A63 /* transparent_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE274415ABF94B00880A63 /* transparent_N.png */; };
 		36EE279E15ABF94B00880A63 /* transparent_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE274515ABF94B00880A63 /* transparent_NE.png */; };
@@ -918,14 +910,6 @@
 		36EE273615ABF94B00880A63 /* jeep_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep_SE.png; sourceTree = "<group>"; };
 		36EE273715ABF94B00880A63 /* jeep_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep_SW.png; sourceTree = "<group>"; };
 		36EE273815ABF94B00880A63 /* jeep_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep_W.png; sourceTree = "<group>"; };
-		36EE273A15ABF94B00880A63 /* machinegun_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_E.png; sourceTree = "<group>"; };
-		36EE273B15ABF94B00880A63 /* machinegun_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_N.png; sourceTree = "<group>"; };
-		36EE273C15ABF94B00880A63 /* machinegun_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_NE.png; sourceTree = "<group>"; };
-		36EE273D15ABF94B00880A63 /* machinegun_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_NW.png; sourceTree = "<group>"; };
-		36EE273E15ABF94B00880A63 /* machinegun_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_S.png; sourceTree = "<group>"; };
-		36EE273F15ABF94B00880A63 /* machinegun_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_SE.png; sourceTree = "<group>"; };
-		36EE274015ABF94B00880A63 /* machinegun_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_SW.png; sourceTree = "<group>"; };
-		36EE274115ABF94B00880A63 /* machinegun_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machinegun_W.png; sourceTree = "<group>"; };
 		36EE274315ABF94B00880A63 /* transparent_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent_E.png; sourceTree = "<group>"; };
 		36EE274415ABF94B00880A63 /* transparent_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent_N.png; sourceTree = "<group>"; };
 		36EE274515ABF94B00880A63 /* transparent_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent_NE.png; sourceTree = "<group>"; };
@@ -1916,7 +1900,6 @@
 			children = (
 				36EE270F15ABF94B00880A63 /* disk */,
 				36EE273015ABF94B00880A63 /* jeep */,
-				36EE273915ABF94B00880A63 /* machinegun */,
 				36EE274215ABF94B00880A63 /* transparent */,
 				36EE274B15ABF94B00880A63 /* wheels */,
 			);
@@ -1975,21 +1958,6 @@
 				36EE273815ABF94B00880A63 /* jeep_W.png */,
 			);
 			path = jeep;
-			sourceTree = "<group>";
-		};
-		36EE273915ABF94B00880A63 /* machinegun */ = {
-			isa = PBXGroup;
-			children = (
-				36EE273A15ABF94B00880A63 /* machinegun_E.png */,
-				36EE273B15ABF94B00880A63 /* machinegun_N.png */,
-				36EE273C15ABF94B00880A63 /* machinegun_NE.png */,
-				36EE273D15ABF94B00880A63 /* machinegun_NW.png */,
-				36EE273E15ABF94B00880A63 /* machinegun_S.png */,
-				36EE273F15ABF94B00880A63 /* machinegun_SE.png */,
-				36EE274015ABF94B00880A63 /* machinegun_SW.png */,
-				36EE274115ABF94B00880A63 /* machinegun_W.png */,
-			);
-			path = machinegun;
 			sourceTree = "<group>";
 		};
 		36EE274215ABF94B00880A63 /* transparent */ = {
@@ -2610,14 +2578,6 @@
 				36EE279115ABF94B00880A63 /* jeep_SE.png in Resources */,
 				36EE279215ABF94B00880A63 /* jeep_SW.png in Resources */,
 				36EE279315ABF94B00880A63 /* jeep_W.png in Resources */,
-				36EE279415ABF94B00880A63 /* machinegun_E.png in Resources */,
-				36EE279515ABF94B00880A63 /* machinegun_N.png in Resources */,
-				36EE279615ABF94B00880A63 /* machinegun_NE.png in Resources */,
-				36EE279715ABF94B00880A63 /* machinegun_NW.png in Resources */,
-				36EE279815ABF94B00880A63 /* machinegun_S.png in Resources */,
-				36EE279915ABF94B00880A63 /* machinegun_SE.png in Resources */,
-				36EE279A15ABF94B00880A63 /* machinegun_SW.png in Resources */,
-				36EE279B15ABF94B00880A63 /* machinegun_W.png in Resources */,
 				36EE279C15ABF94B00880A63 /* transparent_E.png in Resources */,
 				36EE279D15ABF94B00880A63 /* transparent_N.png in Resources */,
 				36EE279E15ABF94B00880A63 /* transparent_NE.png in Resources */,
