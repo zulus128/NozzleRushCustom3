@@ -368,6 +368,23 @@
 		DD00037A159FDCFD0012E4D2 /* Diski45-1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */; };
 		DD00037B159FDCFD0012E4D2 /* Diski45-1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */; };
 		DD00037C159FDCFD0012E4D2 /* Diski45-1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */; };
+		DD03C6E315F71A6800ED2C50 /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */; };
+		DD03C6E415F71A6800ED2C50 /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D315F71A6800ED2C50 /* column_165x250.png */; };
+		DD03C6E515F71A6800ED2C50 /* light_1_985_534.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */; };
+		DD03C6E615F71A6800ED2C50 /* mars_back_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */; };
+		DD03C6E715F71A6800ED2C50 /* mars_back_fin_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */; };
+		DD03C6E815F71A6800ED2C50 /* mars_cameras_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */; };
+		DD03C6E915F71A6800ED2C50 /* mars_dim_dif4_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */; };
+		DD03C6EA15F71A6800ED2C50 /* mars_dim_dif4_2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */; };
+		DD03C6EB15F71A6800ED2C50 /* mars_dim_dif4_3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */; };
+		DD03C6EC15F71A6800ED2C50 /* mars_dim_dif4_4.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */; };
+		DD03C6ED15F71A6800ED2C50 /* mars_lights_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */; };
+		DD03C6EE15F71A6800ED2C50 /* mars_new_border_fin_164x134.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */; };
+		DD03C6EF15F71A6800ED2C50 /* mars_objects_modern_280x253.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */; };
+		DD03C6F015F71A6800ED2C50 /* mars_tele-board_329X346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */; };
+		DD03C6F115F71A6800ED2C50 /* ROAD_163x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */; };
+		DD03C6F215F71A6800ED2C50 /* road_163x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */; };
+		DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */; };
 		DD0680341597E7A8006D5D67 /* Rocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0680331597E7A8006D5D67 /* Rocket.mm */; };
 		DD06803C1597E926006D5D67 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06803B1597E926006D5D67 /* rock.png */; };
 		DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */; };
@@ -1048,6 +1065,23 @@
 		DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_2.png"; sourceTree = "<group>"; };
 		DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_3.png"; sourceTree = "<group>"; };
 		DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_4.png"; sourceTree = "<group>"; };
+		DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
+		DD03C6D315F71A6800ED2C50 /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
+		DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_1_985_534.png; sourceTree = "<group>"; };
+		DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin.png; sourceTree = "<group>"; };
+		DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin_shifted.png; sourceTree = "<group>"; };
+		DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_cameras_329x346.png; sourceTree = "<group>"; };
+		DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_1.tmx; sourceTree = "<group>"; };
+		DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_2.tmx; sourceTree = "<group>"; };
+		DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_3.tmx; sourceTree = "<group>"; };
+		DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_4.tmx; sourceTree = "<group>"; };
+		DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_lights_329x346.png; sourceTree = "<group>"; };
+		DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_new_border_fin_164x134.png; sourceTree = "<group>"; };
+		DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_objects_modern_280x253.png; sourceTree = "<group>"; };
+		DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mars_tele-board_329X346.png"; sourceTree = "<group>"; };
+		DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROAD_163x94.png; sourceTree = "<group>"; };
+		DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road_163x94_shifted.png; sourceTree = "<group>"; };
+		DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts7razmetka_165x96.png; sourceTree = "<group>"; };
 		DD0680321597E7A8006D5D67 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
 		DD0680331597E7A8006D5D67 /* Rocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rocket.mm; sourceTree = "<group>"; };
 		DD06803B1597E926006D5D67 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
@@ -1257,6 +1291,7 @@
 		3657775615BFD40D0066D0D7 /* New */ = {
 			isa = PBXGroup;
 			children = (
+				DD03C6D115F71A6800ED2C50 /* Mars */,
 				3657776D15BFD4540066D0D7 /* Moon */,
 			);
 			name = New;
@@ -2190,6 +2225,30 @@
 			name = Diski45;
 			sourceTree = "<group>";
 		};
+		DD03C6D115F71A6800ED2C50 /* Mars */ = {
+			isa = PBXGroup;
+			children = (
+				DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */,
+				DD03C6D315F71A6800ED2C50 /* column_165x250.png */,
+				DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */,
+				DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */,
+				DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */,
+				DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */,
+				DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */,
+				DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */,
+				DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */,
+				DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */,
+				DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */,
+				DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */,
+				DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */,
+				DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */,
+				DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */,
+				DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */,
+				DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */,
+			);
+			path = Mars;
+			sourceTree = "<group>";
+		};
 		DD06803A1597E90E006D5D67 /* Weapon */ = {
 			isa = PBXGroup;
 			children = (
@@ -2723,6 +2782,23 @@
 				DD30730315F5FE2D004461F5 /* w_machinegun.plist in Resources */,
 				DD30730415F5FE2D004461F5 /* w_rear_machinegun.plist in Resources */,
 				DD30730515F5FE2D004461F5 /* w_spearthrower.plist in Resources */,
+				DD03C6E315F71A6800ED2C50 /* background_objects_396x279.png in Resources */,
+				DD03C6E415F71A6800ED2C50 /* column_165x250.png in Resources */,
+				DD03C6E515F71A6800ED2C50 /* light_1_985_534.png in Resources */,
+				DD03C6E615F71A6800ED2C50 /* mars_back_fin.png in Resources */,
+				DD03C6E715F71A6800ED2C50 /* mars_back_fin_shifted.png in Resources */,
+				DD03C6E815F71A6800ED2C50 /* mars_cameras_329x346.png in Resources */,
+				DD03C6E915F71A6800ED2C50 /* mars_dim_dif4_1.tmx in Resources */,
+				DD03C6EA15F71A6800ED2C50 /* mars_dim_dif4_2.tmx in Resources */,
+				DD03C6EB15F71A6800ED2C50 /* mars_dim_dif4_3.tmx in Resources */,
+				DD03C6EC15F71A6800ED2C50 /* mars_dim_dif4_4.tmx in Resources */,
+				DD03C6ED15F71A6800ED2C50 /* mars_lights_329x346.png in Resources */,
+				DD03C6EE15F71A6800ED2C50 /* mars_new_border_fin_164x134.png in Resources */,
+				DD03C6EF15F71A6800ED2C50 /* mars_objects_modern_280x253.png in Resources */,
+				DD03C6F015F71A6800ED2C50 /* mars_tele-board_329X346.png in Resources */,
+				DD03C6F115F71A6800ED2C50 /* ROAD_163x94.png in Resources */,
+				DD03C6F215F71A6800ED2C50 /* road_163x94_shifted.png in Resources */,
+				DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
