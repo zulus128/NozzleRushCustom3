@@ -459,8 +459,6 @@
 		DD69A69F1561E104001FF24B /* car7.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6971561E104001FF24B /* car7.png */; };
 		DD69A6A01561E104001FF24B /* car8.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6981561E104001FF24B /* car8.png */; };
 		DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9A35A315D81A5800EAFC09 /* bonus.plist */; };
-		DDBBB9FC15F5BD140015045D /* ex1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FA15F5BD140015045D /* ex1.tmx */; };
-		DDBBB9FD15F5BD140015045D /* ex2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FB15F5BD140015045D /* ex2.tmx */; };
 		DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBBBA1215F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0115F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
@@ -480,6 +478,8 @@
 		DDBBBA2015F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0F15F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */; };
 		DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */; };
+		DDFA994E15F850DE00907311 /* ex1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDFA994C15F850DE00907311 /* ex1.tmx */; };
+		DDFA994F15F850DE00907311 /* ex2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDFA994D15F850DE00907311 /* ex2.tmx */; };
 		DDFAE15A15E033A2002DE713 /* asfalt_164x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14115E033A2002DE713 /* asfalt_164x94.png */; };
 		DDFAE15B15E033A2002DE713 /* asfalt_164x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14215E033A2002DE713 /* asfalt_164x94_shifted.png */; };
 		DDFAE15C15E033A2002DE713 /* background_tiles_default_198x160.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14315E033A2002DE713 /* background_tiles_default_198x160.png */; };
@@ -1164,8 +1164,6 @@
 		DD69A6981561E104001FF24B /* car8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car8.png; sourceTree = "<group>"; };
 		DD9A35A315D81A5800EAFC09 /* bonus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bonus.plist; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
-		DDBBB9FA15F5BD140015045D /* ex1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex1.tmx; sourceTree = "<group>"; };
-		DDBBB9FB15F5BD140015045D /* ex2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex2.tmx; sourceTree = "<group>"; };
 		DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
 		DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
 		DDBBBA0115F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
@@ -1188,6 +1186,8 @@
 		DDBCF55515D8BBDC00813074 /* BulletTimeBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletTimeBonus.h; sourceTree = "<group>"; };
 		DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BulletTimeBonus.mm; sourceTree = "<group>"; };
 		DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaysCastCallback.h; sourceTree = "<group>"; };
+		DDFA994C15F850DE00907311 /* ex1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex1.tmx; sourceTree = "<group>"; };
+		DDFA994D15F850DE00907311 /* ex2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex2.tmx; sourceTree = "<group>"; };
 		DDFAE14115E033A2002DE713 /* asfalt_164x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94.png; sourceTree = "<group>"; };
 		DDFAE14215E033A2002DE713 /* asfalt_164x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94_shifted.png; sourceTree = "<group>"; };
 		DDFAE14315E033A2002DE713 /* background_tiles_default_198x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_tiles_default_198x160.png; sourceTree = "<group>"; };
@@ -2228,6 +2228,8 @@
 		DD03C6D115F71A6800ED2C50 /* Mars */ = {
 			isa = PBXGroup;
 			children = (
+				DDFA994C15F850DE00907311 /* ex1.tmx */,
+				DDFA994D15F850DE00907311 /* ex2.tmx */,
 				DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */,
 				DD03C6D315F71A6800ED2C50 /* column_165x250.png */,
 				DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */,
@@ -2411,8 +2413,6 @@
 				DDFAE15315E033A2002DE713 /* moon_dim_dif4_13.tmx */,
 				DDFAE15415E033A2002DE713 /* moon_dim_dif4_14.tmx */,
 				DDFAE15515E033A2002DE713 /* moon_dim_dif4_15.tmx */,
-				DDBBB9FA15F5BD140015045D /* ex1.tmx */,
-				DDBBB9FB15F5BD140015045D /* ex2.tmx */,
 				DDFAE15615E033A2002DE713 /* moonBack165x95.png */,
 				DDFAE15715E033A2002DE713 /* moonBack165x95_shifted.png */,
 				DDFAE15815E033A2002DE713 /* razmetka_165x95.png */,
@@ -2719,8 +2719,6 @@
 				DDFAE17015E033A2002DE713 /* moonBack165x95_shifted.png in Resources */,
 				DDFAE17115E033A2002DE713 /* razmetka_165x95.png in Resources */,
 				DDFAE17215E033A2002DE713 /* track_objects_222x186.png in Resources */,
-				DDBBB9FC15F5BD140015045D /* ex1.tmx in Resources */,
-				DDBBB9FD15F5BD140015045D /* ex2.tmx in Resources */,
 				DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
 				DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
 				DDBBBA1215F5BDC10015045D /* moon_dim_dif3_2 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */,
@@ -2799,6 +2797,8 @@
 				DD03C6F115F71A6800ED2C50 /* ROAD_163x94.png in Resources */,
 				DD03C6F215F71A6800ED2C50 /* road_163x94_shifted.png in Resources */,
 				DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */,
+				DDFA994E15F850DE00907311 /* ex1.tmx in Resources */,
+				DDFA994F15F850DE00907311 /* ex2.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
