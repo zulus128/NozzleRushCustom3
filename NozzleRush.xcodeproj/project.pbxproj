@@ -394,6 +394,8 @@
 		DD1C9C5115DCBBAD00FF2A17 /* Speed_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4B15DCBBAD00FF2A17 /* Speed_Up_bonus.png */; };
 		DD1C9C5215DCBBAD00FF2A17 /* Weapon_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */; };
 		DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */; };
+		DD1D970315FDAC5A0012B345 /* mars_dim_dif4_5.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */; };
+		DD1D970415FDAC5A0012B345 /* mars_dim_dif4_6.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */; };
 		DD2357DE15D79E68003B97A4 /* heal.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2357DD15D79E68003B97A4 /* heal.png */; };
 		DD2C00A315C4DD8E00CF2E62 /* order1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A115C4DD8E00CF2E62 /* order1.plist */; };
 		DD2C00A415C4DD8E00CF2E62 /* players1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A215C4DD8E00CF2E62 /* players1.plist */; };
@@ -1093,6 +1095,8 @@
 		DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weapon_Up_bonus.png; sourceTree = "<group>"; };
 		DD1C9C5415DCC4D200FF2A17 /* Bonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonus.h; sourceTree = "<group>"; };
 		DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bonus.mm; sourceTree = "<group>"; };
+		DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_5.tmx; sourceTree = "<group>"; };
+		DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_6.tmx; sourceTree = "<group>"; };
 		DD2357DD15D79E68003B97A4 /* heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heal.png; sourceTree = "<group>"; };
 		DD2C00A115C4DD8E00CF2E62 /* order1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order1.plist; sourceTree = "<group>"; };
 		DD2C00A215C4DD8E00CF2E62 /* players1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = players1.plist; sourceTree = "<group>"; };
@@ -2240,6 +2244,8 @@
 				DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */,
 				DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */,
 				DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */,
+				DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */,
+				DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */,
 				DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */,
 				DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */,
 				DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */,
@@ -2799,6 +2805,8 @@
 				DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */,
 				DDFA994E15F850DE00907311 /* ex1.tmx in Resources */,
 				DDFA994F15F850DE00907311 /* ex2.tmx in Resources */,
+				DD1D970315FDAC5A0012B345 /* mars_dim_dif4_5.tmx in Resources */,
+				DD1D970415FDAC5A0012B345 /* mars_dim_dif4_6.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
