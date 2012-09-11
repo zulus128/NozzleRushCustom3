@@ -50,6 +50,8 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     int framecnt;
     int prevDistToChp;
     int stuck;
+    
+    NSString* direction1;
 }
 
 - (id) initWithType:(int) type;

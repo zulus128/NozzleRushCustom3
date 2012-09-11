@@ -22,6 +22,8 @@
         typ = type;
         self.tag = WEAPON_TAG;
         
+        NSLog(@"Weapon sprite: %@", spr);
+        
         sprite = [CCSprite spriteWithFile:spr];
         sprite.tag = 0;
         [[Common instance].tileMap addChild:sprite z:0];

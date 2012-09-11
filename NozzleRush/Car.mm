@@ -48,7 +48,8 @@
 
         sprite.scale = 0.5f / 2.1f;
         
-        
+        direction1 = @"NE";
+
         
 //        for (int i = 0; i < SPRITES_CNT; i++) {
 //
@@ -237,6 +238,7 @@
     float r = 0;
  
     NSString* direction = @"N";
+    
     
     //    a = 250;
     //////////////////////////////////////////
@@ -479,6 +481,10 @@
         //        mach.angle = 45;
     }      
     
+    
+//    if(typ == CT_ME)
+//    NSLog(@"Direction1: %@", direction);
+
     // Set the proper sprite for a rocket
 //    if (rocket != nil)
 //        if (rocket.sprite.tag == 0) {
@@ -493,6 +499,11 @@
         if(([Common instance].direction.x != 0) || ([Common instance].direction.y != 0) || (typ != CT_ME) || firsttime) {
             
 
+//            if(![direction isEqualToString:@"NIL"])
+                direction1 = direction;
+
+                if(typ == CT_ME)
+                NSLog(@"Direction1: %@", direction1);
             
             for (int i = 0; i < [[Common instance] getDetailCnt:direction]; i++) {
 
@@ -774,8 +785,12 @@
 //                }
 
                 if (rocket == nil) {
+
+                    if(typ == CT_ME)
+                        NSLog(@"Direction2: %@", direction1);
+
                     //                    [rocket release];
-                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Sprite:rocket_sprite];
+                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1];
 //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
                 }
             }
