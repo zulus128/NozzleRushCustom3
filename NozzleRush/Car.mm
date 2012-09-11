@@ -104,31 +104,29 @@
         emitter.emitterMode = kCCParticleModeRadius;
         [[Common instance].tileMap addChild:emitter z:-1];
         
-        mach = [[MachParticleSystem alloc]initWithFile:@"mgun.plist"];
-        
-        //            mach = [[MachParticleSystem particleWithFile:@"machinegun.plist"] retain];
-        mach.positionType = kCCPositionTypeRelative;
-        [[Common instance].tileMap addChild:mach z:0];
-        [mach stopSystem];
+//        mach = [[MachParticleSystem alloc]initWithFile:@"mgun.plist"];
+//        mach.positionType = kCCPositionTypeRelative;
+//        [[Common instance].tileMap addChild:mach z:0];
+//        [mach stopSystem];
 
         expl = [[CCParticleExplosion alloc]initWithFile:@"em_ring_explosion.plist"];
         expl.position = ccp(0,0);
         [[Common instance].tileMap addChild:expl z:-1];
         [expl stopSystem];
 
-        if (typ == CT_ME) {
-
-            
-
-
-//            mach = [[MachParticleSystem particleWithFile:@"mgun.plist"] retain];
-            
-            
-            rocketFlame = [[CCParticleMeteor particleWithFile:@"rocketFlame.plist"] retain];
-            rocketFlame.positionType = kCCPositionTypeRelative;
-            [[Common instance].tileMap addChild:rocketFlame z:0];
-//            [rocketFlame stopSystem];
-        }
+//        if (typ == CT_ME) {
+//
+//            
+//
+//
+////            mach = [[MachParticleSystem particleWithFile:@"mgun.plist"] retain];
+//            
+//            
+////            rocketFlame = [[CCParticleMeteor particleWithFile:@"rocketFlame.plist"] retain];
+////            rocketFlame.positionType = kCCPositionTypeRelative;
+////            [[Common instance].tileMap addChild:rocketFlame z:0];
+//////            [rocketFlame stopSystem];
+//        }
         
     }
     return self;
@@ -138,8 +136,8 @@
 
     [emitter release];
 
-    if (typ == CT_ME)        
-        [mach release];
+//    if (typ == CT_ME)        
+//        [mach release];
     
     [super dealloc];
 }
@@ -166,8 +164,8 @@
     
     emitter.position = [[Common instance] ort2iso:p];
 
-    if (typ == CT_ME)
-        mach.position = [[Common instance] ort2iso:p];
+//    if (typ == CT_ME)
+//        mach.position = [[Common instance] ort2iso:p];
 
 }
 
@@ -753,29 +751,30 @@
         body->SetTransform( body->GetPosition(), desiredAngle );
         
         
-        mach.position = ccpAdd(ep1, machCorr);
+//        mach.position = ccpAdd(ep1, machCorr);
         
         //////////////////////////////////////////
         // - Changed by MSyasko on 28.06.2012 - //
         //////////////////////////////////////////
-        mach.rotation = mach_angle;   ////
-//        mach.angle = mach_angle;    ////
+//        mach.rotation = mach_angle;   ////
+////        mach.angle = mach_angle;    ////
         
         if([Common instance].machinegun != prev_mach) {
             
             if ([Common instance].machinegun) {
                 
-                [mach resetSystem];
+//                [mach resetSystem];
                 
                 b2Vec2 bodyP = self.body->GetPosition();
                 if (rocket == nil) {
                     //                    [rocket release];
                     rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?RT_MYROCKET:RT_STANDARD Sprite:rocket_sprite];
-                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
+//                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
                 }
             }
-            else
-                [mach stopSystem];
+            else {
+//                [mach stopSystem];
+            }
             
         }
         prev_mach = [Common instance].machinegun;

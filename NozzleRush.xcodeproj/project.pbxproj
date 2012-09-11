@@ -356,6 +356,7 @@
 		A4C8F40B159CD7700068F229 /* smokeLine.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4C8F40A159CD7700068F229 /* smokeLine.plist */; };
 		A4C8F40D159CD9B70068F229 /* smoker.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8F40C159CD9B70068F229 /* smoker.png */; };
 		A4C8F40F159CE1E00068F229 /* rocketFlame.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4C8F40E159CE1E00068F229 /* rocketFlame.plist */; };
+		DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */; };
 		DD000369159FDCDF0012E4D2 /* DiskiBokom1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000365159FDCDF0012E4D2 /* DiskiBokom1_1.png */; };
 		DD00036A159FDCDF0012E4D2 /* DiskiBokom1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000366159FDCDF0012E4D2 /* DiskiBokom1_2.png */; };
 		DD00036B159FDCDF0012E4D2 /* DiskiBokom1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000367159FDCDF0012E4D2 /* DiskiBokom1_3.png */; };
@@ -1055,6 +1056,8 @@
 		A4C8F40A159CD7700068F229 /* smokeLine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smokeLine.plist; sourceTree = "<group>"; };
 		A4C8F40C159CD9B70068F229 /* smoker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoker.png; sourceTree = "<group>"; };
 		A4C8F40E159CE1E00068F229 /* rocketFlame.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rocketFlame.plist; sourceTree = "<group>"; };
+		DD0001C515FEF4B600D5DCD8 /* Machinegun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machinegun.h; sourceTree = "<group>"; };
+		DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Machinegun.mm; sourceTree = "<group>"; };
 		DD000365159FDCDF0012E4D2 /* DiskiBokom1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_1.png; sourceTree = "<group>"; };
 		DD000366159FDCDF0012E4D2 /* DiskiBokom1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_2.png; sourceTree = "<group>"; };
 		DD000367159FDCDF0012E4D2 /* DiskiBokom1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_3.png; sourceTree = "<group>"; };
@@ -1382,6 +1385,8 @@
 				36AF39AD154C0466008C3F63 /* HudLayer.mm */,
 				36684B2E156B5D7700AEE7B0 /* Car.h */,
 				36684B2F156B5D7700AEE7B0 /* Car.mm */,
+				DD0001C515FEF4B600D5DCD8 /* Machinegun.h */,
+				DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */,
 				DD0680321597E7A8006D5D67 /* Rocket.h */,
 				DD0680331597E7A8006D5D67 /* Rocket.mm */,
 				3662183A159435E400433AFD /* MachParticleSystem.h */,
@@ -2996,6 +3001,7 @@
 				DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */,
 				DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */,
 				DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */,
+				DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

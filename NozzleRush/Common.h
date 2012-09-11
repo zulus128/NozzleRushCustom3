@@ -78,6 +78,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
     int detail;
     
     NSMutableArray* bonuses;
+    NSDictionary* w_machinegun;
 
 }
 
