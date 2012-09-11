@@ -9,6 +9,7 @@
 #import "cocos2d.h"
 #import "Box2D.h"
 #import "Rocket.h"
+#import "Machinegun.h"
 
 #define hstep 7
 #define hmax 60
@@ -34,7 +35,11 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     CCParticleExplosion* expl;
     float mach_angle;
     BOOL prev_mach;
+    
     Rocket* rocket;
+//    Machinegun* machinegun;
+    
+    
     float rocket_angle;
     NSString* rocket_sprite;
     BOOL firsttime;

@@ -508,6 +508,7 @@
 		DDFAE17015E033A2002DE713 /* moonBack165x95_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE15715E033A2002DE713 /* moonBack165x95_shifted.png */; };
 		DDFAE17115E033A2002DE713 /* razmetka_165x95.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE15815E033A2002DE713 /* razmetka_165x95.png */; };
 		DDFAE17215E033A2002DE713 /* track_objects_222x186.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE15915E033A2002DE713 /* track_objects_222x186.png */; };
+		DDFDB43F15FF32700096D38A /* Weapon.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDFDB43E15FF32700096D38A /* Weapon.mm */; };
 		F2D93A40158F2F7E0060C88E /* Heal.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2D93A3F158F2F7E0060C88E /* Heal.mm */; };
 /* End PBXBuildFile section */
 
@@ -1220,6 +1221,8 @@
 		DDFAE15715E033A2002DE713 /* moonBack165x95_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonBack165x95_shifted.png; sourceTree = "<group>"; };
 		DDFAE15815E033A2002DE713 /* razmetka_165x95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = razmetka_165x95.png; sourceTree = "<group>"; };
 		DDFAE15915E033A2002DE713 /* track_objects_222x186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_objects_222x186.png; sourceTree = "<group>"; };
+		DDFDB43D15FF326F0096D38A /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		DDFDB43E15FF32700096D38A /* Weapon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Weapon.mm; sourceTree = "<group>"; };
 		F2D93A3E158F2F7E0060C88E /* Heal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heal.h; sourceTree = "<group>"; };
 		F2D93A3F158F2F7E0060C88E /* Heal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Heal.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1385,6 +1388,8 @@
 				36AF39AD154C0466008C3F63 /* HudLayer.mm */,
 				36684B2E156B5D7700AEE7B0 /* Car.h */,
 				36684B2F156B5D7700AEE7B0 /* Car.mm */,
+				DDFDB43D15FF326F0096D38A /* Weapon.h */,
+				DDFDB43E15FF32700096D38A /* Weapon.mm */,
 				DD0001C515FEF4B600D5DCD8 /* Machinegun.h */,
 				DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */,
 				DD0680321597E7A8006D5D67 /* Rocket.h */,
@@ -3002,6 +3007,7 @@
 				DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */,
 				DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */,
 				DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */,
+				DDFDB43F15FF32700096D38A /* Weapon.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

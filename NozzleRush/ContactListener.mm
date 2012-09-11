@@ -23,9 +23,10 @@ void ContactListener::BeginContact(b2Contact *contact) {
         
         
 if(actor2 != nil)
-    if (actor2.tag == ROCKET_TAG) {
+//    if (actor2.tag == ROCKET_TAG) {
+    if (actor2.tag == WEAPON_TAG) {
     
-        NSLog(@"Rocket Contact!");
+        NSLog(@"Weapon Contact!");
         ((Rocket*)actor2).died = YES;
     }
         

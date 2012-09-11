@@ -766,9 +766,16 @@
 //                [mach resetSystem];
                 
                 b2Vec2 bodyP = self.body->GetPosition();
+                
+//                if (machinegun == nil) {
+//                    //                    [rocket release];
+//                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?MT_MYMACHINEGUN:MT_STANDARD Sprite:nil];
+//                    //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
+//                }
+
                 if (rocket == nil) {
                     //                    [rocket release];
-                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?RT_MYROCKET:RT_STANDARD Sprite:rocket_sprite];
+                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Sprite:rocket_sprite];
 //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
                 }
             }

@@ -35,9 +35,10 @@
 #define HEAL_TAG 3002
 #define WALL_TAG 3003
 
-//#define ME_TAG 2000
-#define CAR_TAG 2000
-#define ROCKET_TAG 2001
+#define CAR_TAG 1990
+#define WEAPON_TAG 2000
+//#define ROCKET_TAG 2001
+#define MACHINEGUN_TAG 2002
 
 #define SECONDS_TILL_BONUS 3.0f
 
