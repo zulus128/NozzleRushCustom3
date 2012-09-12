@@ -8,7 +8,8 @@
 
 #import "cocos2d.h"
 #import "Box2D.h"
-#import "Car.h"
+
+@class Car;
 
 enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
 
@@ -28,6 +29,8 @@ enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
 
 - (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file Car:(Car*)car;
 - (void) update;
+- (void) stop;
+- (void) start;
 
 @property (nonatomic) b2Body *body;
 @property (nonatomic, retain) CCSprite* sprite;

@@ -14,6 +14,6 @@
     
 }
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir;
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir Car:(Car*)car;
 
 @end

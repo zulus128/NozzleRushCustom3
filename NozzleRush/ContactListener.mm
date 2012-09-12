@@ -27,7 +27,9 @@ if(actor2 != nil)
     if (actor2.tag == WEAPON_TAG) {
     
         NSLog(@"Weapon Contact!");
-        ((Rocket*)actor2).died = YES;
+//        ((Rocket*)actor2).died = YES;
+        [((Weapon*)actor2) stop];
+
     }
         
         

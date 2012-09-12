@@ -11,11 +11,11 @@
 
 @implementation Rocket
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir {
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir Car:(Car*)car {
    
     NSString* spr = [NSString stringWithFormat:@"spearthrower_bullet_%@.png", dir];
     
-    if((self = [super initWithX:x Y:y Angle:a Type:type Sprite:spr File:[Common instance].w_spearthrower])) {
+    if((self = [super initWithX:x Y:y Angle:a Type:type Sprite:spr File:[Common instance].w_spearthrower Car:car])) {
         
     }
     return self;

@@ -37,7 +37,7 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     BOOL prev_mach;
     
     Rocket* rocket;
-//    Machinegun* machinegun;
+    Machinegun* machinegun;
     
     
     float rocket_angle;

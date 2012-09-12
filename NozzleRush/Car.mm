@@ -187,18 +187,19 @@
         //        NSLog(@"vel = %f", rocket.body->GetLinearVelocity().Normalize());
         
 //        if ((rocket.body->GetLinearVelocity().Normalize() < 0.4) || rocket.died) {
-//            
-//            //            [rocket release];
-//            [[Common instance] markObjectForDelete:rocket];
-//            
-//            expl.position = rocket.sprite.position;
-//
-//            rocket = nil;
-//            
+        if (rocket.died) {
+            
+            //            [rocket release];
+            [[Common instance] markObjectForDelete:rocket];
+            
+            expl.position = rocket.sprite.position;
+
+            rocket = nil;
+            
 //            [expl resetSystem];
-//        }
-//        
-////        rocketFlame.position = rocket.position;
+        }
+        
+//        rocketFlame.position = rocket.position;
         
     }
     
@@ -778,11 +779,16 @@
                 
                 b2Vec2 bodyP = self.body->GetPosition();
                 
-//                if (machinegun == nil) {
-//                    //                    [rocket release];
-//                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?MT_MYMACHINEGUN:MT_STANDARD Sprite:nil];
-//                    //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
-//                }
+                if (machinegun == nil) {
+                    //                    [rocket release];
+                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
+                    //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
+                }
+                else {
+                    
+                    [machinegun release];
+                    machinegun = nil;
+                }
 
                 if (rocket == nil) {
 
@@ -790,7 +796,7 @@
                         NSLog(@"Direction2: %@", direction1);
 
                     //                    [rocket release];
-                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1];
+                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
 //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
                 }
             }

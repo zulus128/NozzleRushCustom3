@@ -9,6 +9,7 @@
 #import "Weapon.h"
 
 #import "Common.h"
+#import "Car.h"
 
 @implementation Weapon
 
@@ -22,8 +23,9 @@
         typ = type;
         self.tag = WEAPON_TAG;
         parent = car;
+        sprite = nil;
         
-        if(sprite != nil) {
+        if(spr != nil) {
             
             NSLog(@"Weapon sprite: %@", spr);
             
@@ -94,14 +96,17 @@
         double shotssec = [[file valueForKey:@"shots_in_sec"] doubleValue];
         delay = 1 / shotssec;
         finite = [[file objectForKey:@"type"] isEqualToString:@"finite"];
-        waytime = [[file objectForKey:@"bullet_speed"] isEqualToString:@"inf"]?5.0f:0.0f;
+        waytime = [[file objectForKey:@"bullet_speed"] isEqualToString:@"inf"]?0.0f:5.0f;
         [self start];
 
     }
+    
     return self;
 }
 
 - (void) start {
+    
+    NSLog(@"Weapon start");
     
     if(shot_effect != nil) {
         
@@ -117,11 +122,21 @@
 
 - (void) stop {
     
+    NSLog(@"Weapon stop");
+    
+    if(hit_effect != nil) {
+        
+        hit_effect.position = [parent getGroundPosition];
+        [hit_effect resetSystem];
+    }
+    
     if(sprite != nil) {
         
-        [[Common instance].tileMap removeChild:sprite cleanup:YES];
-        [Common instance].world->DestroyBody( self.body );
-        self.body = nil;
+        self.died = YES;
+        
+//        [[Common instance].tileMap removeChild:sprite cleanup:YES];
+//        [Common instance].world->DestroyBody( self.body );
+//        self.body = nil;
     }
     
     [self.timer invalidate];
@@ -134,9 +149,15 @@
 
 -(void) dealloc {
     
-//    [[Common instance].tileMap removeChild:sprite cleanup:YES];
-//    [Common instance].world->DestroyBody( self.body );
-//    self.body = nil;
+    if (self.timer != nil) {
+        
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+    
+    [[Common instance].tileMap removeChild:sprite cleanup:YES];
+    [Common instance].world->DestroyBody( self.body );
+    self.body = nil;
     
     NSLog(@"Weapon dealloc");
     
