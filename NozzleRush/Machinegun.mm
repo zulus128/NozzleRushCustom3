@@ -11,14 +11,9 @@
 
 @implementation Machinegun
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr {
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir {
     
-    if((self = [super init])) {
-        
-        typ = type;
-        //        angle = a;
-        self.tag = MACHINEGUN_TAG;
-        
+    if((self = [super initWithX:x Y:y Angle:a Type:type Sprite:nil File:[Common instance].w_machinegun])) {
         
     }
     return self;
@@ -33,6 +28,7 @@
 
 - (void) update {
     
+    [super update];
 }
 
 @end

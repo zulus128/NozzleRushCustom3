@@ -389,6 +389,11 @@
         
         
         bonuses = [[NSMutableArray alloc] init];
+        
+        NSString *mach_file = [[NSBundle mainBundle] pathForResource:@"w_machinegun" ofType:@"plist"];
+        self.w_machinegun = [[NSDictionary alloc] initWithContentsOfFile:mach_file];
+        NSString *spear_file = [[NSBundle mainBundle] pathForResource:@"w_spearthrower" ofType:@"plist"];
+        self.w_spearthrower = [[NSDictionary alloc] initWithContentsOfFile:spear_file];
     }
 	return self;	
 }

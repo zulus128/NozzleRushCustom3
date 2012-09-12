@@ -32,7 +32,6 @@
 
 - (void) hide: (Car*) car {
     
-    
     NSLog(@"GunPowerBonus hide");
     
     [self.timer invalidate];
@@ -64,7 +63,6 @@
 }
 
 -(void) dealloc {
-    
     
     [super dealloc];
 }

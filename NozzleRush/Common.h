@@ -18,29 +18,26 @@
 //Box2D is optimized for objects of 1x1 metre therefore it makes sense
 //to define the ratio so that your most common object type is 1x1 metre.
 #define PTM_RATIO 32
-
 #define MAX_CHECKPOINTS 50
 #define MAX_BONUSES 50
-
 #define CHP_NAME @"Checkpoint"
 #define BNS_NAME @"SpawnObject"
 #define TRP_NAME @"Tramplin"
 #define OIL_NAME @"oilSpot"
 #define HEAL_NAME @"healingPoint"
-
 #define LAPS_CNT 1
-
 #define TRAMPLIN_TAG 3000
 #define OILSPOT_TAG 3001
 #define HEAL_TAG 3002
 #define WALL_TAG 3003
-
 #define CAR_TAG 1990
 #define WEAPON_TAG 2000
 //#define ROCKET_TAG 2001
-#define MACHINEGUN_TAG 2002
+//#define MACHINEGUN_TAG 2002
 
 #define SECONDS_TILL_BONUS 3.0f
+
+#define NONE_STRING @"none"
 
 enum game_type { GT_RACE, GT_FREERIDE };
 
@@ -79,7 +76,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
     int detail;
     
     NSMutableArray* bonuses;
-    NSDictionary* w_machinegun;
+
 
 }
 
@@ -133,5 +130,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
 @property (assign, readwrite) int camera;
 
 @property (nonatomic, retain) Car* me;
+
+@property (nonatomic, retain) NSDictionary* w_machinegun;
+@property (nonatomic, retain) NSDictionary* w_spearthrower;
 
 @end

@@ -7,17 +7,17 @@
 //
 
 //#import <Foundation/Foundation.h>
-#import "cocos2d.h"
-#import "Box2D.h"
+//#import "cocos2d.h"
+//#import "Box2D.h"
 
-enum Machinegun_Type { MT_STANDARD, MT_MYMACHINEGUN };
+#import "Weapon.h"
 
-@interface Machinegun : CCNode {
+//enum Machinegun_Type { MT_STANDARD, MT_MYMACHINEGUN };
+
+@interface Machinegun : Weapon {
     
-    int typ;
 }
 
-- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr;
-- (void) update;
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Direction:(NSString*)dir;
 
 @end

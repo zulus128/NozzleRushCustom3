@@ -16,13 +16,17 @@ enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
     int typ;
     b2BodyDef bodyDef;
     CCSprite* sprite;
+    CCParticleSystem *shot_effect;
+    CCParticleSystem *hit_effect;
+    
 }
 
-- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr;
+- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file;
 - (void) update;
 
 @property (nonatomic) b2Body *body;
 @property (nonatomic, retain) CCSprite* sprite;
 @property (assign, readwrite) BOOL died;
+@property (nonatomic, retain) NSTimer* timer;
 
 @end

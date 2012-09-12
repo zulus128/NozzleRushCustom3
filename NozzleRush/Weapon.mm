@@ -15,7 +15,7 @@
 @synthesize body, sprite;
 @synthesize died;
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr {
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file {
     
     if((self = [super init])) {
         
@@ -64,8 +64,45 @@
         body->ApplyLinearImpulse(fforce1, body->GetPosition());
         
         sprite.rotation = -1 * CC_RADIANS_TO_DEGREES(self.body->GetAngle());
+        
+        NSString* shot = [file objectForKey:@"shot_particle_effect"];
+        if(![shot isEqualToString:NONE_STRING]) {
+            
+            shot_effect = [[CCParticleExplosion alloc]initWithFile:shot];
+            shot_effect.position = ccp(0,0);
+            [[Common instance].tileMap addChild:shot_effect z:1];
+            [shot_effect stopSystem];
+        }
+        else
+            shot_effect = nil;
+
+        NSString* hit = [file objectForKey:@"hit_particle_effect"];
+        if(![hit isEqualToString:NONE_STRING]) {
+            
+            hit_effect = [[CCParticleExplosion alloc]initWithFile:hit];
+            hit_effect.position = ccp(0,0);
+            [[Common instance].tileMap addChild:hit_effect z:1];
+            [hit_effect stopSystem];
+        }
+        else
+            hit_effect = nil;
+        
+        [self.timer invalidate];
+        self.timer = nil;
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:5.0f target:self selector:@selector(timerSel) userInfo:nil repeats:NO];
+        
     }
     return self;
+}
+
+- (void) start {
+    
+    [self.timer invalidate];
+    self.timer = nil;
+    
+    //    [[[Common instance].tileMap layerNamed:@"TrackObjectsLayer"] setTileGID:43/*36*/ at:ccp(51,74)];
+    //    [self show];
+    
 }
 
 -(void) dealloc {
