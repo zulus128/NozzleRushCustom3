@@ -79,5 +79,6 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
 @property (assign, readwrite) int distToChp;
 @property (assign, readwrite) float life;
 @property (assign, readwrite) float speedKoeff;
+//@property (nonatomic, retain) CCSprite* sprite;
 
 @end

@@ -15,55 +15,59 @@
 @synthesize body, sprite;
 @synthesize died;
 
-- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file {
+- (id) initWithX: (int) x  Y:(int) y  Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file Car:(Car*)car {
     
     if((self = [super init])) {
         
         typ = type;
         self.tag = WEAPON_TAG;
+        parent = car;
         
-        NSLog(@"Weapon sprite: %@", spr);
-        
-        sprite = [CCSprite spriteWithFile:spr];
-        sprite.tag = 0;
-        [[Common instance].tileMap addChild:sprite z:0];
-        
-        bodyDef.type = b2_dynamicBody;
-        
-        self.body = [Common instance].world->CreateBody(&bodyDef);
-        self.body->SetLinearDamping(1.0f);
-        self.body->SetUserData(self);
-        
-        // Define another box shape for our dynamic body.
-        b2PolygonShape dynamicBox;
-        dynamicBox.SetAsBox(0.5f, 0.5f);
-        
-        // Define the dynamic body fixture.
-        b2FixtureDef fixtureDef;
-        fixtureDef.shape = &dynamicBox;
-        fixtureDef.density = 0.02f;
-        
-        if (typ == WT_MYWEAPON) {
+        if(sprite != nil) {
             
-            fixtureDef.filter.groupIndex = -1;
+            NSLog(@"Weapon sprite: %@", spr);
+            
+            sprite = [CCSprite spriteWithFile:spr];
+            sprite.tag = 0;
+            [[Common instance].tileMap addChild:sprite z:0];
+            
+            bodyDef.type = b2_dynamicBody;
+            
+            self.body = [Common instance].world->CreateBody(&bodyDef);
+            self.body->SetLinearDamping(1.0f);
+            self.body->SetUserData(self);
+            
+            // Define another box shape for our dynamic body.
+            b2PolygonShape dynamicBox;
+            dynamicBox.SetAsBox(0.5f, 0.5f);
+            
+            // Define the dynamic body fixture.
+            b2FixtureDef fixtureDef;
+            fixtureDef.shape = &dynamicBox;
+            fixtureDef.density = 0.02f;
+            
+            if (typ == WT_MYWEAPON) {
+                
+                fixtureDef.filter.groupIndex = -1;
+            }
+            
+            self.body->CreateFixture(&fixtureDef);
+            
+            self.body->SetTransform( b2Vec2(x, y), 0 );
+            
+            CGPoint f = ccpMult(/*[Common instance].direction*/ccp(-1,0), 1.0f);
+            
+            float aa = CC_DEGREES_TO_RADIANS(a);
+            
+            float32 x2 = f.x * cos(aa) - (-f.y) * sin(aa);
+            float32 y2 = (-f.y) * cos(aa) + f.x * sin(aa);
+            
+            b2Vec2 fforce1 = b2Vec2(x2, y2);
+            fforce1.Normalize();
+            body->ApplyLinearImpulse(fforce1, body->GetPosition());
+            
+            sprite.rotation = -1 * CC_RADIANS_TO_DEGREES(self.body->GetAngle());
         }
-        
-        self.body->CreateFixture(&fixtureDef);
-        
-        self.body->SetTransform( b2Vec2(x, y), 0 );
-        
-        CGPoint f = ccpMult(/*[Common instance].direction*/ccp(-1,0), 1.0f);
-        
-        float aa = CC_DEGREES_TO_RADIANS(a);
-        
-        float32 x2 = f.x * cos(aa) - (-f.y) * sin(aa);
-        float32 y2 = (-f.y) * cos(aa) + f.x * sin(aa);
-        
-        b2Vec2 fforce1 = b2Vec2(x2, y2);
-        fforce1.Normalize();
-        body->ApplyLinearImpulse(fforce1, body->GetPosition());
-        
-        sprite.rotation = -1 * CC_RADIANS_TO_DEGREES(self.body->GetAngle());
         
         NSString* shot = [file objectForKey:@"shot_particle_effect"];
         if(![shot isEqualToString:NONE_STRING]) {
@@ -87,29 +91,52 @@
         else
             hit_effect = nil;
         
-        [self.timer invalidate];
-        self.timer = nil;
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:5.0f target:self selector:@selector(timerSel) userInfo:nil repeats:NO];
-        
+        double shotssec = [[file valueForKey:@"shots_in_sec"] doubleValue];
+        delay = 1 / shotssec;
+        finite = [[file objectForKey:@"type"] isEqualToString:@"finite"];
+        waytime = [[file objectForKey:@"bullet_speed"] isEqualToString:@"inf"]?5.0f:0.0f;
+        [self start];
+
     }
     return self;
 }
 
 - (void) start {
     
+    if(shot_effect != nil) {
+        
+        shot_effect.position = [parent getGroundPosition];
+        [shot_effect resetSystem];
+    }
+    
     [self.timer invalidate];
     self.timer = nil;
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:waytime target:self selector:@selector(stop) userInfo:nil repeats:NO];
     
-    //    [[[Common instance].tileMap layerNamed:@"TrackObjectsLayer"] setTileGID:43/*36*/ at:ccp(51,74)];
-    //    [self show];
+}
+
+- (void) stop {
+    
+    if(sprite != nil) {
+        
+        [[Common instance].tileMap removeChild:sprite cleanup:YES];
+        [Common instance].world->DestroyBody( self.body );
+        self.body = nil;
+    }
+    
+    [self.timer invalidate];
+    self.timer = nil;
+    if(!finite)
+//        [self start];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:delay target:self selector:@selector(start) userInfo:nil repeats:NO];
     
 }
 
 -(void) dealloc {
     
-    [[Common instance].tileMap removeChild:sprite cleanup:YES];
-    [Common instance].world->DestroyBody( self.body );
-    self.body = nil;
+//    [[Common instance].tileMap removeChild:sprite cleanup:YES];
+//    [Common instance].world->DestroyBody( self.body );
+//    self.body = nil;
     
     NSLog(@"Weapon dealloc");
     

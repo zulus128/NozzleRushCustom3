@@ -8,6 +8,7 @@
 
 #import "cocos2d.h"
 #import "Box2D.h"
+#import "Car.h"
 
 enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
 
@@ -18,10 +19,14 @@ enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
     CCSprite* sprite;
     CCParticleSystem *shot_effect;
     CCParticleSystem *hit_effect;
+    double delay;
+    double waytime;
+    BOOL finite;
+    Car* parent;
     
 }
 
-- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file;
+- (id) initWithX: (int) x  Y:(int) y Angle:(float) a Type:(int) type Sprite:(NSString*)spr File:(NSDictionary*)file Car:(Car*)car;
 - (void) update;
 
 @property (nonatomic) b2Body *body;

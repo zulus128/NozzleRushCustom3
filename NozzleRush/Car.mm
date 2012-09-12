@@ -186,19 +186,19 @@
         
         //        NSLog(@"vel = %f", rocket.body->GetLinearVelocity().Normalize());
         
-        if ((rocket.body->GetLinearVelocity().Normalize() < 0.4) || rocket.died) {
-            
-            //            [rocket release];
-            [[Common instance] markObjectForDelete:rocket];
-            
-            expl.position = rocket.sprite.position;
-
-            rocket = nil;
-            
-            [expl resetSystem];
-        }
-        
-//        rocketFlame.position = rocket.position;
+//        if ((rocket.body->GetLinearVelocity().Normalize() < 0.4) || rocket.died) {
+//            
+//            //            [rocket release];
+//            [[Common instance] markObjectForDelete:rocket];
+//            
+//            expl.position = rocket.sprite.position;
+//
+//            rocket = nil;
+//            
+//            [expl resetSystem];
+//        }
+//        
+////        rocketFlame.position = rocket.position;
         
     }
     
