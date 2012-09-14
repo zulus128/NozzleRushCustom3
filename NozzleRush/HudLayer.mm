@@ -212,6 +212,8 @@
     
     if((fabs(location.x - jWeaponX) < 50) && (fabs(location.y - jWeaponY) < 50)) {
         [Common instance].machinegun = YES;
+//        NSLog(@"[Common instance].machinegun = YES;");
+
 //        NSLog(@"touch began x = %f, y = %f", location.x, location.y);
     }
     
@@ -267,6 +269,7 @@
     if([Common instance].machinegun) {
     
         [Common instance].machinegun = NO;
+//        NSLog(@"[Common instance].machinegun = NO;");
         return;
     }
     

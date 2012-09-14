@@ -106,7 +106,7 @@
 
 - (void) start {
     
-    NSLog(@"Weapon start");
+//    NSLog(@"Weapon start");
     
     if(shot_effect != nil) {
         
@@ -122,7 +122,7 @@
 
 - (void) stop {
     
-    NSLog(@"Weapon stop");
+//    NSLog(@"Weapon stop");
     
     if(hit_effect != nil) {
         
@@ -149,17 +149,36 @@
 
 -(void) dealloc {
     
+    NSLog(@"Weapon dealloc");
+
     if (self.timer != nil) {
         
         [self.timer invalidate];
         self.timer = nil;
     }
     
-    [[Common instance].tileMap removeChild:sprite cleanup:YES];
-    [Common instance].world->DestroyBody( self.body );
-    self.body = nil;
+    if(shot_effect != nil) {
+        
+        [shot_effect stopSystem];
+        [shot_effect release];
+        shot_effect = nil;
     
-    NSLog(@"Weapon dealloc");
+    }
+    
+    if(hit_effect != nil) {
+        
+        [hit_effect stopSystem];
+        [hit_effect release];
+        hit_effect = nil;
+        
+    }
+    
+    if(sprite != nil) {
+    
+        [[Common instance].tileMap removeChild:sprite cleanup:YES];
+        [Common instance].world->DestroyBody( self.body );
+        self.body = nil;
+    }
     
     [super dealloc];
 }
