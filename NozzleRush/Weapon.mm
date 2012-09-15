@@ -10,6 +10,7 @@
 
 #import "Common.h"
 #import "Car.h"
+#import "RaysCastCallback.h"
 
 @implementation Weapon
 
@@ -24,6 +25,7 @@
         self.tag = WEAPON_TAG;
         parent = car;
         sprite = nil;
+        ang = a;
         
         if(spr != nil) {
             
@@ -126,7 +128,7 @@
     
     if(hit_effect != nil) {
         
-        hit_effect.position = [parent getGroundPosition];
+        hit_effect.position = [self getRayCastForAngle];
         [hit_effect resetSystem];
     }
     
@@ -148,8 +150,16 @@
 }
 
 -(void) dealloc {
-    
+
     NSLog(@"Weapon dealloc");
+    [self clear];
+    
+    [super dealloc];
+
+}
+
+-(void) clear {
+    
 
     if (self.timer != nil) {
         
@@ -180,18 +190,40 @@
         self.body = nil;
     }
     
-    [super dealloc];
 }
 
 - (void) update {
     
-    CGPoint ep = ccp(body->GetPosition().x * PTM_RATIO,
-                     body->GetPosition().y * PTM_RATIO);
+    if(sprite != nil) {
+        
+        CGPoint ep = ccp(body->GetPosition().x * PTM_RATIO,
+                         body->GetPosition().y * PTM_RATIO);
+        CGPoint ep1 = [[Common instance] ort2iso:ep];
+        sprite.position = ep1;
+    }
     
-    CGPoint ep1 = [[Common instance] ort2iso:ep];
+}
+
+- (CGPoint) getRayCastForAngle {
     
-    sprite.position = ep1;
+    RaysCastCallback callback;
+    b2Vec2 f2 = b2Vec2(cos(CC_DEGREES_TO_RADIANS(ang)), sin(CC_DEGREES_TO_RADIANS(ang)));
+
+    b2Vec2 tar = f2;
+    tar.Normalize();
+    tar *= 1000;
+    tar = parent.body->GetPosition() + tar;
+    [Common instance].world->RayCast(&callback, parent.body->GetPosition(), tar);
+    if (callback.m_fixture) {
+
+        CGPoint ep = ccp(callback.m_point.x * PTM_RATIO,
+                         callback.m_point.y * PTM_RATIO);
+        CGPoint ep1 = [[Common instance] ort2iso:ep];
+        return ep1;
+    }
+        
     
+    return ccp(-10000, -10000);
 }
 
 @end

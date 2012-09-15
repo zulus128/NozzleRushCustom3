@@ -24,6 +24,7 @@ enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
     double waytime;
     BOOL finite;
     Car* parent;
+    float ang;
     
 }
 
@@ -31,6 +32,7 @@ enum Weapon_Type { WT_STANDARD, WT_MYWEAPON };
 - (void) update;
 - (void) stop;
 - (void) start;
+- (void) clear;
 
 @property (nonatomic) b2Body *body;
 @property (nonatomic, retain) CCSprite* sprite;

@@ -112,7 +112,8 @@
 //        [[Common instance].tileMap addChild:mach z:0];
 //        [mach stopSystem];
 
-        expl = [[CCParticleExplosion alloc]initWithFile:@"em_ring_explosion.plist"];
+//        expl = [[CCParticleExplosion alloc]initWithFile:@"em_ring_explosion.plist"];
+        expl = [[CCParticleExplosion alloc]initWithFile:@"rocketFlame.plist"];
         expl.position = ccp(0,0);
         [[Common instance].tileMap addChild:expl z:-1];
         [expl stopSystem];
@@ -194,7 +195,7 @@
             //            [rocket release];
             [[Common instance] markObjectForDelete:rocket];
             
-            expl.position = rocket.sprite.position;
+//            expl.position = rocket.sprite.position;
 
             rocket = nil;
             
@@ -784,7 +785,7 @@
 //                if (machinegun == nil) {
 
                     //                    [rocket release];
-                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
+                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:(rocket_angle + 180) Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
                     
 //                    NSLog(@"MACH ON cnt = %d", [machinegun retainCount]);
 
@@ -823,7 +824,8 @@
 //                if (machinegun != nil) {
                 
 //                    [machinegun release];
-                    [[Common instance] markObjectForDelete:machinegun];
+                [machinegun clear];
+                [[Common instance] markObjectForDelete:machinegun];
 //                    NSLog(@"MACH OFF1 cnt = %d", [machinegun retainCount]);
 //                    machinegun = nil;
 //                }
@@ -916,7 +918,10 @@
     float l = 1000;
     bonus = 0;
     RaysCastCallback callback;
+
+
     b2Vec2 f2 = b2Vec2(cos(CC_DEGREES_TO_RADIANS(ang)), sin(CC_DEGREES_TO_RADIANS(ang)));
+//    NSLog(@"Car ang = %f, cos = %f", ang, f2.x);
     tar = f2;
     tar.Normalize();
     tar *= len;
