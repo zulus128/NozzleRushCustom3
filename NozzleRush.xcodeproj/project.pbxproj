@@ -312,6 +312,19 @@
 		9C9B1B311609CB3E004A1EAC /* Zel_mars8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0D1609CB3E004A1EAC /* Zel_mars8.tmx */; };
 		9C9B1B321609CB3E004A1EAC /* Zel_mars9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0E1609CB3E004A1EAC /* Zel_mars9.tmx */; };
 		9C9B1B331609CB3E004A1EAC /* Zel_mars10.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0F1609CB3E004A1EAC /* Zel_mars10.tmx */; };
+		9CB221C11609E4A40029494A /* test_1 -back.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B41609E4A40029494A /* test_1 -back.tmx */; };
+		9CB221C21609E4A40029494A /* test_2 - front.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B51609E4A40029494A /* test_2 - front.tmx */; };
+		9CB221C31609E4A40029494A /* test_3 - all back.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B61609E4A40029494A /* test_3 - all back.tmx */; };
+		9CB221C41609E4A40029494A /* test_4.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B71609E4A40029494A /* test_4.tmx */; };
+		9CB221C51609E4A40029494A /* Zel_mars1 - копия (3).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B81609E4A40029494A /* Zel_mars1 - копия (3).tmx */; };
+		9CB221C61609E4A40029494A /* Zel_mars1 - копия (4).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221B91609E4A40029494A /* Zel_mars1 - копия (4).tmx */; };
+		9CB221C71609E4A40029494A /* Zel_mars1 - копия (5).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BA1609E4A40029494A /* Zel_mars1 - копия (5).tmx */; };
+		9CB221C81609E4A40029494A /* Zel_mars1 - копия (6).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BB1609E4A40029494A /* Zel_mars1 - копия (6).tmx */; };
+		9CB221C91609E4A40029494A /* Zel_mars1 - копия (7).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BC1609E4A40029494A /* Zel_mars1 - копия (7).tmx */; };
+		9CB221CA1609E4A40029494A /* Zel_mars1 - копия (8).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BD1609E4A40029494A /* Zel_mars1 - копия (8).tmx */; };
+		9CB221CB1609E4A40029494A /* Zel_mars1 - копия (9).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BE1609E4A40029494A /* Zel_mars1 - копия (9).tmx */; };
+		9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */; };
+		9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */; };
 		A41448711597125C0079040F /* secondFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A414485F1597125C0079040F /* secondFireField.png */; };
 		A41448721597125C0079040F /* firstFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448601597125C0079040F /* firstFireField.png */; };
 		A41448731597125C0079040F /* pauseBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448611597125C0079040F /* pauseBack.png */; };
@@ -1024,6 +1037,19 @@
 		9C9B1B0D1609CB3E004A1EAC /* Zel_mars8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars8.tmx; sourceTree = "<group>"; };
 		9C9B1B0E1609CB3E004A1EAC /* Zel_mars9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars9.tmx; sourceTree = "<group>"; };
 		9C9B1B0F1609CB3E004A1EAC /* Zel_mars10.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars10.tmx; sourceTree = "<group>"; };
+		9CB221B41609E4A40029494A /* test_1 -back.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "test_1 -back.tmx"; sourceTree = "<group>"; };
+		9CB221B51609E4A40029494A /* test_2 - front.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "test_2 - front.tmx"; sourceTree = "<group>"; };
+		9CB221B61609E4A40029494A /* test_3 - all back.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "test_3 - all back.tmx"; sourceTree = "<group>"; };
+		9CB221B71609E4A40029494A /* test_4.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test_4.tmx; sourceTree = "<group>"; };
+		9CB221B81609E4A40029494A /* Zel_mars1 - копия (3).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (3).tmx"; sourceTree = "<group>"; };
+		9CB221B91609E4A40029494A /* Zel_mars1 - копия (4).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (4).tmx"; sourceTree = "<group>"; };
+		9CB221BA1609E4A40029494A /* Zel_mars1 - копия (5).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (5).tmx"; sourceTree = "<group>"; };
+		9CB221BB1609E4A40029494A /* Zel_mars1 - копия (6).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (6).tmx"; sourceTree = "<group>"; };
+		9CB221BC1609E4A40029494A /* Zel_mars1 - копия (7).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (7).tmx"; sourceTree = "<group>"; };
+		9CB221BD1609E4A40029494A /* Zel_mars1 - копия (8).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (8).tmx"; sourceTree = "<group>"; };
+		9CB221BE1609E4A40029494A /* Zel_mars1 - копия (9).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (9).tmx"; sourceTree = "<group>"; };
+		9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (10).tmx"; sourceTree = "<group>"; };
+		9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия.tmx"; sourceTree = "<group>"; };
 		A414485F1597125C0079040F /* secondFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondFireField.png; sourceTree = "<group>"; };
 		A41448601597125C0079040F /* firstFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstFireField.png; sourceTree = "<group>"; };
 		A41448611597125C0079040F /* pauseBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseBack.png; sourceTree = "<group>"; };
@@ -2272,6 +2298,19 @@
 		DD03C6D115F71A6800ED2C50 /* Mars */ = {
 			isa = PBXGroup;
 			children = (
+				9CB221B41609E4A40029494A /* test_1 -back.tmx */,
+				9CB221B51609E4A40029494A /* test_2 - front.tmx */,
+				9CB221B61609E4A40029494A /* test_3 - all back.tmx */,
+				9CB221B71609E4A40029494A /* test_4.tmx */,
+				9CB221B81609E4A40029494A /* Zel_mars1 - копия (3).tmx */,
+				9CB221B91609E4A40029494A /* Zel_mars1 - копия (4).tmx */,
+				9CB221BA1609E4A40029494A /* Zel_mars1 - копия (5).tmx */,
+				9CB221BB1609E4A40029494A /* Zel_mars1 - копия (6).tmx */,
+				9CB221BC1609E4A40029494A /* Zel_mars1 - копия (7).tmx */,
+				9CB221BD1609E4A40029494A /* Zel_mars1 - копия (8).tmx */,
+				9CB221BE1609E4A40029494A /* Zel_mars1 - копия (9).tmx */,
+				9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */,
+				9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */,
 				9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */,
 				9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */,
 				9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */,
@@ -2877,6 +2916,19 @@
 				9C9B1B311609CB3E004A1EAC /* Zel_mars8.tmx in Resources */,
 				9C9B1B321609CB3E004A1EAC /* Zel_mars9.tmx in Resources */,
 				9C9B1B331609CB3E004A1EAC /* Zel_mars10.tmx in Resources */,
+				9CB221C11609E4A40029494A /* test_1 -back.tmx in Resources */,
+				9CB221C21609E4A40029494A /* test_2 - front.tmx in Resources */,
+				9CB221C31609E4A40029494A /* test_3 - all back.tmx in Resources */,
+				9CB221C41609E4A40029494A /* test_4.tmx in Resources */,
+				9CB221C51609E4A40029494A /* Zel_mars1 - копия (3).tmx in Resources */,
+				9CB221C61609E4A40029494A /* Zel_mars1 - копия (4).tmx in Resources */,
+				9CB221C71609E4A40029494A /* Zel_mars1 - копия (5).tmx in Resources */,
+				9CB221C81609E4A40029494A /* Zel_mars1 - копия (6).tmx in Resources */,
+				9CB221C91609E4A40029494A /* Zel_mars1 - копия (7).tmx in Resources */,
+				9CB221CA1609E4A40029494A /* Zel_mars1 - копия (8).tmx in Resources */,
+				9CB221CB1609E4A40029494A /* Zel_mars1 - копия (9).tmx in Resources */,
+				9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */,
+				9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
