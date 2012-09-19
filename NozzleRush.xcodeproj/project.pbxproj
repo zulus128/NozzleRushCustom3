@@ -276,6 +276,42 @@
 		36EE27C215ABF94B00880A63 /* wheels_W_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276A15ABF94B00880A63 /* wheels_W_3.png */; };
 		36EE27C315ABF94B00880A63 /* wheels_W_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276B15ABF94B00880A63 /* wheels_W_4.png */; };
 		36F845B5157764D50000C838 /* MenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F845B4157764D50000C838 /* MenuScene.mm */; };
+		9C9B1B101609CB3E004A1EAC /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */; };
+		9C9B1B111609CB3E004A1EAC /* Clone 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */; };
+		9C9B1B121609CB3E004A1EAC /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */; };
+		9C9B1B131609CB3E004A1EAC /* ex1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEF1609CB3E004A1EAC /* ex1.tmx */; };
+		9C9B1B141609CB3E004A1EAC /* ex2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF01609CB3E004A1EAC /* ex2.tmx */; };
+		9C9B1B151609CB3E004A1EAC /* light_1_985_534.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF11609CB3E004A1EAC /* light_1_985_534.png */; };
+		9C9B1B161609CB3E004A1EAC /* mars_back_fin_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF21609CB3E004A1EAC /* mars_back_fin_shifted.png */; };
+		9C9B1B171609CB3E004A1EAC /* mars_back_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF31609CB3E004A1EAC /* mars_back_fin.png */; };
+		9C9B1B181609CB3E004A1EAC /* mars_cameras_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF41609CB3E004A1EAC /* mars_cameras_329x346.png */; };
+		9C9B1B191609CB3E004A1EAC /* mars_dim_dif4_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF51609CB3E004A1EAC /* mars_dim_dif4_1.tmx */; };
+		9C9B1B1A1609CB3E004A1EAC /* mars_dim_dif4_2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF61609CB3E004A1EAC /* mars_dim_dif4_2.tmx */; };
+		9C9B1B1B1609CB3E004A1EAC /* mars_dim_dif4_3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF71609CB3E004A1EAC /* mars_dim_dif4_3.tmx */; };
+		9C9B1B1C1609CB3E004A1EAC /* mars_dim_dif4_4.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF81609CB3E004A1EAC /* mars_dim_dif4_4.tmx */; };
+		9C9B1B1D1609CB3E004A1EAC /* mars_dim_dif4_5.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AF91609CB3E004A1EAC /* mars_dim_dif4_5.tmx */; };
+		9C9B1B1E1609CB3E004A1EAC /* mars_dim_dif4_6.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFA1609CB3E004A1EAC /* mars_dim_dif4_6.tmx */; };
+		9C9B1B1F1609CB3E004A1EAC /* mars_dim_dif4_7.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFB1609CB3E004A1EAC /* mars_dim_dif4_7.tmx */; };
+		9C9B1B201609CB3E004A1EAC /* mars_dim_dif4_8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFC1609CB3E004A1EAC /* mars_dim_dif4_8.tmx */; };
+		9C9B1B211609CB3E004A1EAC /* mars_dim_dif4_9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFD1609CB3E004A1EAC /* mars_dim_dif4_9.tmx */; };
+		9C9B1B221609CB3E004A1EAC /* mars_dim_dif4_10.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFE1609CB3E004A1EAC /* mars_dim_dif4_10.tmx */; };
+		9C9B1B231609CB3E004A1EAC /* mars_lights_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AFF1609CB3E004A1EAC /* mars_lights_329x346.png */; };
+		9C9B1B241609CB3E004A1EAC /* mars_new_border_fin_164x134.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B001609CB3E004A1EAC /* mars_new_border_fin_164x134.png */; };
+		9C9B1B251609CB3E004A1EAC /* mars_objects_modern_280x253.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B011609CB3E004A1EAC /* mars_objects_modern_280x253.png */; };
+		9C9B1B261609CB3E004A1EAC /* mars_tele-board_329X346.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B021609CB3E004A1EAC /* mars_tele-board_329X346.png */; };
+		9C9B1B271609CB3E004A1EAC /* road_163x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B031609CB3E004A1EAC /* road_163x94_shifted.png */; };
+		9C9B1B281609CB3E004A1EAC /* ROAD_163x94.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B041609CB3E004A1EAC /* ROAD_163x94.png */; };
+		9C9B1B291609CB3E004A1EAC /* ts7razmetka_165x96.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B051609CB3E004A1EAC /* ts7razmetka_165x96.png */; };
+		9C9B1B2A1609CB3E004A1EAC /* Zel_mars1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B061609CB3E004A1EAC /* Zel_mars1.tmx */; };
+		9C9B1B2B1609CB3E004A1EAC /* Zel_mars2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B071609CB3E004A1EAC /* Zel_mars2.tmx */; };
+		9C9B1B2C1609CB3E004A1EAC /* Zel_mars3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B081609CB3E004A1EAC /* Zel_mars3.tmx */; };
+		9C9B1B2D1609CB3E004A1EAC /* Zel_mars4.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B091609CB3E004A1EAC /* Zel_mars4.tmx */; };
+		9C9B1B2E1609CB3E004A1EAC /* Zel_mars5.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0A1609CB3E004A1EAC /* Zel_mars5.tmx */; };
+		9C9B1B2F1609CB3E004A1EAC /* Zel_mars6.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0B1609CB3E004A1EAC /* Zel_mars6.tmx */; };
+		9C9B1B301609CB3E004A1EAC /* Zel_mars7.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0C1609CB3E004A1EAC /* Zel_mars7.tmx */; };
+		9C9B1B311609CB3E004A1EAC /* Zel_mars8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0D1609CB3E004A1EAC /* Zel_mars8.tmx */; };
+		9C9B1B321609CB3E004A1EAC /* Zel_mars9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0E1609CB3E004A1EAC /* Zel_mars9.tmx */; };
+		9C9B1B331609CB3E004A1EAC /* Zel_mars10.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1B0F1609CB3E004A1EAC /* Zel_mars10.tmx */; };
 		A41448711597125C0079040F /* secondFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A414485F1597125C0079040F /* secondFireField.png */; };
 		A41448721597125C0079040F /* firstFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448601597125C0079040F /* firstFireField.png */; };
 		A41448731597125C0079040F /* pauseBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448611597125C0079040F /* pauseBack.png */; };
@@ -369,23 +405,6 @@
 		DD00037A159FDCFD0012E4D2 /* Diski45-1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */; };
 		DD00037B159FDCFD0012E4D2 /* Diski45-1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */; };
 		DD00037C159FDCFD0012E4D2 /* Diski45-1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */; };
-		DD03C6E315F71A6800ED2C50 /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */; };
-		DD03C6E415F71A6800ED2C50 /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D315F71A6800ED2C50 /* column_165x250.png */; };
-		DD03C6E515F71A6800ED2C50 /* light_1_985_534.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */; };
-		DD03C6E615F71A6800ED2C50 /* mars_back_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */; };
-		DD03C6E715F71A6800ED2C50 /* mars_back_fin_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */; };
-		DD03C6E815F71A6800ED2C50 /* mars_cameras_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */; };
-		DD03C6E915F71A6800ED2C50 /* mars_dim_dif4_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */; };
-		DD03C6EA15F71A6800ED2C50 /* mars_dim_dif4_2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */; };
-		DD03C6EB15F71A6800ED2C50 /* mars_dim_dif4_3.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */; };
-		DD03C6EC15F71A6800ED2C50 /* mars_dim_dif4_4.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */; };
-		DD03C6ED15F71A6800ED2C50 /* mars_lights_329x346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */; };
-		DD03C6EE15F71A6800ED2C50 /* mars_new_border_fin_164x134.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */; };
-		DD03C6EF15F71A6800ED2C50 /* mars_objects_modern_280x253.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */; };
-		DD03C6F015F71A6800ED2C50 /* mars_tele-board_329X346.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */; };
-		DD03C6F115F71A6800ED2C50 /* ROAD_163x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */; };
-		DD03C6F215F71A6800ED2C50 /* road_163x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */; };
-		DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */; };
 		DD0680341597E7A8006D5D67 /* Rocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0680331597E7A8006D5D67 /* Rocket.mm */; };
 		DD06803C1597E926006D5D67 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06803B1597E926006D5D67 /* rock.png */; };
 		DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */; };
@@ -395,8 +414,6 @@
 		DD1C9C5115DCBBAD00FF2A17 /* Speed_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4B15DCBBAD00FF2A17 /* Speed_Up_bonus.png */; };
 		DD1C9C5215DCBBAD00FF2A17 /* Weapon_Up_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */; };
 		DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */; };
-		DD1D970315FDAC5A0012B345 /* mars_dim_dif4_5.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */; };
-		DD1D970415FDAC5A0012B345 /* mars_dim_dif4_6.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */; };
 		DD2357DE15D79E68003B97A4 /* heal.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2357DD15D79E68003B97A4 /* heal.png */; };
 		DD2C00A315C4DD8E00CF2E62 /* order1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A115C4DD8E00CF2E62 /* order1.plist */; };
 		DD2C00A415C4DD8E00CF2E62 /* players1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2C00A215C4DD8E00CF2E62 /* players1.plist */; };
@@ -481,8 +498,6 @@
 		DDBBBA2015F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0F15F5BDC10015045D /* moon_dim_dif4_15 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBCF55315D8BAE200813074 /* AddWeaponBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55215D8BAE200813074 /* AddWeaponBonus.mm */; };
 		DDBCF55715D8BBDD00813074 /* BulletTimeBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */; };
-		DDFA994E15F850DE00907311 /* ex1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDFA994C15F850DE00907311 /* ex1.tmx */; };
-		DDFA994F15F850DE00907311 /* ex2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDFA994D15F850DE00907311 /* ex2.tmx */; };
 		DDFAE15A15E033A2002DE713 /* asfalt_164x94.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14115E033A2002DE713 /* asfalt_164x94.png */; };
 		DDFAE15B15E033A2002DE713 /* asfalt_164x94_shifted.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14215E033A2002DE713 /* asfalt_164x94_shifted.png */; };
 		DDFAE15C15E033A2002DE713 /* background_tiles_default_198x160.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFAE14315E033A2002DE713 /* background_tiles_default_198x160.png */; };
@@ -973,6 +988,42 @@
 		36EE276B15ABF94B00880A63 /* wheels_W_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheels_W_4.png; sourceTree = "<group>"; };
 		36F845B3157764D50000C838 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		36F845B4157764D50000C838 /* MenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MenuScene.mm; sourceTree = "<group>"; };
+		9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
+		9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Clone 1.tmx"; sourceTree = "<group>"; };
+		9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
+		9C9B1AEF1609CB3E004A1EAC /* ex1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex1.tmx; sourceTree = "<group>"; };
+		9C9B1AF01609CB3E004A1EAC /* ex2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex2.tmx; sourceTree = "<group>"; };
+		9C9B1AF11609CB3E004A1EAC /* light_1_985_534.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_1_985_534.png; sourceTree = "<group>"; };
+		9C9B1AF21609CB3E004A1EAC /* mars_back_fin_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin_shifted.png; sourceTree = "<group>"; };
+		9C9B1AF31609CB3E004A1EAC /* mars_back_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin.png; sourceTree = "<group>"; };
+		9C9B1AF41609CB3E004A1EAC /* mars_cameras_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_cameras_329x346.png; sourceTree = "<group>"; };
+		9C9B1AF51609CB3E004A1EAC /* mars_dim_dif4_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_1.tmx; sourceTree = "<group>"; };
+		9C9B1AF61609CB3E004A1EAC /* mars_dim_dif4_2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_2.tmx; sourceTree = "<group>"; };
+		9C9B1AF71609CB3E004A1EAC /* mars_dim_dif4_3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_3.tmx; sourceTree = "<group>"; };
+		9C9B1AF81609CB3E004A1EAC /* mars_dim_dif4_4.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_4.tmx; sourceTree = "<group>"; };
+		9C9B1AF91609CB3E004A1EAC /* mars_dim_dif4_5.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_5.tmx; sourceTree = "<group>"; };
+		9C9B1AFA1609CB3E004A1EAC /* mars_dim_dif4_6.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_6.tmx; sourceTree = "<group>"; };
+		9C9B1AFB1609CB3E004A1EAC /* mars_dim_dif4_7.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_7.tmx; sourceTree = "<group>"; };
+		9C9B1AFC1609CB3E004A1EAC /* mars_dim_dif4_8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_8.tmx; sourceTree = "<group>"; };
+		9C9B1AFD1609CB3E004A1EAC /* mars_dim_dif4_9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_9.tmx; sourceTree = "<group>"; };
+		9C9B1AFE1609CB3E004A1EAC /* mars_dim_dif4_10.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_10.tmx; sourceTree = "<group>"; };
+		9C9B1AFF1609CB3E004A1EAC /* mars_lights_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_lights_329x346.png; sourceTree = "<group>"; };
+		9C9B1B001609CB3E004A1EAC /* mars_new_border_fin_164x134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_new_border_fin_164x134.png; sourceTree = "<group>"; };
+		9C9B1B011609CB3E004A1EAC /* mars_objects_modern_280x253.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_objects_modern_280x253.png; sourceTree = "<group>"; };
+		9C9B1B021609CB3E004A1EAC /* mars_tele-board_329X346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mars_tele-board_329X346.png"; sourceTree = "<group>"; };
+		9C9B1B031609CB3E004A1EAC /* road_163x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road_163x94_shifted.png; sourceTree = "<group>"; };
+		9C9B1B041609CB3E004A1EAC /* ROAD_163x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROAD_163x94.png; sourceTree = "<group>"; };
+		9C9B1B051609CB3E004A1EAC /* ts7razmetka_165x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts7razmetka_165x96.png; sourceTree = "<group>"; };
+		9C9B1B061609CB3E004A1EAC /* Zel_mars1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars1.tmx; sourceTree = "<group>"; };
+		9C9B1B071609CB3E004A1EAC /* Zel_mars2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars2.tmx; sourceTree = "<group>"; };
+		9C9B1B081609CB3E004A1EAC /* Zel_mars3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars3.tmx; sourceTree = "<group>"; };
+		9C9B1B091609CB3E004A1EAC /* Zel_mars4.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars4.tmx; sourceTree = "<group>"; };
+		9C9B1B0A1609CB3E004A1EAC /* Zel_mars5.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars5.tmx; sourceTree = "<group>"; };
+		9C9B1B0B1609CB3E004A1EAC /* Zel_mars6.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars6.tmx; sourceTree = "<group>"; };
+		9C9B1B0C1609CB3E004A1EAC /* Zel_mars7.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars7.tmx; sourceTree = "<group>"; };
+		9C9B1B0D1609CB3E004A1EAC /* Zel_mars8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars8.tmx; sourceTree = "<group>"; };
+		9C9B1B0E1609CB3E004A1EAC /* Zel_mars9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars9.tmx; sourceTree = "<group>"; };
+		9C9B1B0F1609CB3E004A1EAC /* Zel_mars10.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zel_mars10.tmx; sourceTree = "<group>"; };
 		A414485F1597125C0079040F /* secondFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondFireField.png; sourceTree = "<group>"; };
 		A41448601597125C0079040F /* firstFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstFireField.png; sourceTree = "<group>"; };
 		A41448611597125C0079040F /* pauseBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseBack.png; sourceTree = "<group>"; };
@@ -1071,23 +1122,6 @@
 		DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_2.png"; sourceTree = "<group>"; };
 		DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_3.png"; sourceTree = "<group>"; };
 		DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_4.png"; sourceTree = "<group>"; };
-		DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
-		DD03C6D315F71A6800ED2C50 /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
-		DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_1_985_534.png; sourceTree = "<group>"; };
-		DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin.png; sourceTree = "<group>"; };
-		DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_back_fin_shifted.png; sourceTree = "<group>"; };
-		DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_cameras_329x346.png; sourceTree = "<group>"; };
-		DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_1.tmx; sourceTree = "<group>"; };
-		DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_2.tmx; sourceTree = "<group>"; };
-		DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_3.tmx; sourceTree = "<group>"; };
-		DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_4.tmx; sourceTree = "<group>"; };
-		DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_lights_329x346.png; sourceTree = "<group>"; };
-		DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_new_border_fin_164x134.png; sourceTree = "<group>"; };
-		DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars_objects_modern_280x253.png; sourceTree = "<group>"; };
-		DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mars_tele-board_329X346.png"; sourceTree = "<group>"; };
-		DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROAD_163x94.png; sourceTree = "<group>"; };
-		DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road_163x94_shifted.png; sourceTree = "<group>"; };
-		DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts7razmetka_165x96.png; sourceTree = "<group>"; };
 		DD0680321597E7A8006D5D67 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
 		DD0680331597E7A8006D5D67 /* Rocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rocket.mm; sourceTree = "<group>"; };
 		DD06803B1597E926006D5D67 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
@@ -1099,8 +1133,6 @@
 		DD1C9C4C15DCBBAD00FF2A17 /* Weapon_Up_bonus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weapon_Up_bonus.png; sourceTree = "<group>"; };
 		DD1C9C5415DCC4D200FF2A17 /* Bonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonus.h; sourceTree = "<group>"; };
 		DD1C9C5515DCC4D200FF2A17 /* Bonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bonus.mm; sourceTree = "<group>"; };
-		DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_5.tmx; sourceTree = "<group>"; };
-		DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mars_dim_dif4_6.tmx; sourceTree = "<group>"; };
 		DD2357DD15D79E68003B97A4 /* heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heal.png; sourceTree = "<group>"; };
 		DD2C00A115C4DD8E00CF2E62 /* order1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order1.plist; sourceTree = "<group>"; };
 		DD2C00A215C4DD8E00CF2E62 /* players1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = players1.plist; sourceTree = "<group>"; };
@@ -1194,8 +1226,6 @@
 		DDBCF55515D8BBDC00813074 /* BulletTimeBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletTimeBonus.h; sourceTree = "<group>"; };
 		DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BulletTimeBonus.mm; sourceTree = "<group>"; };
 		DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaysCastCallback.h; sourceTree = "<group>"; };
-		DDFA994C15F850DE00907311 /* ex1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex1.tmx; sourceTree = "<group>"; };
-		DDFA994D15F850DE00907311 /* ex2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ex2.tmx; sourceTree = "<group>"; };
 		DDFAE14115E033A2002DE713 /* asfalt_164x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94.png; sourceTree = "<group>"; };
 		DDFAE14215E033A2002DE713 /* asfalt_164x94_shifted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asfalt_164x94_shifted.png; sourceTree = "<group>"; };
 		DDFAE14315E033A2002DE713 /* background_tiles_default_198x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_tiles_default_198x160.png; sourceTree = "<group>"; };
@@ -2242,27 +2272,42 @@
 		DD03C6D115F71A6800ED2C50 /* Mars */ = {
 			isa = PBXGroup;
 			children = (
-				DDFA994C15F850DE00907311 /* ex1.tmx */,
-				DDFA994D15F850DE00907311 /* ex2.tmx */,
-				DD03C6D215F71A6800ED2C50 /* background_objects_396x279.png */,
-				DD03C6D315F71A6800ED2C50 /* column_165x250.png */,
-				DD03C6D415F71A6800ED2C50 /* light_1_985_534.png */,
-				DD03C6D515F71A6800ED2C50 /* mars_back_fin.png */,
-				DD03C6D615F71A6800ED2C50 /* mars_back_fin_shifted.png */,
-				DD03C6D715F71A6800ED2C50 /* mars_cameras_329x346.png */,
-				DD03C6D815F71A6800ED2C50 /* mars_dim_dif4_1.tmx */,
-				DD03C6D915F71A6800ED2C50 /* mars_dim_dif4_2.tmx */,
-				DD03C6DA15F71A6800ED2C50 /* mars_dim_dif4_3.tmx */,
-				DD03C6DB15F71A6800ED2C50 /* mars_dim_dif4_4.tmx */,
-				DD1D970115FDAC5A0012B345 /* mars_dim_dif4_5.tmx */,
-				DD1D970215FDAC5A0012B345 /* mars_dim_dif4_6.tmx */,
-				DD03C6DC15F71A6800ED2C50 /* mars_lights_329x346.png */,
-				DD03C6DD15F71A6800ED2C50 /* mars_new_border_fin_164x134.png */,
-				DD03C6DE15F71A6800ED2C50 /* mars_objects_modern_280x253.png */,
-				DD03C6DF15F71A6800ED2C50 /* mars_tele-board_329X346.png */,
-				DD03C6E015F71A6800ED2C50 /* ROAD_163x94.png */,
-				DD03C6E115F71A6800ED2C50 /* road_163x94_shifted.png */,
-				DD03C6E215F71A6800ED2C50 /* ts7razmetka_165x96.png */,
+				9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */,
+				9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */,
+				9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */,
+				9C9B1AEF1609CB3E004A1EAC /* ex1.tmx */,
+				9C9B1AF01609CB3E004A1EAC /* ex2.tmx */,
+				9C9B1AF11609CB3E004A1EAC /* light_1_985_534.png */,
+				9C9B1AF21609CB3E004A1EAC /* mars_back_fin_shifted.png */,
+				9C9B1AF31609CB3E004A1EAC /* mars_back_fin.png */,
+				9C9B1AF41609CB3E004A1EAC /* mars_cameras_329x346.png */,
+				9C9B1AF51609CB3E004A1EAC /* mars_dim_dif4_1.tmx */,
+				9C9B1AF61609CB3E004A1EAC /* mars_dim_dif4_2.tmx */,
+				9C9B1AF71609CB3E004A1EAC /* mars_dim_dif4_3.tmx */,
+				9C9B1AF81609CB3E004A1EAC /* mars_dim_dif4_4.tmx */,
+				9C9B1AF91609CB3E004A1EAC /* mars_dim_dif4_5.tmx */,
+				9C9B1AFA1609CB3E004A1EAC /* mars_dim_dif4_6.tmx */,
+				9C9B1AFB1609CB3E004A1EAC /* mars_dim_dif4_7.tmx */,
+				9C9B1AFC1609CB3E004A1EAC /* mars_dim_dif4_8.tmx */,
+				9C9B1AFD1609CB3E004A1EAC /* mars_dim_dif4_9.tmx */,
+				9C9B1AFE1609CB3E004A1EAC /* mars_dim_dif4_10.tmx */,
+				9C9B1AFF1609CB3E004A1EAC /* mars_lights_329x346.png */,
+				9C9B1B001609CB3E004A1EAC /* mars_new_border_fin_164x134.png */,
+				9C9B1B011609CB3E004A1EAC /* mars_objects_modern_280x253.png */,
+				9C9B1B021609CB3E004A1EAC /* mars_tele-board_329X346.png */,
+				9C9B1B031609CB3E004A1EAC /* road_163x94_shifted.png */,
+				9C9B1B041609CB3E004A1EAC /* ROAD_163x94.png */,
+				9C9B1B051609CB3E004A1EAC /* ts7razmetka_165x96.png */,
+				9C9B1B061609CB3E004A1EAC /* Zel_mars1.tmx */,
+				9C9B1B071609CB3E004A1EAC /* Zel_mars2.tmx */,
+				9C9B1B081609CB3E004A1EAC /* Zel_mars3.tmx */,
+				9C9B1B091609CB3E004A1EAC /* Zel_mars4.tmx */,
+				9C9B1B0A1609CB3E004A1EAC /* Zel_mars5.tmx */,
+				9C9B1B0B1609CB3E004A1EAC /* Zel_mars6.tmx */,
+				9C9B1B0C1609CB3E004A1EAC /* Zel_mars7.tmx */,
+				9C9B1B0D1609CB3E004A1EAC /* Zel_mars8.tmx */,
+				9C9B1B0E1609CB3E004A1EAC /* Zel_mars9.tmx */,
+				9C9B1B0F1609CB3E004A1EAC /* Zel_mars10.tmx */,
 			);
 			path = Mars;
 			sourceTree = "<group>";
@@ -2796,27 +2841,42 @@
 				DD30730315F5FE2D004461F5 /* w_machinegun.plist in Resources */,
 				DD30730415F5FE2D004461F5 /* w_rear_machinegun.plist in Resources */,
 				DD30730515F5FE2D004461F5 /* w_spearthrower.plist in Resources */,
-				DD03C6E315F71A6800ED2C50 /* background_objects_396x279.png in Resources */,
-				DD03C6E415F71A6800ED2C50 /* column_165x250.png in Resources */,
-				DD03C6E515F71A6800ED2C50 /* light_1_985_534.png in Resources */,
-				DD03C6E615F71A6800ED2C50 /* mars_back_fin.png in Resources */,
-				DD03C6E715F71A6800ED2C50 /* mars_back_fin_shifted.png in Resources */,
-				DD03C6E815F71A6800ED2C50 /* mars_cameras_329x346.png in Resources */,
-				DD03C6E915F71A6800ED2C50 /* mars_dim_dif4_1.tmx in Resources */,
-				DD03C6EA15F71A6800ED2C50 /* mars_dim_dif4_2.tmx in Resources */,
-				DD03C6EB15F71A6800ED2C50 /* mars_dim_dif4_3.tmx in Resources */,
-				DD03C6EC15F71A6800ED2C50 /* mars_dim_dif4_4.tmx in Resources */,
-				DD03C6ED15F71A6800ED2C50 /* mars_lights_329x346.png in Resources */,
-				DD03C6EE15F71A6800ED2C50 /* mars_new_border_fin_164x134.png in Resources */,
-				DD03C6EF15F71A6800ED2C50 /* mars_objects_modern_280x253.png in Resources */,
-				DD03C6F015F71A6800ED2C50 /* mars_tele-board_329X346.png in Resources */,
-				DD03C6F115F71A6800ED2C50 /* ROAD_163x94.png in Resources */,
-				DD03C6F215F71A6800ED2C50 /* road_163x94_shifted.png in Resources */,
-				DD03C6F315F71A6800ED2C50 /* ts7razmetka_165x96.png in Resources */,
-				DDFA994E15F850DE00907311 /* ex1.tmx in Resources */,
-				DDFA994F15F850DE00907311 /* ex2.tmx in Resources */,
-				DD1D970315FDAC5A0012B345 /* mars_dim_dif4_5.tmx in Resources */,
-				DD1D970415FDAC5A0012B345 /* mars_dim_dif4_6.tmx in Resources */,
+				9C9B1B101609CB3E004A1EAC /* background_objects_396x279.png in Resources */,
+				9C9B1B111609CB3E004A1EAC /* Clone 1.tmx in Resources */,
+				9C9B1B121609CB3E004A1EAC /* column_165x250.png in Resources */,
+				9C9B1B131609CB3E004A1EAC /* ex1.tmx in Resources */,
+				9C9B1B141609CB3E004A1EAC /* ex2.tmx in Resources */,
+				9C9B1B151609CB3E004A1EAC /* light_1_985_534.png in Resources */,
+				9C9B1B161609CB3E004A1EAC /* mars_back_fin_shifted.png in Resources */,
+				9C9B1B171609CB3E004A1EAC /* mars_back_fin.png in Resources */,
+				9C9B1B181609CB3E004A1EAC /* mars_cameras_329x346.png in Resources */,
+				9C9B1B191609CB3E004A1EAC /* mars_dim_dif4_1.tmx in Resources */,
+				9C9B1B1A1609CB3E004A1EAC /* mars_dim_dif4_2.tmx in Resources */,
+				9C9B1B1B1609CB3E004A1EAC /* mars_dim_dif4_3.tmx in Resources */,
+				9C9B1B1C1609CB3E004A1EAC /* mars_dim_dif4_4.tmx in Resources */,
+				9C9B1B1D1609CB3E004A1EAC /* mars_dim_dif4_5.tmx in Resources */,
+				9C9B1B1E1609CB3E004A1EAC /* mars_dim_dif4_6.tmx in Resources */,
+				9C9B1B1F1609CB3E004A1EAC /* mars_dim_dif4_7.tmx in Resources */,
+				9C9B1B201609CB3E004A1EAC /* mars_dim_dif4_8.tmx in Resources */,
+				9C9B1B211609CB3E004A1EAC /* mars_dim_dif4_9.tmx in Resources */,
+				9C9B1B221609CB3E004A1EAC /* mars_dim_dif4_10.tmx in Resources */,
+				9C9B1B231609CB3E004A1EAC /* mars_lights_329x346.png in Resources */,
+				9C9B1B241609CB3E004A1EAC /* mars_new_border_fin_164x134.png in Resources */,
+				9C9B1B251609CB3E004A1EAC /* mars_objects_modern_280x253.png in Resources */,
+				9C9B1B261609CB3E004A1EAC /* mars_tele-board_329X346.png in Resources */,
+				9C9B1B271609CB3E004A1EAC /* road_163x94_shifted.png in Resources */,
+				9C9B1B281609CB3E004A1EAC /* ROAD_163x94.png in Resources */,
+				9C9B1B291609CB3E004A1EAC /* ts7razmetka_165x96.png in Resources */,
+				9C9B1B2A1609CB3E004A1EAC /* Zel_mars1.tmx in Resources */,
+				9C9B1B2B1609CB3E004A1EAC /* Zel_mars2.tmx in Resources */,
+				9C9B1B2C1609CB3E004A1EAC /* Zel_mars3.tmx in Resources */,
+				9C9B1B2D1609CB3E004A1EAC /* Zel_mars4.tmx in Resources */,
+				9C9B1B2E1609CB3E004A1EAC /* Zel_mars5.tmx in Resources */,
+				9C9B1B2F1609CB3E004A1EAC /* Zel_mars6.tmx in Resources */,
+				9C9B1B301609CB3E004A1EAC /* Zel_mars7.tmx in Resources */,
+				9C9B1B311609CB3E004A1EAC /* Zel_mars8.tmx in Resources */,
+				9C9B1B321609CB3E004A1EAC /* Zel_mars9.tmx in Resources */,
+				9C9B1B331609CB3E004A1EAC /* Zel_mars10.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
