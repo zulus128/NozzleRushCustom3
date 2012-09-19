@@ -349,7 +349,7 @@
         [self initPhysics];
         
 //        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"mars_dim_dif4_2.tmx"];
-        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"Zel_mars4.tmx"];
+        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"Zel_mars2.tmx"];
         
         chp_cnt = -1;
         
