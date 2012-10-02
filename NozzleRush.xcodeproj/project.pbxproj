@@ -276,6 +276,7 @@
 		36EE27C215ABF94B00880A63 /* wheels_W_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276A15ABF94B00880A63 /* wheels_W_3.png */; };
 		36EE27C315ABF94B00880A63 /* wheels_W_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276B15ABF94B00880A63 /* wheels_W_4.png */; };
 		36F845B5157764D50000C838 /* MenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F845B4157764D50000C838 /* MenuScene.mm */; };
+		9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */; };
 		9C9B1B101609CB3E004A1EAC /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */; };
 		9C9B1B111609CB3E004A1EAC /* Clone 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */; };
 		9C9B1B121609CB3E004A1EAC /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */; };
@@ -1001,6 +1002,8 @@
 		36EE276B15ABF94B00880A63 /* wheels_W_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheels_W_4.png; sourceTree = "<group>"; };
 		36F845B3157764D50000C838 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		36F845B4157764D50000C838 /* MenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MenuScene.mm; sourceTree = "<group>"; };
+		9C1A19A1161B0347004884E4 /* HeyaldaNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyaldaNavigationViewController.h; sourceTree = "<group>"; };
+		9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyaldaNavigationViewController.m; sourceTree = "<group>"; };
 		9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
 		9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Clone 1.tmx"; sourceTree = "<group>"; };
 		9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
@@ -1472,6 +1475,8 @@
 				DDBCF55615D8BBDD00813074 /* BulletTimeBonus.mm */,
 				DDAF759C159BE43100E69A82 /* QueryCallback.h */,
 				DDE43E14156DC15000E32DD1 /* RaysCastCallback.h */,
+				9C1A19A1161B0347004884E4 /* HeyaldaNavigationViewController.h */,
+				9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */,
 				369FAF11152089290056C20F /* AppDelegate.h */,
 				369FAF12152089290056C20F /* AppDelegate.mm */,
 				369FAF17152089290056C20F /* GLES-Render.h */,
@@ -3120,6 +3125,7 @@
 				DD1C9C5615DCC4D200FF2A17 /* Bonus.mm in Sources */,
 				DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */,
 				DDFDB43F15FF32700096D38A /* Weapon.mm in Sources */,
+				9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

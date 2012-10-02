@@ -13,6 +13,7 @@
 #import "MenuScene.h"
 #import "CustomizeScene.h"
 #import "Common.h"
+#import "HeyaldaNavigationViewController.h"
 
 @implementation AppController
 
@@ -60,12 +61,14 @@
 		CCLOG(@"Retina Display Not supported");
 	
 	// Create a Navigation Controller with the Director
-	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
+    navController_ = [[HeyaldaNavigationViewController alloc] initWithRootViewController:director_];
+//	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
 	navController_.navigationBarHidden = YES;
 	
 	// set the Navigation Controller as the root view controller
-	//	[window_ setRootViewController:rootViewController_];
-	[window_ addSubview:navController_.view];
+    
+    [window_ setRootViewController:navController_];
+//	[window_ addSubview:navController_.view];
 	
 	// make main window visible
 	[window_ makeKeyAndVisible];
@@ -100,12 +103,21 @@
 	return YES;
 }
 
+// Need to add this to the app delegate allow all portrait for things like Game Center or other portrait only modal view controllers that will be pushed into the app to avoid a crash.
+-(NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    //   NSLog(@"Called supportedInterfaceOrientationsForWindow App Delegate.");
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        return UIInterfaceOrientationMaskAll;
+    else
+        return UIInterfaceOrientationMaskAllButUpsideDown;
+}
+
 // Supported orientations: Landscape. Customize it for your own needs
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
-
 
 // getting a call, pause the game
 -(void) applicationWillResignActive:(UIApplication *)application
