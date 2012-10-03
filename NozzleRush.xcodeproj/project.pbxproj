@@ -188,7 +188,6 @@
 		369FAF10152089290056C20F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FAF0F152089290056C20F /* main.m */; };
 		369FAF13152089290056C20F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369FAF12152089290056C20F /* AppDelegate.mm */; };
 		369FAF19152089290056C20F /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369FAF18152089290056C20F /* GLES-Render.mm */; };
-		369FAF1E152089290056C20F /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 369FAF1D152089290056C20F /* blocks.png */; };
 		36A1641D1585C53200E163F4 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A1641C1585C53200E163F4 /* smoke.png */; };
 		36AF39AE154C0466008C3F63 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36AF39AD154C0466008C3F63 /* HudLayer.mm */; };
 		36BDFE181592C9430042A1C8 /* machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BDFE171592C9430042A1C8 /* machinegun.plist */; };
@@ -277,6 +276,8 @@
 		36EE27C315ABF94B00880A63 /* wheels_W_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276B15ABF94B00880A63 /* wheels_W_4.png */; };
 		36F845B5157764D50000C838 /* MenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F845B4157764D50000C838 /* MenuScene.mm */; };
 		9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */; };
+		9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */; };
+		9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C32CFD9161C20CD00C50C94 /* profiles.plist */; };
 		9C9B1B101609CB3E004A1EAC /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */; };
 		9C9B1B111609CB3E004A1EAC /* Clone 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */; };
 		9C9B1B121609CB3E004A1EAC /* column_165x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */; };
@@ -912,7 +913,6 @@
 		369FAF12152089290056C20F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		369FAF17152089290056C20F /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		369FAF18152089290056C20F /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
-		369FAF1D152089290056C20F /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		36A1641C1585C53200E163F4 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 		36AF39AC154C0466008C3F63 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
 		36AF39AD154C0466008C3F63 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HudLayer.mm; sourceTree = "<group>"; };
@@ -1004,6 +1004,9 @@
 		36F845B4157764D50000C838 /* MenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MenuScene.mm; sourceTree = "<group>"; };
 		9C1A19A1161B0347004884E4 /* HeyaldaNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyaldaNavigationViewController.h; sourceTree = "<group>"; };
 		9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyaldaNavigationViewController.m; sourceTree = "<group>"; };
+		9C32CFD6161C1F9D00C50C94 /* SelectProfileScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectProfileScene.h; sourceTree = "<group>"; };
+		9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectProfileScene.m; sourceTree = "<group>"; };
+		9C32CFD9161C20CD00C50C94 /* profiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = profiles.plist; sourceTree = "<group>"; };
 		9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
 		9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Clone 1.tmx"; sourceTree = "<group>"; };
 		9C9B1AEE1609CB3E004A1EAC /* column_165x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = column_165x250.png; sourceTree = "<group>"; };
@@ -1387,6 +1390,7 @@
 			children = (
 				3677770F1599695A002717CB /* countdown.plist */,
 				DD9A35A315D81A5800EAFC09 /* bonus.plist */,
+				9C32CFD9161C20CD00C50C94 /* profiles.plist */,
 			);
 			name = Plists;
 			sourceTree = "<group>";
@@ -1435,6 +1439,8 @@
 			children = (
 				36209597152176820041020A /* Common.h */,
 				36209598152176820041020A /* Common.mm */,
+				9C32CFD6161C1F9D00C50C94 /* SelectProfileScene.h */,
+				9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */,
 				04CBE3C015C53EFB0019DF36 /* CustomizeScene.h */,
 				04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */,
 				36F845B3157764D50000C838 /* MenuScene.h */,
@@ -1503,7 +1509,6 @@
 				369FAD24152089240056C20F /* Icon@2x.png */,
 				369FAD26152089240056C20F /* Info.plist */,
 				369FAD27152089240056C20F /* iTunesArtwork */,
-				369FAF1D152089290056C20F /* blocks.png */,
 				3665A519152960DA00BD0B27 /* NozzleRush.entitlements */,
 			);
 			name = Resources;
@@ -2589,7 +2594,6 @@
 				369FAD25152089240056C20F /* Icon@2x.png in Resources */,
 				369FAD28152089240056C20F /* iTunesArtwork in Resources */,
 				369FAE5E152089270056C20F /* ChangeLog in Resources */,
-				369FAF1E152089290056C20F /* blocks.png in Resources */,
 				364B77E4154A58CA009E4E9E /* Button_field_1.png in Resources */,
 				364B77E5154A58CA009E4E9E /* Button_fire_1.png in Resources */,
 				364B77E6154A58CA009E4E9E /* Button_trigger_1.png in Resources */,
@@ -2934,6 +2938,7 @@
 				9CB221CB1609E4A40029494A /* Zel_mars1 - копия (9).tmx in Resources */,
 				9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */,
 				9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */,
+				9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3126,6 +3131,7 @@
 				DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */,
 				DDFDB43F15FF32700096D38A /* Weapon.mm in Sources */,
 				9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */,
+				9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

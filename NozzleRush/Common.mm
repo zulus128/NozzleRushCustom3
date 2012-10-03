@@ -394,6 +394,23 @@
         self.w_machinegun = [[NSDictionary alloc] initWithContentsOfFile:mach_file];
         NSString *spear_file = [[NSBundle mainBundle] pathForResource:@"w_spearthrower" ofType:@"plist"];
         self.w_spearthrower = [[NSDictionary alloc] initWithContentsOfFile:spear_file];
+        
+        
+ 		NSArray* sp = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+		NSString* docpath = [sp objectAtIndex: 0];
+        self.prof_file = [docpath stringByAppendingPathComponent:@"profiles.plist"];
+		BOOL fe = [[NSFileManager defaultManager] fileExistsAtPath:self.prof_file];
+		if(!fe) {
+            
+            NSLog(@"NO profiles.plist FILE !!! Creating...");
+            NSString *appFile = [[NSBundle mainBundle] pathForResource:@"profiles" ofType:@"plist"];
+			NSError *error;
+			NSFileManager *fileManager = [NSFileManager defaultManager];
+			[fileManager copyItemAtPath:appFile toPath:self.prof_file error:&error];
+            
+		}
+        profiles = [[NSMutableDictionary alloc] initWithContentsOfFile:self.prof_file];
+
     }
 	return self;	
 }

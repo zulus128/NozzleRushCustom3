@@ -59,25 +59,19 @@ enum game_type { GT_RACE, GT_FREERIDE };
     int bns_cnt;
     
     NSMutableSet* remove_objects;
-    
     NSDictionary* cd_params;
     NSDictionary* bonus_params;
-
-    
     NSDictionary* details_order;
-    
     NSDictionary* pl_beavis;
     NSDictionary* players;
     NSMutableDictionary* players_ref;
-
     NSDictionary* jeep_corr;
     NSMutableDictionary* bodies_ref;
-    
-    int detail;
-    
     NSMutableArray* bonuses;
 
+    NSMutableDictionary* profiles;
 
+    int detail;
 }
 
 + (Common*) instance;
@@ -133,5 +127,7 @@ enum game_type { GT_RACE, GT_FREERIDE };
 
 @property (nonatomic, retain) NSDictionary* w_machinegun;
 @property (nonatomic, retain) NSDictionary* w_spearthrower;
+
+@property (nonatomic, retain) NSString* prof_file;
 
 @end
