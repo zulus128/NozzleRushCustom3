@@ -14,6 +14,7 @@
 #import "CustomizeScene.h"
 #import "Common.h"
 #import "HeyaldaNavigationViewController.h"
+#import "SelectProfileScene.h"
 
 @implementation AppController
 
@@ -87,10 +88,8 @@
 	// Assume that PVR images have premultiplied alpha
 	[CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 	
-//    CCScene *scene = [GameScene scene];
-  
-    CCScene *scene = [CustomizeScene scene];
-//    [Common instance].menuscene = scene;
+//    CCScene *scene = [CustomizeScene scene];
+    CCScene *scene = [SelectProfileScene scene];
     
 //    GameScene *layer = (GameScene *) [scene.children objectAtIndex:0];	
 //    UIPanGestureRecognizer *gestureRecognizer = [[[UIPanGestureRecognizer alloc] initWithTarget:layer action:@selector(handlePanFrom:)] autorelease];

@@ -7,5 +7,15 @@
 		<key>Name</key>
 		<string></string>
 	</dict>
+	<key>profile0</key>
+	<dict>
+		<key>Name</key>
+		<string>Player1</string>
+	</dict>
+	<key>profile1</key>
+	<dict>
+		<key>Name</key>
+		<string>Player2</string>
+	</dict>
 </dict>
 </plist>

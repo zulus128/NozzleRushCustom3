@@ -70,7 +70,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
     NSMutableArray* bonuses;
 
     NSMutableDictionary* profiles;
-
+    NSString* prof_file;
+    
     int detail;
 }
 
@@ -103,6 +104,10 @@ enum game_type { GT_RACE, GT_FREERIDE };
 
 - (NSMutableArray*) getBonuses;
 
+- (int) profilesCnt;
+- (NSDictionary*) getProfile: (int) n;
+- (void) setProfile: (NSDictionary*) d for:(int) n;
+
 @property (assign, readwrite) CGPoint direction;
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;
 @property (nonatomic) b2World* world;
@@ -127,7 +132,5 @@ enum game_type { GT_RACE, GT_FREERIDE };
 
 @property (nonatomic, retain) NSDictionary* w_machinegun;
 @property (nonatomic, retain) NSDictionary* w_spearthrower;
-
-@property (nonatomic, retain) NSString* prof_file;
 
 @end

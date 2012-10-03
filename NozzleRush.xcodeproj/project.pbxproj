@@ -276,7 +276,7 @@
 		36EE27C315ABF94B00880A63 /* wheels_W_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE276B15ABF94B00880A63 /* wheels_W_4.png */; };
 		36F845B5157764D50000C838 /* MenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F845B4157764D50000C838 /* MenuScene.mm */; };
 		9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */; };
-		9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */; };
+		9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.mm */; };
 		9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C32CFD9161C20CD00C50C94 /* profiles.plist */; };
 		9C9B1B101609CB3E004A1EAC /* background_objects_396x279.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */; };
 		9C9B1B111609CB3E004A1EAC /* Clone 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */; };
@@ -327,6 +327,7 @@
 		9CB221CB1609E4A40029494A /* Zel_mars1 - копия (9).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BE1609E4A40029494A /* Zel_mars1 - копия (9).tmx */; };
 		9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */; };
 		9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */; };
+		9CE434A9161C5272004C1B15 /* CreateProfileScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE434A8161C5272004C1B15 /* CreateProfileScene.m */; };
 		A41448711597125C0079040F /* secondFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A414485F1597125C0079040F /* secondFireField.png */; };
 		A41448721597125C0079040F /* firstFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448601597125C0079040F /* firstFireField.png */; };
 		A41448731597125C0079040F /* pauseBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448611597125C0079040F /* pauseBack.png */; };
@@ -1005,7 +1006,7 @@
 		9C1A19A1161B0347004884E4 /* HeyaldaNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyaldaNavigationViewController.h; sourceTree = "<group>"; };
 		9C1A19A2161B0347004884E4 /* HeyaldaNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyaldaNavigationViewController.m; sourceTree = "<group>"; };
 		9C32CFD6161C1F9D00C50C94 /* SelectProfileScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectProfileScene.h; sourceTree = "<group>"; };
-		9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectProfileScene.m; sourceTree = "<group>"; };
+		9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SelectProfileScene.mm; sourceTree = "<group>"; };
 		9C32CFD9161C20CD00C50C94 /* profiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = profiles.plist; sourceTree = "<group>"; };
 		9C9B1AEC1609CB3E004A1EAC /* background_objects_396x279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_objects_396x279.png; sourceTree = "<group>"; };
 		9C9B1AED1609CB3E004A1EAC /* Clone 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Clone 1.tmx"; sourceTree = "<group>"; };
@@ -1056,6 +1057,8 @@
 		9CB221BE1609E4A40029494A /* Zel_mars1 - копия (9).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (9).tmx"; sourceTree = "<group>"; };
 		9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия (10).tmx"; sourceTree = "<group>"; };
 		9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия.tmx"; sourceTree = "<group>"; };
+		9CE434A7161C5272004C1B15 /* CreateProfileScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateProfileScene.h; sourceTree = "<group>"; };
+		9CE434A8161C5272004C1B15 /* CreateProfileScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateProfileScene.m; sourceTree = "<group>"; };
 		A414485F1597125C0079040F /* secondFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondFireField.png; sourceTree = "<group>"; };
 		A41448601597125C0079040F /* firstFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstFireField.png; sourceTree = "<group>"; };
 		A41448611597125C0079040F /* pauseBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseBack.png; sourceTree = "<group>"; };
@@ -1440,7 +1443,9 @@
 				36209597152176820041020A /* Common.h */,
 				36209598152176820041020A /* Common.mm */,
 				9C32CFD6161C1F9D00C50C94 /* SelectProfileScene.h */,
-				9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.m */,
+				9C32CFD7161C1F9D00C50C94 /* SelectProfileScene.mm */,
+				9CE434A7161C5272004C1B15 /* CreateProfileScene.h */,
+				9CE434A8161C5272004C1B15 /* CreateProfileScene.m */,
 				04CBE3C015C53EFB0019DF36 /* CustomizeScene.h */,
 				04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */,
 				36F845B3157764D50000C838 /* MenuScene.h */,
@@ -3131,7 +3136,8 @@
 				DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */,
 				DDFDB43F15FF32700096D38A /* Weapon.mm in Sources */,
 				9C1A19A3161B0347004884E4 /* HeyaldaNavigationViewController.m in Sources */,
-				9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.m in Sources */,
+				9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.mm in Sources */,
+				9CE434A9161C5272004C1B15 /* CreateProfileScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

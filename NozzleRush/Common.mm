@@ -398,21 +398,37 @@
         
  		NSArray* sp = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 		NSString* docpath = [sp objectAtIndex: 0];
-        self.prof_file = [docpath stringByAppendingPathComponent:@"profiles.plist"];
-		BOOL fe = [[NSFileManager defaultManager] fileExistsAtPath:self.prof_file];
+        prof_file = [[docpath stringByAppendingPathComponent:@"profiles.plist"] retain];
+		BOOL fe = [[NSFileManager defaultManager] fileExistsAtPath:prof_file];
 		if(!fe) {
             
             NSLog(@"NO profiles.plist FILE !!! Creating...");
             NSString *appFile = [[NSBundle mainBundle] pathForResource:@"profiles" ofType:@"plist"];
 			NSError *error;
 			NSFileManager *fileManager = [NSFileManager defaultManager];
-			[fileManager copyItemAtPath:appFile toPath:self.prof_file error:&error];
+			[fileManager copyItemAtPath:appFile toPath:prof_file error:&error];
             
 		}
-        profiles = [[NSMutableDictionary alloc] initWithContentsOfFile:self.prof_file];
+        profiles = [[NSMutableDictionary alloc] initWithContentsOfFile:prof_file];
 
     }
 	return self;	
+}
+
+- (int) profilesCnt {
+
+    return profiles.count - 1;
+}
+
+- (NSDictionary*) getProfile: (int) n {
+    
+    return [profiles objectForKey:[NSString stringWithFormat:@"profile%d", n]];
+}
+
+- (void) setProfile: (NSDictionary*) d for:(int) n {
+    
+    [profiles setObject:d forKey:[NSString stringWithFormat:@"profile%d", n]];
+	[profiles writeToFile:prof_file atomically: YES];
 }
 
 - (NSString*) getBeaParam: (NSString*)n player_index: (int)ind {
@@ -525,19 +541,17 @@
 	world = NULL;
 
     [remove_objects release];
-    
     [cd_params release];
-    
     [details_order release];
     [pl_beavis release];
     [jeep_corr release];
-    
     [players release];
     [players_ref release];
-    
     [bodies_ref release];
-    
     [bonuses release];
+    
+    [profiles release];
+    [prof_file release];
     
     [super dealloc];
 }
