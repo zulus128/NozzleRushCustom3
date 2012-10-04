@@ -8,9 +8,12 @@
 
 #import "cocos2d.h"
 
-@interface CreateProfileScene : CCLayer {
+@interface CreateProfileScene : CCLayer <UITextFieldDelegate> {
     
     CCScene *scene;
+    UITextField* _nameField;
+    CCLabelTTF* label2;
+    int diff;
 }
 
 + (id) scene;

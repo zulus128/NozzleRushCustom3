@@ -78,22 +78,14 @@ enum game_type { GT_RACE, GT_FREERIDE };
 + (Common*) instance;
 - (CGPoint) getMapObjectPos:(NSString*) name;
 - (CGPoint) ort2iso:(CGPoint) pos;
-
 - (CGPoint) iso2ort:(CGPoint) pos;
-
 - (CGPoint) getCheckpointPos:(int) c;
 - (int) getCheckpointCnt;
-//- (CGPoint) getBonusesPos:(int) c;
-//- (int) getBonusesCnt;
-
 - (void) putBonuses;
-
 - (CGPoint)tileCoordForPosition:(CGPoint)position;
 - (BOOL) bum:(CGPoint) p;
-
 - (void) markObjectForDelete:(CCNode*)obj;
 - (void) deleteMarkedObjects;
-
 - (int) getCDCount;
 - (NSString*) getCDParam: (int)n;
 - (int) getBonusParam: (NSString*)n;
@@ -101,20 +93,19 @@ enum game_type { GT_RACE, GT_FREERIDE };
 - (int) getDetailCnt:(NSString*)key;
 - (NSString*) getBeaParam: (NSString*)n player_index: (int)ind;
 - (NSString*) getBodyParam: (NSString*)n forBody:(NSString*)bo;
-
 - (NSMutableArray*) getBonuses;
-
 - (int) profilesCnt;
 - (NSDictionary*) getProfile: (int) n;
+- (NSDictionary*) getTempProfile;
 - (void) setProfile: (NSDictionary*) d for:(int) n;
+- (void) createProfile: (NSDictionary*) d;
+- (NSDictionary*) getSelectedProfile;
 
 @property (assign, readwrite) CGPoint direction;
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;
 @property (nonatomic) b2World* world;
 @property (assign, readwrite) int laps;
 @property (assign, readwrite) int laps_cnt;
-//@property (assign, readwrite) int checkpoint;
-//@property (assign, readwrite) int distToChp;
 @property (assign, readwrite) int gametype;
 @property (nonatomic, retain) CCLayer* gamescene;
 @property (assign, readwrite) BOOL heal;
@@ -123,14 +114,12 @@ enum game_type { GT_RACE, GT_FREERIDE };
 @property (assign, readwrite) int cntCD;
 @property (assign, readwrite) int enemiesCnt;
 @property (nonatomic, retain) NSString* mapType;
-//@property (assign, readwrite) float myLife;
-
 @property (nonatomic, retain) NSMutableSet* enemies;
 @property (assign, readwrite) int camera;
-
 @property (nonatomic, retain) Car* me;
-
 @property (nonatomic, retain) NSDictionary* w_machinegun;
 @property (nonatomic, retain) NSDictionary* w_spearthrower;
+
+@property (assign, readwrite) int selectedProfile;
 
 @end

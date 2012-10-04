@@ -5,17 +5,16 @@
 	<key>profile_template</key>
 	<dict>
 		<key>Name</key>
-		<string></string>
+		<string>Enter your name</string>
+		<key>Difficulty</key>
+		<integer>3</integer>
 	</dict>
 	<key>profile0</key>
 	<dict>
 		<key>Name</key>
 		<string>Player1</string>
-	</dict>
-	<key>profile1</key>
-	<dict>
-		<key>Name</key>
-		<string>Player2</string>
+		<key>Difficulty</key>
+		<integer>2</integer>
 	</dict>
 </dict>
 </plist>

@@ -425,8 +425,26 @@
     return [profiles objectForKey:[NSString stringWithFormat:@"profile%d", n]];
 }
 
+- (NSDictionary*) getSelectedProfile {
+    
+    return [profiles objectForKey:[NSString stringWithFormat:@"profile%d", self.selectedProfile]];
+}
+
+- (NSDictionary*) getTempProfile {
+    
+    return [profiles objectForKey:@"profile_template"];
+}
+
 - (void) setProfile: (NSDictionary*) d for:(int) n {
     
+    [profiles setObject:d forKey:[NSString stringWithFormat:@"profile%d", n]];
+	[profiles writeToFile:prof_file atomically: YES];
+    
+}
+
+- (void) createProfile: (NSDictionary*) d {
+    
+    int n = profiles.count - 1;
     [profiles setObject:d forKey:[NSString stringWithFormat:@"profile%d", n]];
 	[profiles writeToFile:prof_file atomically: YES];
 }

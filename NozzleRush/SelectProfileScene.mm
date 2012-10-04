@@ -8,6 +8,8 @@
 
 #import "SelectProfileScene.h"
 #import "Common.h"
+#import "CreateProfileScene.h"
+#import "ProfileMenuScene.h"
 
 @implementation SelectProfileScene
 
@@ -45,14 +47,14 @@
             CCLabelTTF* label = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"Profile #%d. Name: %@", i, name] fontName:@"GoodDogCool" fontSize:25];
             CCMenuItemLabel* item = [CCMenuItemLabel itemWithLabel:label target:self selector:@selector(click:)];
             item.tag = i;
-            item.position = ccp(backgroundSprite.contentSize.width/2 - 20, backgroundSprite.contentSize.height - 100 - 50*i);
+            item.position = ccp(backgroundSprite.contentSize.width/2 - 20, backgroundSprite.contentSize.height - 60 - 50*i);
             [menu addChild:item];
         }
         
         CCLabelTTF* label = [CCLabelTTF labelWithString:@"Create profile" fontName:@"GoodDogCool" fontSize:25];
         CCMenuItemLabel* item = [CCMenuItemLabel itemWithLabel:label target:self selector:@selector(add:)];
         item.tag = c;
-        item.position = ccp(backgroundSprite.contentSize.width/2 - 20, backgroundSprite.contentSize.height - 100 - 50*c);
+        item.position = ccp(backgroundSprite.contentSize.width/2 - 20, backgroundSprite.contentSize.height - 60 - 50*c);
         [menu addChild:item];
         
         
@@ -62,12 +64,20 @@
 
 - (void) click:(id) sender {
     
-    NSLog(@"Clicked %d", ((CCMenuItemLabel*) sender).tag);
+    int t = ((CCMenuItemLabel*) sender).tag;
+    NSLog(@"Clicked %d", t);
+    [Common instance].selectedProfile = t;
+    
+    CCScene *scen = [ProfileMenuScene scene];
+	[[CCDirector sharedDirector] replaceScene: scen];
 }
 
 - (void) add:(id) sender {
     
-    NSLog(@"Add %d", ((CCMenuItemLabel*) sender).tag);
+//    NSLog(@"Add %d", ((CCMenuItemLabel*) sender).tag);
+
+    CCScene *scen = [CreateProfileScene scene];
+	[[CCDirector sharedDirector] replaceScene: scen];
 }
 
 @end
