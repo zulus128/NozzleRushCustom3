@@ -191,7 +191,7 @@
 		36A1641D1585C53200E163F4 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A1641C1585C53200E163F4 /* smoke.png */; };
 		36AF39AE154C0466008C3F63 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36AF39AD154C0466008C3F63 /* HudLayer.mm */; };
 		36BDFE181592C9430042A1C8 /* machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BDFE171592C9430042A1C8 /* machinegun.plist */; };
-		36EE270A15ABEF6500880A63 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep.plist */; };
+		36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep1.plist */; };
 		36EE270B15ABEF6500880A63 /* order.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270815ABEF6500880A63 /* order.plist */; };
 		36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270915ABEF6500880A63 /* pl_beavis.plist */; };
 		36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE271015ABF94B00880A63 /* disk_E_1.png */; };
@@ -495,6 +495,8 @@
 		DD69A69E1561E104001FF24B /* car6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6961561E104001FF24B /* car6.png */; };
 		DD69A69F1561E104001FF24B /* car7.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6971561E104001FF24B /* car7.png */; };
 		DD69A6A01561E104001FF24B /* car8.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6981561E104001FF24B /* car8.png */; };
+		DD95F7E81623940D0019E633 /* GarageMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95F7E71623940D0019E633 /* GarageMenuScene.m */; };
+		DD95F7EB162397BC0019E633 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep.plist */; };
 		DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9A35A315D81A5800EAFC09 /* bonus.plist */; };
 		DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
@@ -919,7 +921,7 @@
 		36AF39AC154C0466008C3F63 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
 		36AF39AD154C0466008C3F63 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HudLayer.mm; sourceTree = "<group>"; };
 		36BDFE171592C9430042A1C8 /* machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = machinegun.plist; sourceTree = "<group>"; };
-		36EE270715ABEF6500880A63 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
+		36EE270715ABEF6500880A63 /* jeep1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep1.plist; sourceTree = "<group>"; };
 		36EE270815ABEF6500880A63 /* order.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order.plist; sourceTree = "<group>"; };
 		36EE270915ABEF6500880A63 /* pl_beavis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pl_beavis.plist; sourceTree = "<group>"; };
 		36EE271015ABF94B00880A63 /* disk_E_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk_E_1.png; sourceTree = "<group>"; };
@@ -1240,6 +1242,9 @@
 		DD69A6961561E104001FF24B /* car6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car6.png; sourceTree = "<group>"; };
 		DD69A6971561E104001FF24B /* car7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car7.png; sourceTree = "<group>"; };
 		DD69A6981561E104001FF24B /* car8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car8.png; sourceTree = "<group>"; };
+		DD95F7E61623940D0019E633 /* GarageMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageMenuScene.h; sourceTree = "<group>"; };
+		DD95F7E71623940D0019E633 /* GarageMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageMenuScene.m; sourceTree = "<group>"; };
+		DD95F7EA162397BC0019E633 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
 		DD9A35A315D81A5800EAFC09 /* bonus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bonus.plist; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
 		DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
@@ -1331,7 +1336,8 @@
 				04CBE3C315C540050019DF36 /* Details */,
 				36EE270E15ABF94B00880A63 /* Sprites */,
 				A41448BF1597A9AA0079040F /* transparent.png */,
-				36EE270715ABEF6500880A63 /* jeep.plist */,
+				DD95F7EA162397BC0019E633 /* jeep.plist */,
+				36EE270715ABEF6500880A63 /* jeep1.plist */,
 				36EE270815ABEF6500880A63 /* order.plist */,
 				DD2C00A115C4DD8E00CF2E62 /* order1.plist */,
 				DD2C00A215C4DD8E00CF2E62 /* players1.plist */,
@@ -1451,6 +1457,8 @@
 				9CE434A8161C5272004C1B15 /* CreateProfileScene.mm */,
 				9CF2F4DB161D615C001F259C /* ProfileMenuScene.h */,
 				9CF2F4DC161D615C001F259C /* ProfileMenuScene.mm */,
+				DD95F7E61623940D0019E633 /* GarageMenuScene.h */,
+				DD95F7E71623940D0019E633 /* GarageMenuScene.m */,
 				04CBE3C015C53EFB0019DF36 /* CustomizeScene.h */,
 				04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */,
 				36F845B3157764D50000C838 /* MenuScene.h */,
@@ -2713,7 +2721,7 @@
 				A4AA9A8115A089A3008C0C0E /* r270.png in Resources */,
 				A4AA9A8215A089A3008C0C0E /* r225.png in Resources */,
 				A4AA9A8315A089A3008C0C0E /* r180.png in Resources */,
-				36EE270A15ABEF6500880A63 /* jeep.plist in Resources */,
+				36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */,
 				36EE270B15ABEF6500880A63 /* order.plist in Resources */,
 				36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */,
 				36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */,
@@ -2949,6 +2957,7 @@
 				9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */,
 				9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */,
 				9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */,
+				DD95F7EB162397BC0019E633 /* jeep.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3144,6 +3153,7 @@
 				9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.mm in Sources */,
 				9CE434A9161C5272004C1B15 /* CreateProfileScene.mm in Sources */,
 				9CF2F4DD161D615C001F259C /* ProfileMenuScene.mm in Sources */,
+				DD95F7E81623940D0019E633 /* GarageMenuScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

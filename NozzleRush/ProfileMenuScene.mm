@@ -81,5 +81,17 @@
 	[[CCDirector sharedDirector] replaceScene: scen];
 }
 
+- (void) career:(id) sender {
+}
+
+- (void) skill:(id) sender {
+}
+
+- (void) garage:(id) sender {
+}
+
+- (void) shop:(id) sender {
+}
+
 
 @end
