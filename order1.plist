@@ -4,12 +4,8 @@
 <dict>
 	<key>N</key>
 	<string>TW_SP_BW_CO_BO_WH_BU_</string>
-	<key>N - 2</key>
-	<string>TW_SP_BW_CO_BO_WH_BU_BR_BL_FR_FL_</string>
 	<key>NW</key>
 	<string>TW_BP_BW_CO_BO_BL_FL_WH_BU_</string>
-	<key>NW - 2</key>
-	<string>TW_BP_BW_CO_BO_BL_FL_WH_BU_BR_FR_</string>
 	<key>W</key>
 	<string>TW_SP_BW_CO_BU_BO_BL_FL_WH_</string>
 	<key>SW</key>
