@@ -597,7 +597,7 @@
                 
                 CCSprite* spr = (CCSprite*)n;
                 
-//                if(typ == CT_ME)
+//                if(typ != CT_ME)
 //                NSLog(@"DISKTAG! %@", name1);
                 
                 [spr setTexture: tex1];

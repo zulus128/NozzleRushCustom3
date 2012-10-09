@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RW</key>
+	<array>
+		<string>none</string>
+		<string>machinegun</string>
+		<string>flamethrower</string>
+		<string>spearthrower</string>
+	</array>
+	<key>LW</key>
+	<array>
+		<string>none</string>
+		<string>machinegun</string>
+		<string>flamethrower</string>
+		<string>spearthrower</string>
+	</array>
+	<key>BW</key>
+	<array>
+		<string>none</string>
+		<string>rear_machinegun</string>
+	</array>
+	<key>WH</key>
+	<array>
+		<string>none</string>
+		<string>wheels</string>
+	</array>
+</dict>
+</plist>

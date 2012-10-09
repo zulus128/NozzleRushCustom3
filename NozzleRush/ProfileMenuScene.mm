@@ -9,6 +9,8 @@
 #import "ProfileMenuScene.h"
 #import "SelectProfileScene.h"
 #import "Common.h"
+#import "MenuScene.h"
+#import "GarageMenuScene.h"
 
 @implementation ProfileMenuScene
 
@@ -82,12 +84,18 @@
 }
 
 - (void) career:(id) sender {
+
+    CCScene *scen = [MenuScene scene];
+	[[CCDirector sharedDirector] replaceScene: scen];
 }
 
 - (void) skill:(id) sender {
 }
 
 - (void) garage:(id) sender {
+
+    CCScene *scen = [GarageMenuScene scene];
+	[[CCDirector sharedDirector] replaceScene: scen];
 }
 
 - (void) shop:(id) sender {

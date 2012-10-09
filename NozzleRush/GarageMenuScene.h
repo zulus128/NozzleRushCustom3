@@ -11,6 +11,12 @@
 @interface GarageMenuScene : CCLayer <UITextFieldDelegate> {
     
     CCScene *scene;
+    
+    CCSprite* sprite;
+    NSArray* body;
+    int bodyindex;
+    CCLabelTTF* label_body;
+    
 }
 
 + (id) scene;

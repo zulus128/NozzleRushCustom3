@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04CBE3C215C53EFB0019DF36 /* CustomizeScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */; };
-		04CBE3C515C5403A0019DF36 /* TW.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CBE3C415C5403A0019DF36 /* TW.plist */; };
-		04CBE3C715C5409F0019DF36 /* RW.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CBE3C615C5409F0019DF36 /* RW.plist */; };
-		04CBE3C915C540BD0019DF36 /* LW.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CBE3C815C540BD0019DF36 /* LW.plist */; };
 		36096A0C15807BA000AC5073 /* ContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36096A0B15807BA000AC5073 /* ContactListener.mm */; };
 		36209599152176820041020A /* Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36209598152176820041020A /* Common.mm */; };
 		3620959C1521777B0041020A /* GameScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3620959B1521777B0041020A /* GameScene.mm */; };
@@ -191,7 +188,7 @@
 		36A1641D1585C53200E163F4 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A1641C1585C53200E163F4 /* smoke.png */; };
 		36AF39AE154C0466008C3F63 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36AF39AD154C0466008C3F63 /* HudLayer.mm */; };
 		36BDFE181592C9430042A1C8 /* machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BDFE171592C9430042A1C8 /* machinegun.plist */; };
-		36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep1.plist */; };
+		36EE270A15ABEF6500880A63 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep.plist */; };
 		36EE270B15ABEF6500880A63 /* order.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270815ABEF6500880A63 /* order.plist */; };
 		36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270915ABEF6500880A63 /* pl_beavis.plist */; };
 		36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE271015ABF94B00880A63 /* disk_E_1.png */; };
@@ -347,30 +344,6 @@
 		A41448811597125C0079040F /* slash.png in Resources */ = {isa = PBXBuildFile; fileRef = A414486F1597125C0079040F /* slash.png */; };
 		A4144888159726620079040F /* steeringField.png in Resources */ = {isa = PBXBuildFile; fileRef = A4144886159726610079040F /* steeringField.png */; };
 		A4144889159726620079040F /* nitroField.png in Resources */ = {isa = PBXBuildFile; fileRef = A4144887159726620079040F /* nitroField.png */; };
-		A41448931597A4020079040F /* jeep1.png in Resources */ = {isa = PBXBuildFile; fileRef = A414488B1597A4020079040F /* jeep1.png */; };
-		A41448941597A4020079040F /* jeep2.png in Resources */ = {isa = PBXBuildFile; fileRef = A414488C1597A4020079040F /* jeep2.png */; };
-		A41448951597A4020079040F /* jeep3.png in Resources */ = {isa = PBXBuildFile; fileRef = A414488D1597A4020079040F /* jeep3.png */; };
-		A41448961597A4020079040F /* jeep4.png in Resources */ = {isa = PBXBuildFile; fileRef = A414488E1597A4020079040F /* jeep4.png */; };
-		A41448971597A4020079040F /* jeep5.png in Resources */ = {isa = PBXBuildFile; fileRef = A414488F1597A4020079040F /* jeep5.png */; };
-		A41448981597A4020079040F /* jeep6.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448901597A4020079040F /* jeep6.png */; };
-		A41448991597A4020079040F /* jeep7.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448911597A4020079040F /* jeep7.png */; };
-		A414489A1597A4020079040F /* jeep8.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448921597A4020079040F /* jeep8.png */; };
-		A41448A01597A4660079040F /* JeepWheels45_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A414489C1597A4660079040F /* JeepWheels45_1.png */; };
-		A41448A11597A4660079040F /* JeepWheels45_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A414489D1597A4660079040F /* JeepWheels45_2.png */; };
-		A41448A21597A4660079040F /* JeepWheels45_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A414489E1597A4660079040F /* JeepWheels45_3.png */; };
-		A41448A31597A4660079040F /* JeepWheels45_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A414489F1597A4660079040F /* JeepWheels45_4.png */; };
-		A41448A91597A4AA0079040F /* JeepWheels45Flip_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448A51597A4AA0079040F /* JeepWheels45Flip_1.png */; };
-		A41448AA1597A4AA0079040F /* JeepWheels45Flip_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448A61597A4AA0079040F /* JeepWheels45Flip_2.png */; };
-		A41448AB1597A4AA0079040F /* JeepWheels45Flip_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448A71597A4AA0079040F /* JeepWheels45Flip_3.png */; };
-		A41448AC1597A4AA0079040F /* JeepWheels45Flip_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448A81597A4AA0079040F /* JeepWheels45Flip_4.png */; };
-		A41448B21597A4DD0079040F /* JeepWheelsSide_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448AE1597A4DD0079040F /* JeepWheelsSide_1.png */; };
-		A41448B31597A4DD0079040F /* JeepWheelsSide_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448AF1597A4DD0079040F /* JeepWheelsSide_2.png */; };
-		A41448B41597A4DD0079040F /* JeepWheelsSide_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448B01597A4DD0079040F /* JeepWheelsSide_3.png */; };
-		A41448B51597A4DD0079040F /* JeepWheelsSide_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448B11597A4DD0079040F /* JeepWheelsSide_4.png */; };
-		A41448BB1597A5270079040F /* JeepWheels_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448B71597A5270079040F /* JeepWheels_1.png */; };
-		A41448BC1597A5270079040F /* JeepWheels_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448B81597A5270079040F /* JeepWheels_2.png */; };
-		A41448BD1597A5270079040F /* JeepWheels_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448B91597A5270079040F /* JeepWheels_3.png */; };
-		A41448BE1597A5270079040F /* JeepWheels_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448BA1597A5270079040F /* JeepWheels_4.png */; };
 		A41448C01597A9AA0079040F /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448BF1597A9AA0079040F /* transparent.png */; };
 		A4470A31159E615A0042324F /* BACK2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4470A30159E615A0042324F /* BACK2.png */; };
 		A48196C01595B59600207138 /* mgun.plist in Resources */ = {isa = PBXBuildFile; fileRef = A48196BF1595B59600207138 /* mgun.plist */; };
@@ -410,18 +383,6 @@
 		A4C8F40D159CD9B70068F229 /* smoker.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8F40C159CD9B70068F229 /* smoker.png */; };
 		A4C8F40F159CE1E00068F229 /* rocketFlame.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4C8F40E159CE1E00068F229 /* rocketFlame.plist */; };
 		DD0001C715FEF4B600D5DCD8 /* Machinegun.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */; };
-		DD000369159FDCDF0012E4D2 /* DiskiBokom1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000365159FDCDF0012E4D2 /* DiskiBokom1_1.png */; };
-		DD00036A159FDCDF0012E4D2 /* DiskiBokom1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000366159FDCDF0012E4D2 /* DiskiBokom1_2.png */; };
-		DD00036B159FDCDF0012E4D2 /* DiskiBokom1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000367159FDCDF0012E4D2 /* DiskiBokom1_3.png */; };
-		DD00036C159FDCDF0012E4D2 /* DiskiBokom1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000368159FDCDF0012E4D2 /* DiskiBokom1_4.png */; };
-		DD000371159FDCEF0012E4D2 /* Diski45Flip1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD00036D159FDCEF0012E4D2 /* Diski45Flip1_1.png */; };
-		DD000372159FDCEF0012E4D2 /* Diski45Flip1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD00036E159FDCEF0012E4D2 /* Diski45Flip1_2.png */; };
-		DD000373159FDCEF0012E4D2 /* Diski45Flip1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD00036F159FDCEF0012E4D2 /* Diski45Flip1_3.png */; };
-		DD000374159FDCEF0012E4D2 /* Diski45Flip1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000370159FDCEF0012E4D2 /* Diski45Flip1_4.png */; };
-		DD000379159FDCFD0012E4D2 /* Diski45-1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000375159FDCFD0012E4D2 /* Diski45-1_1.png */; };
-		DD00037A159FDCFD0012E4D2 /* Diski45-1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */; };
-		DD00037B159FDCFD0012E4D2 /* Diski45-1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */; };
-		DD00037C159FDCFD0012E4D2 /* Diski45-1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */; };
 		DD0680341597E7A8006D5D67 /* Rocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0680331597E7A8006D5D67 /* Rocket.mm */; };
 		DD06803C1597E926006D5D67 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06803B1597E926006D5D67 /* rock.png */; };
 		DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9C4715DCBBAD00FF2A17 /* Ammo_bonus.png */; };
@@ -487,16 +448,18 @@
 		DD55AE0215D8215A006F4E45 /* SpeedBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0115D8215A006F4E45 /* SpeedBonus.mm */; };
 		DD55AE0515D827A3006F4E45 /* SlowEnemyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0415D827A3006F4E45 /* SlowEnemyBonus.mm */; };
 		DD55AE0815D82C66006F4E45 /* FightDenyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */; };
-		DD69A6991561E104001FF24B /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6911561E104001FF24B /* car1.png */; };
-		DD69A69A1561E104001FF24B /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6921561E104001FF24B /* car2.png */; };
-		DD69A69B1561E104001FF24B /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6931561E104001FF24B /* car3.png */; };
-		DD69A69C1561E104001FF24B /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6941561E104001FF24B /* car4.png */; };
-		DD69A69D1561E104001FF24B /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6951561E104001FF24B /* car5.png */; };
-		DD69A69E1561E104001FF24B /* car6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6961561E104001FF24B /* car6.png */; };
-		DD69A69F1561E104001FF24B /* car7.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6971561E104001FF24B /* car7.png */; };
-		DD69A6A01561E104001FF24B /* car8.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69A6981561E104001FF24B /* car8.png */; };
 		DD95F7E81623940D0019E633 /* GarageMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95F7E71623940D0019E633 /* GarageMenuScene.m */; };
-		DD95F7EB162397BC0019E633 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep.plist */; };
+		DD95F7EB162397BC0019E633 /* jeep2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep2.plist */; };
+		DD95F7ED162398BC0019E633 /* GonkaWhite.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EC162398BC0019E633 /* GonkaWhite.plist */; };
+		DD95F7F7162398F30019E633 /* GonkaWhite_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EF162398F30019E633 /* GonkaWhite_E.png */; };
+		DD95F7F8162398F30019E633 /* GonkaWhite_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F0162398F30019E633 /* GonkaWhite_N.png */; };
+		DD95F7F9162398F30019E633 /* GonkaWhite_NE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F1162398F30019E633 /* GonkaWhite_NE.png */; };
+		DD95F7FA162398F30019E633 /* GonkaWhite_NW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F2162398F30019E633 /* GonkaWhite_NW.png */; };
+		DD95F7FB162398F30019E633 /* GonkaWhite_S.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F3162398F30019E633 /* GonkaWhite_S.png */; };
+		DD95F7FC162398F30019E633 /* GonkaWhite_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F4162398F30019E633 /* GonkaWhite_SE.png */; };
+		DD95F7FD162398F30019E633 /* GonkaWhite_SW.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F5162398F30019E633 /* GonkaWhite_SW.png */; };
+		DD95F7FE162398F30019E633 /* GonkaWhite_W.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F6162398F30019E633 /* GonkaWhite_W.png */; };
+		DD95F8001623A1700019E633 /* details.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7FF1623A16F0019E633 /* details.plist */; };
 		DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9A35A315D81A5800EAFC09 /* bonus.plist */; };
 		DDBBBA1015F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
 		DDBBBA1115F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx in Resources */ = {isa = PBXBuildFile; fileRef = DDBBBA0015F5BDC10015045D /* moon_dim_dif1_8 (Ilya Ku's conflicted copy 2012-08-27).tmx */; };
@@ -549,9 +512,6 @@
 /* Begin PBXFileReference section */
 		04CBE3C015C53EFB0019DF36 /* CustomizeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizeScene.h; sourceTree = "<group>"; };
 		04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomizeScene.mm; sourceTree = "<group>"; };
-		04CBE3C415C5403A0019DF36 /* TW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TW.plist; sourceTree = "<group>"; };
-		04CBE3C615C5409F0019DF36 /* RW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RW.plist; sourceTree = "<group>"; };
-		04CBE3C815C540BD0019DF36 /* LW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LW.plist; sourceTree = "<group>"; };
 		36096A0A15807BA000AC5073 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListener.h; sourceTree = "<group>"; };
 		36096A0B15807BA000AC5073 /* ContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContactListener.mm; sourceTree = "<group>"; };
 		36209597152176820041020A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -921,7 +881,7 @@
 		36AF39AC154C0466008C3F63 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
 		36AF39AD154C0466008C3F63 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HudLayer.mm; sourceTree = "<group>"; };
 		36BDFE171592C9430042A1C8 /* machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = machinegun.plist; sourceTree = "<group>"; };
-		36EE270715ABEF6500880A63 /* jeep1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep1.plist; sourceTree = "<group>"; };
+		36EE270715ABEF6500880A63 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
 		36EE270815ABEF6500880A63 /* order.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order.plist; sourceTree = "<group>"; };
 		36EE270915ABEF6500880A63 /* pl_beavis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pl_beavis.plist; sourceTree = "<group>"; };
 		36EE271015ABF94B00880A63 /* disk_E_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk_E_1.png; sourceTree = "<group>"; };
@@ -1082,30 +1042,6 @@
 		A414486F1597125C0079040F /* slash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slash.png; sourceTree = "<group>"; };
 		A4144886159726610079040F /* steeringField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steeringField.png; sourceTree = "<group>"; };
 		A4144887159726620079040F /* nitroField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nitroField.png; sourceTree = "<group>"; };
-		A414488B1597A4020079040F /* jeep1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep1.png; sourceTree = "<group>"; };
-		A414488C1597A4020079040F /* jeep2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep2.png; sourceTree = "<group>"; };
-		A414488D1597A4020079040F /* jeep3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep3.png; sourceTree = "<group>"; };
-		A414488E1597A4020079040F /* jeep4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep4.png; sourceTree = "<group>"; };
-		A414488F1597A4020079040F /* jeep5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep5.png; sourceTree = "<group>"; };
-		A41448901597A4020079040F /* jeep6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep6.png; sourceTree = "<group>"; };
-		A41448911597A4020079040F /* jeep7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep7.png; sourceTree = "<group>"; };
-		A41448921597A4020079040F /* jeep8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep8.png; sourceTree = "<group>"; };
-		A414489C1597A4660079040F /* JeepWheels45_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45_1.png; sourceTree = "<group>"; };
-		A414489D1597A4660079040F /* JeepWheels45_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45_2.png; sourceTree = "<group>"; };
-		A414489E1597A4660079040F /* JeepWheels45_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45_3.png; sourceTree = "<group>"; };
-		A414489F1597A4660079040F /* JeepWheels45_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45_4.png; sourceTree = "<group>"; };
-		A41448A51597A4AA0079040F /* JeepWheels45Flip_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45Flip_1.png; sourceTree = "<group>"; };
-		A41448A61597A4AA0079040F /* JeepWheels45Flip_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45Flip_2.png; sourceTree = "<group>"; };
-		A41448A71597A4AA0079040F /* JeepWheels45Flip_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45Flip_3.png; sourceTree = "<group>"; };
-		A41448A81597A4AA0079040F /* JeepWheels45Flip_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels45Flip_4.png; sourceTree = "<group>"; };
-		A41448AE1597A4DD0079040F /* JeepWheelsSide_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheelsSide_1.png; sourceTree = "<group>"; };
-		A41448AF1597A4DD0079040F /* JeepWheelsSide_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheelsSide_2.png; sourceTree = "<group>"; };
-		A41448B01597A4DD0079040F /* JeepWheelsSide_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheelsSide_3.png; sourceTree = "<group>"; };
-		A41448B11597A4DD0079040F /* JeepWheelsSide_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheelsSide_4.png; sourceTree = "<group>"; };
-		A41448B71597A5270079040F /* JeepWheels_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels_1.png; sourceTree = "<group>"; };
-		A41448B81597A5270079040F /* JeepWheels_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels_2.png; sourceTree = "<group>"; };
-		A41448B91597A5270079040F /* JeepWheels_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels_3.png; sourceTree = "<group>"; };
-		A41448BA1597A5270079040F /* JeepWheels_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeepWheels_4.png; sourceTree = "<group>"; };
 		A41448BF1597A9AA0079040F /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
 		A4470A30159E615A0042324F /* BACK2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BACK2.png; sourceTree = "<group>"; };
 		A48196BF1595B59600207138 /* mgun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mgun.plist; sourceTree = "<group>"; };
@@ -1150,18 +1086,6 @@
 		A4C8F40E159CE1E00068F229 /* rocketFlame.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rocketFlame.plist; sourceTree = "<group>"; };
 		DD0001C515FEF4B600D5DCD8 /* Machinegun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machinegun.h; sourceTree = "<group>"; };
 		DD0001C615FEF4B600D5DCD8 /* Machinegun.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Machinegun.mm; sourceTree = "<group>"; };
-		DD000365159FDCDF0012E4D2 /* DiskiBokom1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_1.png; sourceTree = "<group>"; };
-		DD000366159FDCDF0012E4D2 /* DiskiBokom1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_2.png; sourceTree = "<group>"; };
-		DD000367159FDCDF0012E4D2 /* DiskiBokom1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_3.png; sourceTree = "<group>"; };
-		DD000368159FDCDF0012E4D2 /* DiskiBokom1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiskiBokom1_4.png; sourceTree = "<group>"; };
-		DD00036D159FDCEF0012E4D2 /* Diski45Flip1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diski45Flip1_1.png; sourceTree = "<group>"; };
-		DD00036E159FDCEF0012E4D2 /* Diski45Flip1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diski45Flip1_2.png; sourceTree = "<group>"; };
-		DD00036F159FDCEF0012E4D2 /* Diski45Flip1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diski45Flip1_3.png; sourceTree = "<group>"; };
-		DD000370159FDCEF0012E4D2 /* Diski45Flip1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diski45Flip1_4.png; sourceTree = "<group>"; };
-		DD000375159FDCFD0012E4D2 /* Diski45-1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_1.png"; sourceTree = "<group>"; };
-		DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_2.png"; sourceTree = "<group>"; };
-		DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_3.png"; sourceTree = "<group>"; };
-		DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diski45-1_4.png"; sourceTree = "<group>"; };
 		DD0680321597E7A8006D5D67 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
 		DD0680331597E7A8006D5D67 /* Rocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rocket.mm; sourceTree = "<group>"; };
 		DD06803B1597E926006D5D67 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
@@ -1234,17 +1158,19 @@
 		DD55AE0415D827A3006F4E45 /* SlowEnemyBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SlowEnemyBonus.mm; sourceTree = "<group>"; };
 		DD55AE0615D82C65006F4E45 /* FightDenyBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightDenyBonus.h; sourceTree = "<group>"; };
 		DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FightDenyBonus.mm; sourceTree = "<group>"; };
-		DD69A6911561E104001FF24B /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
-		DD69A6921561E104001FF24B /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
-		DD69A6931561E104001FF24B /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
-		DD69A6941561E104001FF24B /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
-		DD69A6951561E104001FF24B /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car5.png; sourceTree = "<group>"; };
-		DD69A6961561E104001FF24B /* car6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car6.png; sourceTree = "<group>"; };
-		DD69A6971561E104001FF24B /* car7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car7.png; sourceTree = "<group>"; };
-		DD69A6981561E104001FF24B /* car8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car8.png; sourceTree = "<group>"; };
 		DD95F7E61623940D0019E633 /* GarageMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageMenuScene.h; sourceTree = "<group>"; };
 		DD95F7E71623940D0019E633 /* GarageMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageMenuScene.m; sourceTree = "<group>"; };
-		DD95F7EA162397BC0019E633 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
+		DD95F7EA162397BC0019E633 /* jeep2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep2.plist; sourceTree = "<group>"; };
+		DD95F7EC162398BC0019E633 /* GonkaWhite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GonkaWhite.plist; sourceTree = "<group>"; };
+		DD95F7EF162398F30019E633 /* GonkaWhite_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_E.png; sourceTree = "<group>"; };
+		DD95F7F0162398F30019E633 /* GonkaWhite_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_N.png; sourceTree = "<group>"; };
+		DD95F7F1162398F30019E633 /* GonkaWhite_NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_NE.png; sourceTree = "<group>"; };
+		DD95F7F2162398F30019E633 /* GonkaWhite_NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_NW.png; sourceTree = "<group>"; };
+		DD95F7F3162398F30019E633 /* GonkaWhite_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_S.png; sourceTree = "<group>"; };
+		DD95F7F4162398F30019E633 /* GonkaWhite_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_SE.png; sourceTree = "<group>"; };
+		DD95F7F5162398F30019E633 /* GonkaWhite_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_SW.png; sourceTree = "<group>"; };
+		DD95F7F6162398F30019E633 /* GonkaWhite_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_W.png; sourceTree = "<group>"; };
+		DD95F7FF1623A16F0019E633 /* details.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = details.plist; sourceTree = "<group>"; };
 		DD9A35A315D81A5800EAFC09 /* bonus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bonus.plist; sourceTree = "<group>"; };
 		DDAF759C159BE43100E69A82 /* QueryCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryCallback.h; sourceTree = "<group>"; };
 		DDBBB9FF15F5BDC10015045D /* moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "moon_dim_dif1_7 (Ilya Ku's conflicted copy 2012-08-27).tmx"; sourceTree = "<group>"; };
@@ -1320,38 +1246,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04CBE3C315C540050019DF36 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-				04CBE3C615C5409F0019DF36 /* RW.plist */,
-				04CBE3C815C540BD0019DF36 /* LW.plist */,
-				04CBE3C415C5403A0019DF36 /* TW.plist */,
-			);
-			name = Details;
-			sourceTree = "<group>";
-		};
 		361074E91521AB2A00DC776F /* Cars */ = {
 			isa = PBXGroup;
 			children = (
-				04CBE3C315C540050019DF36 /* Details */,
 				36EE270E15ABF94B00880A63 /* Sprites */,
 				A41448BF1597A9AA0079040F /* transparent.png */,
-				DD95F7EA162397BC0019E633 /* jeep.plist */,
-				36EE270715ABEF6500880A63 /* jeep1.plist */,
+				DD95F7EA162397BC0019E633 /* jeep2.plist */,
+				36EE270715ABEF6500880A63 /* jeep.plist */,
+				DD95F7EC162398BC0019E633 /* GonkaWhite.plist */,
+				DD95F7FF1623A16F0019E633 /* details.plist */,
 				36EE270815ABEF6500880A63 /* order.plist */,
 				DD2C00A115C4DD8E00CF2E62 /* order1.plist */,
 				DD2C00A215C4DD8E00CF2E62 /* players1.plist */,
 				36EE270915ABEF6500880A63 /* pl_beavis.plist */,
-				A414488A1597A4020079040F /* Jeep */,
 				A4C8F40A159CD7700068F229 /* smokeLine.plist */,
-				DD69A6911561E104001FF24B /* car1.png */,
-				DD69A6921561E104001FF24B /* car2.png */,
-				DD69A6931561E104001FF24B /* car3.png */,
-				DD69A6941561E104001FF24B /* car4.png */,
-				DD69A6951561E104001FF24B /* car5.png */,
-				DD69A6961561E104001FF24B /* car6.png */,
-				DD69A6971561E104001FF24B /* car7.png */,
-				DD69A6981561E104001FF24B /* car8.png */,
 				36A1641C1585C53200E163F4 /* smoke.png */,
 				A4C8F40C159CD9B70068F229 /* smoker.png */,
 			);
@@ -2031,6 +1939,7 @@
 		36EE270E15ABF94B00880A63 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
+				DD95F7EE162398F30019E633 /* GonkaWhite */,
 				36EE270F15ABF94B00880A63 /* disk */,
 				36EE273015ABF94B00880A63 /* jeep */,
 				36EE274215ABF94B00880A63 /* transparent */,
@@ -2184,72 +2093,6 @@
 			name = MenuGUI;
 			sourceTree = "<group>";
 		};
-		A414488A1597A4020079040F /* Jeep */ = {
-			isa = PBXGroup;
-			children = (
-				DD000364159FDCC80012E4D2 /* Diski45 */,
-				DD000363159FDCBD0012E4D2 /* Diski45Flip */,
-				DD000361159FDCA10012E4D2 /* DiskiSide */,
-				A414489B1597A4660079040F /* JeepWheels45 */,
-				A41448A41597A4AA0079040F /* JeepWheels45Flip */,
-				A41448AD1597A4DD0079040F /* JeepWheelsSide */,
-				A41448B61597A5270079040F /* JeepWheels */,
-				A414488B1597A4020079040F /* jeep1.png */,
-				A414488C1597A4020079040F /* jeep2.png */,
-				A414488D1597A4020079040F /* jeep3.png */,
-				A414488E1597A4020079040F /* jeep4.png */,
-				A414488F1597A4020079040F /* jeep5.png */,
-				A41448901597A4020079040F /* jeep6.png */,
-				A41448911597A4020079040F /* jeep7.png */,
-				A41448921597A4020079040F /* jeep8.png */,
-			);
-			path = Jeep;
-			sourceTree = "<group>";
-		};
-		A414489B1597A4660079040F /* JeepWheels45 */ = {
-			isa = PBXGroup;
-			children = (
-				A414489C1597A4660079040F /* JeepWheels45_1.png */,
-				A414489D1597A4660079040F /* JeepWheels45_2.png */,
-				A414489E1597A4660079040F /* JeepWheels45_3.png */,
-				A414489F1597A4660079040F /* JeepWheels45_4.png */,
-			);
-			path = JeepWheels45;
-			sourceTree = "<group>";
-		};
-		A41448A41597A4AA0079040F /* JeepWheels45Flip */ = {
-			isa = PBXGroup;
-			children = (
-				A41448A51597A4AA0079040F /* JeepWheels45Flip_1.png */,
-				A41448A61597A4AA0079040F /* JeepWheels45Flip_2.png */,
-				A41448A71597A4AA0079040F /* JeepWheels45Flip_3.png */,
-				A41448A81597A4AA0079040F /* JeepWheels45Flip_4.png */,
-			);
-			path = JeepWheels45Flip;
-			sourceTree = "<group>";
-		};
-		A41448AD1597A4DD0079040F /* JeepWheelsSide */ = {
-			isa = PBXGroup;
-			children = (
-				A41448AE1597A4DD0079040F /* JeepWheelsSide_1.png */,
-				A41448AF1597A4DD0079040F /* JeepWheelsSide_2.png */,
-				A41448B01597A4DD0079040F /* JeepWheelsSide_3.png */,
-				A41448B11597A4DD0079040F /* JeepWheelsSide_4.png */,
-			);
-			path = JeepWheelsSide;
-			sourceTree = "<group>";
-		};
-		A41448B61597A5270079040F /* JeepWheels */ = {
-			isa = PBXGroup;
-			children = (
-				A41448B71597A5270079040F /* JeepWheels_1.png */,
-				A41448B81597A5270079040F /* JeepWheels_2.png */,
-				A41448B91597A5270079040F /* JeepWheels_3.png */,
-				A41448BA1597A5270079040F /* JeepWheels_4.png */,
-			);
-			path = JeepWheels;
-			sourceTree = "<group>";
-		};
 		A4AA9A5215A08926008C0C0E /* MGun */ = {
 			isa = PBXGroup;
 			children = (
@@ -2288,39 +2131,6 @@
 				A4AA9A6415A089A3008C0C0E /* RL8.png */,
 			);
 			name = RLauncher;
-			sourceTree = "<group>";
-		};
-		DD000361159FDCA10012E4D2 /* DiskiSide */ = {
-			isa = PBXGroup;
-			children = (
-				DD000365159FDCDF0012E4D2 /* DiskiBokom1_1.png */,
-				DD000366159FDCDF0012E4D2 /* DiskiBokom1_2.png */,
-				DD000367159FDCDF0012E4D2 /* DiskiBokom1_3.png */,
-				DD000368159FDCDF0012E4D2 /* DiskiBokom1_4.png */,
-			);
-			name = DiskiSide;
-			sourceTree = "<group>";
-		};
-		DD000363159FDCBD0012E4D2 /* Diski45Flip */ = {
-			isa = PBXGroup;
-			children = (
-				DD00036D159FDCEF0012E4D2 /* Diski45Flip1_1.png */,
-				DD00036E159FDCEF0012E4D2 /* Diski45Flip1_2.png */,
-				DD00036F159FDCEF0012E4D2 /* Diski45Flip1_3.png */,
-				DD000370159FDCEF0012E4D2 /* Diski45Flip1_4.png */,
-			);
-			name = Diski45Flip;
-			sourceTree = "<group>";
-		};
-		DD000364159FDCC80012E4D2 /* Diski45 */ = {
-			isa = PBXGroup;
-			children = (
-				DD000375159FDCFD0012E4D2 /* Diski45-1_1.png */,
-				DD000376159FDCFD0012E4D2 /* Diski45-1_2.png */,
-				DD000377159FDCFD0012E4D2 /* Diski45-1_3.png */,
-				DD000378159FDCFD0012E4D2 /* Diski45-1_4.png */,
-			);
-			name = Diski45;
 			sourceTree = "<group>";
 		};
 		DD03C6D115F71A6800ED2C50 /* Mars */ = {
@@ -2500,6 +2310,22 @@
 			path = spearthrower_bullet;
 			sourceTree = "<group>";
 		};
+		DD95F7EE162398F30019E633 /* GonkaWhite */ = {
+			isa = PBXGroup;
+			children = (
+				DD95F7EF162398F30019E633 /* GonkaWhite_E.png */,
+				DD95F7F0162398F30019E633 /* GonkaWhite_N.png */,
+				DD95F7F1162398F30019E633 /* GonkaWhite_NE.png */,
+				DD95F7F2162398F30019E633 /* GonkaWhite_NW.png */,
+				DD95F7F3162398F30019E633 /* GonkaWhite_S.png */,
+				DD95F7F4162398F30019E633 /* GonkaWhite_SE.png */,
+				DD95F7F5162398F30019E633 /* GonkaWhite_SW.png */,
+				DD95F7F6162398F30019E633 /* GonkaWhite_W.png */,
+			);
+			name = GonkaWhite;
+			path = ../GonkaWhite;
+			sourceTree = "<group>";
+		};
 		DDFAE14015E033A2002DE713 /* test_moon_maps */ = {
 			isa = PBXGroup;
 			children = (
@@ -2617,14 +2443,6 @@
 				364B77E6154A58CA009E4E9E /* Button_trigger_1.png in Resources */,
 				364B77E7154A58CA009E4E9E /* Button_weapon_1.png in Resources */,
 				364B77E8154A58CA009E4E9E /* Button_weapon_2.png in Resources */,
-				DD69A6991561E104001FF24B /* car1.png in Resources */,
-				DD69A69A1561E104001FF24B /* car2.png in Resources */,
-				DD69A69B1561E104001FF24B /* car3.png in Resources */,
-				DD69A69C1561E104001FF24B /* car4.png in Resources */,
-				DD69A69D1561E104001FF24B /* car5.png in Resources */,
-				DD69A69E1561E104001FF24B /* car6.png in Resources */,
-				DD69A69F1561E104001FF24B /* car7.png in Resources */,
-				DD69A6A01561E104001FF24B /* car8.png in Resources */,
 				36A1641D1585C53200E163F4 /* smoke.png in Resources */,
 				36BDFE181592C9430042A1C8 /* machinegun.plist in Resources */,
 				A48196C01595B59600207138 /* mgun.plist in Resources */,
@@ -2646,30 +2464,6 @@
 				A41448811597125C0079040F /* slash.png in Resources */,
 				A4144888159726620079040F /* steeringField.png in Resources */,
 				A4144889159726620079040F /* nitroField.png in Resources */,
-				A41448931597A4020079040F /* jeep1.png in Resources */,
-				A41448941597A4020079040F /* jeep2.png in Resources */,
-				A41448951597A4020079040F /* jeep3.png in Resources */,
-				A41448961597A4020079040F /* jeep4.png in Resources */,
-				A41448971597A4020079040F /* jeep5.png in Resources */,
-				A41448981597A4020079040F /* jeep6.png in Resources */,
-				A41448991597A4020079040F /* jeep7.png in Resources */,
-				A414489A1597A4020079040F /* jeep8.png in Resources */,
-				A41448A01597A4660079040F /* JeepWheels45_1.png in Resources */,
-				A41448A11597A4660079040F /* JeepWheels45_2.png in Resources */,
-				A41448A21597A4660079040F /* JeepWheels45_3.png in Resources */,
-				A41448A31597A4660079040F /* JeepWheels45_4.png in Resources */,
-				A41448A91597A4AA0079040F /* JeepWheels45Flip_1.png in Resources */,
-				A41448AA1597A4AA0079040F /* JeepWheels45Flip_2.png in Resources */,
-				A41448AB1597A4AA0079040F /* JeepWheels45Flip_3.png in Resources */,
-				A41448AC1597A4AA0079040F /* JeepWheels45Flip_4.png in Resources */,
-				A41448B21597A4DD0079040F /* JeepWheelsSide_1.png in Resources */,
-				A41448B31597A4DD0079040F /* JeepWheelsSide_2.png in Resources */,
-				A41448B41597A4DD0079040F /* JeepWheelsSide_3.png in Resources */,
-				A41448B51597A4DD0079040F /* JeepWheelsSide_4.png in Resources */,
-				A41448BB1597A5270079040F /* JeepWheels_1.png in Resources */,
-				A41448BC1597A5270079040F /* JeepWheels_2.png in Resources */,
-				A41448BD1597A5270079040F /* JeepWheels_3.png in Resources */,
-				A41448BE1597A5270079040F /* JeepWheels_4.png in Resources */,
 				A41448C01597A9AA0079040F /* transparent.png in Resources */,
 				DD06803C1597E926006D5D67 /* rock.png in Resources */,
 				367777101599695A002717CB /* countdown.plist in Resources */,
@@ -2684,18 +2478,6 @@
 				A4C8F40D159CD9B70068F229 /* smoker.png in Resources */,
 				A4C8F40F159CE1E00068F229 /* rocketFlame.plist in Resources */,
 				A4470A31159E615A0042324F /* BACK2.png in Resources */,
-				DD000369159FDCDF0012E4D2 /* DiskiBokom1_1.png in Resources */,
-				DD00036A159FDCDF0012E4D2 /* DiskiBokom1_2.png in Resources */,
-				DD00036B159FDCDF0012E4D2 /* DiskiBokom1_3.png in Resources */,
-				DD00036C159FDCDF0012E4D2 /* DiskiBokom1_4.png in Resources */,
-				DD000371159FDCEF0012E4D2 /* Diski45Flip1_1.png in Resources */,
-				DD000372159FDCEF0012E4D2 /* Diski45Flip1_2.png in Resources */,
-				DD000373159FDCEF0012E4D2 /* Diski45Flip1_3.png in Resources */,
-				DD000374159FDCEF0012E4D2 /* Diski45Flip1_4.png in Resources */,
-				DD000379159FDCFD0012E4D2 /* Diski45-1_1.png in Resources */,
-				DD00037A159FDCFD0012E4D2 /* Diski45-1_2.png in Resources */,
-				DD00037B159FDCFD0012E4D2 /* Diski45-1_3.png in Resources */,
-				DD00037C159FDCFD0012E4D2 /* Diski45-1_4.png in Resources */,
 				A4AA9A5115A088D7008C0C0E /* GoodDogCool.ttf in Resources */,
 				A4AA9A5B15A08977008C0C0E /* mGun315.png in Resources */,
 				A4AA9A5C15A08977008C0C0E /* mGun0.png in Resources */,
@@ -2721,7 +2503,7 @@
 				A4AA9A8115A089A3008C0C0E /* r270.png in Resources */,
 				A4AA9A8215A089A3008C0C0E /* r225.png in Resources */,
 				A4AA9A8315A089A3008C0C0E /* r180.png in Resources */,
-				36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */,
+				36EE270A15ABEF6500880A63 /* jeep.plist in Resources */,
 				36EE270B15ABEF6500880A63 /* order.plist in Resources */,
 				36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */,
 				36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */,
@@ -2810,9 +2592,6 @@
 				DD39EF2215C38CFD005F5A8B /* em_ring_explosion.pex in Resources */,
 				DD2C00A315C4DD8E00CF2E62 /* order1.plist in Resources */,
 				DD2C00A415C4DD8E00CF2E62 /* players1.plist in Resources */,
-				04CBE3C515C5403A0019DF36 /* TW.plist in Resources */,
-				04CBE3C715C5409F0019DF36 /* RW.plist in Resources */,
-				04CBE3C915C540BD0019DF36 /* LW.plist in Resources */,
 				DD2357DE15D79E68003B97A4 /* heal.png in Resources */,
 				DD9A35A415D81A5800EAFC09 /* bonus.plist in Resources */,
 				DD1C9C4D15DCBBAD00FF2A17 /* Ammo_bonus.png in Resources */,
@@ -2957,7 +2736,17 @@
 				9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */,
 				9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */,
 				9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */,
-				DD95F7EB162397BC0019E633 /* jeep.plist in Resources */,
+				DD95F7EB162397BC0019E633 /* jeep2.plist in Resources */,
+				DD95F7ED162398BC0019E633 /* GonkaWhite.plist in Resources */,
+				DD95F7F7162398F30019E633 /* GonkaWhite_E.png in Resources */,
+				DD95F7F8162398F30019E633 /* GonkaWhite_N.png in Resources */,
+				DD95F7F9162398F30019E633 /* GonkaWhite_NE.png in Resources */,
+				DD95F7FA162398F30019E633 /* GonkaWhite_NW.png in Resources */,
+				DD95F7FB162398F30019E633 /* GonkaWhite_S.png in Resources */,
+				DD95F7FC162398F30019E633 /* GonkaWhite_SE.png in Resources */,
+				DD95F7FD162398F30019E633 /* GonkaWhite_SW.png in Resources */,
+				DD95F7FE162398F30019E633 /* GonkaWhite_W.png in Resources */,
+				DD95F8001623A1700019E633 /* details.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

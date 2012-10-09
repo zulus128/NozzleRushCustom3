@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>N_BW</key>
+	<string>2 -50</string>
+	<key>N_RW</key>
+	<string>93 82</string>
+	<key>N_LW</key>
+	<string>-92 82</string>
+	<key>N_WH</key>
+	<string>0 0</string>
+	<key>NW_BW</key>
+	<string>98 -31</string>
+	<key>NW_RW</key>
+	<string>-2 106</string>
+	<key>NW_LW</key>
+	<string>-107 51</string>
+	<key>NW_WH</key>
+	<string>0 0</string>
+	<key>W_BW</key>
+	<string>131 37</string>
+	<key>W_RW</key>
+	<string>-76 92</string>
+	<key>W_LW</key>
+	<string>-76 -4</string>
+	<key>W_WH</key>
+	<string>0 0</string>
+	<key>SW_BW</key>
+	<string>94 73</string>
+	<key>SW_RW</key>
+	<string>-114 41</string>
+	<key>SW_LW</key>
+	<string>-11 -15</string>
+	<key>SW_WH</key>
+	<string>0 0</string>
+	<key>S_BW</key>
+	<string>3 105</string>
+	<key>S_RW</key>
+	<string>-84 16</string>
+	<key>S_LW</key>
+	<string>90 16</string>
+	<key>S_WH</key>
+	<string>0 0</string>
+	<key>SE_BW</key>
+	<string>-94 73</string>
+	<key>SE_RW</key>
+	<string>11 -15</string>
+	<key>SE_LW</key>
+	<string>114 41</string>
+	<key>SE_WH</key>
+	<string>0 0</string>
+	<key>E_BW</key>
+	<string>-131 37</string>
+	<key>E_RW</key>
+	<string>76 -4</string>
+	<key>E_LW</key>
+	<string>76 92</string>
+	<key>E_WH</key>
+	<string>0 0</string>
+	<key>NE_BW</key>
+	<string>-98 -31</string>
+	<key>NE_RW</key>
+	<string>107 51</string>
+	<key>NE_LW</key>
+	<string>2 106</string>
+	<key>NE_WH</key>
+	<string>0 0</string>
+</dict>
+</plist>
