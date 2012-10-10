@@ -8,13 +8,29 @@
 		<string>Enter your name</string>
 		<key>Difficulty</key>
 		<integer>3</integer>
+		<key>body_index</key>
+		<integer>0</integer>
+		<key>rw_index</key>
+		<integer>0</integer>
+		<key>lw_index</key>
+		<integer>0</integer>
+		<key>bw_index</key>
+		<integer>0</integer>
 	</dict>
 	<key>profile0</key>
 	<dict>
 		<key>Name</key>
-		<string>Player1</string>
+		<string>beavis</string>
 		<key>Difficulty</key>
 		<integer>2</integer>
+		<key>body_index</key>
+		<integer>1</integer>
+		<key>rw_index</key>
+		<integer>0</integer>
+		<key>lw_index</key>
+		<integer>0</integer>
+		<key>bw_index</key>
+		<integer>0</integer>
 	</dict>
 </dict>
 </plist>

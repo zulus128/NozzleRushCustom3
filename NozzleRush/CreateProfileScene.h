@@ -14,6 +14,7 @@
     UITextField* _nameField;
     CCLabelTTF* label2;
     int diff;
+    NSDictionary* dict;
 }
 
 + (id) scene;

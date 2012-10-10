@@ -66,7 +66,7 @@
     
     int t = ((CCMenuItemLabel*) sender).tag;
     NSLog(@"Clicked %d", t);
-    [Common instance].selectedProfile = t;
+    [Common instance].selProfile = t;
     
     CCScene *scen = [ProfileMenuScene scene];
 	[[CCDirector sharedDirector] replaceScene: scen];

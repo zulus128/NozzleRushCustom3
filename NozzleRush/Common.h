@@ -97,9 +97,10 @@ enum game_type { GT_RACE, GT_FREERIDE };
 - (int) profilesCnt;
 - (NSDictionary*) getProfile: (int) n;
 - (NSDictionary*) getTempProfile;
-- (void) setProfile: (NSDictionary*) d for:(int) n;
+- (void) setProfile: (NSMutableDictionary*) d for:(int) n;
 - (void) createProfile: (NSDictionary*) d;
 - (NSDictionary*) getSelectedProfile;
+- (void) setSelectedProfile: (NSMutableDictionary*) d;
 
 @property (assign, readwrite) CGPoint direction;
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;
@@ -120,6 +121,6 @@ enum game_type { GT_RACE, GT_FREERIDE };
 @property (nonatomic, retain) NSDictionary* w_machinegun;
 @property (nonatomic, retain) NSDictionary* w_spearthrower;
 
-@property (assign, readwrite) int selectedProfile;
+@property (assign, readwrite) int selProfile;
 
 @end

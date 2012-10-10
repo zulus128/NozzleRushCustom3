@@ -15,7 +15,17 @@
     CCSprite* sprite;
     NSArray* body;
     int bodyindex;
+    int rwindex;
+    int lwindex;
+    int bwindex;
     CCLabelTTF* label_body;
+    CCLabelTTF* label_rw;
+    CCLabelTTF* label_lw;
+    CCLabelTTF* label_bw;
+    NSMutableDictionary* di;
+    NSArray* rw;
+    NSArray* lw;
+    NSArray* bw;
     
 }
 

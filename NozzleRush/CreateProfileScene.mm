@@ -34,7 +34,7 @@
         backgroundSprite.anchorPoint = ccp(0, 0);
         [self addChild:backgroundSprite];
         
-        NSDictionary* dict = [[Common instance] getTempProfile];
+        dict = [[Common instance] getTempProfile];
         NSString* name = [dict objectForKey:@"Name"];
         diff = [[dict objectForKey:@"Difficulty"] intValue];
         
@@ -104,11 +104,11 @@
 
 - (void) create:(id) sender {
     
-    NSMutableDictionary* dic1 = [[NSMutableDictionary alloc] init];
+    NSMutableDictionary* dic1 = [NSMutableDictionary dictionaryWithDictionary:dict];// [[NSMutableDictionary alloc] init];
     [dic1 setObject:[NSNumber numberWithInt:diff] forKey:@"Difficulty"];
     [dic1 setObject:_nameField.text forKey:@"Name"];
     [[Common instance] createProfile:dic1];
-    [dic1 release];
+//    [dic1 release];
     
     [self back:nil];
 }

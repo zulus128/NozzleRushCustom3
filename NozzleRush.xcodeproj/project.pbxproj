@@ -448,7 +448,7 @@
 		DD55AE0215D8215A006F4E45 /* SpeedBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0115D8215A006F4E45 /* SpeedBonus.mm */; };
 		DD55AE0515D827A3006F4E45 /* SlowEnemyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0415D827A3006F4E45 /* SlowEnemyBonus.mm */; };
 		DD55AE0815D82C66006F4E45 /* FightDenyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */; };
-		DD95F7E81623940D0019E633 /* GarageMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95F7E71623940D0019E633 /* GarageMenuScene.m */; };
+		DD95F7E81623940D0019E633 /* GarageMenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD95F7E71623940D0019E633 /* GarageMenuScene.mm */; };
 		DD95F7EB162397BC0019E633 /* jeep2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep2.plist */; };
 		DD95F7ED162398BC0019E633 /* GonkaWhite.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EC162398BC0019E633 /* GonkaWhite.plist */; };
 		DD95F7F7162398F30019E633 /* GonkaWhite_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EF162398F30019E633 /* GonkaWhite_E.png */; };
@@ -1140,10 +1140,10 @@
 		DD3072D315F5FE2C004461F5 /* spearthrower_bullet_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_SE.png; sourceTree = "<group>"; };
 		DD3072D415F5FE2C004461F5 /* spearthrower_bullet_SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_SW.png; sourceTree = "<group>"; };
 		DD3072D515F5FE2C004461F5 /* spearthrower_bullet_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spearthrower_bullet_W.png; sourceTree = "<group>"; };
-		DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_flamethrower.plist; sourceTree = "<group>"; };
-		DD3072D715F5FE2C004461F5 /* w_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_machinegun.plist; sourceTree = "<group>"; };
-		DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_rear_machinegun.plist; sourceTree = "<group>"; };
-		DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = w_spearthrower.plist; sourceTree = "<group>"; };
+		DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = w_flamethrower.plist; path = guns_stage1/w_flamethrower.plist; sourceTree = "<group>"; };
+		DD3072D715F5FE2C004461F5 /* w_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = w_machinegun.plist; path = guns_stage1/w_machinegun.plist; sourceTree = "<group>"; };
+		DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = w_rear_machinegun.plist; path = guns_stage1/w_rear_machinegun.plist; sourceTree = "<group>"; };
+		DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = w_spearthrower.plist; path = guns_stage1/w_spearthrower.plist; sourceTree = "<group>"; };
 		DD39EF1A15C37D87005F5A8B /* em_explosion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = em_explosion.plist; sourceTree = "<group>"; };
 		DD39EF1D15C37E00005F5A8B /* em_ring_explosion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = em_ring_explosion.plist; sourceTree = "<group>"; };
 		DD39EF1F15C38CFD005F5A8B /* em_explosion.pex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = em_explosion.pex; sourceTree = "<group>"; };
@@ -1159,7 +1159,7 @@
 		DD55AE0615D82C65006F4E45 /* FightDenyBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightDenyBonus.h; sourceTree = "<group>"; };
 		DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FightDenyBonus.mm; sourceTree = "<group>"; };
 		DD95F7E61623940D0019E633 /* GarageMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageMenuScene.h; sourceTree = "<group>"; };
-		DD95F7E71623940D0019E633 /* GarageMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageMenuScene.m; sourceTree = "<group>"; };
+		DD95F7E71623940D0019E633 /* GarageMenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GarageMenuScene.mm; sourceTree = "<group>"; };
 		DD95F7EA162397BC0019E633 /* jeep2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep2.plist; sourceTree = "<group>"; };
 		DD95F7EC162398BC0019E633 /* GonkaWhite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GonkaWhite.plist; sourceTree = "<group>"; };
 		DD95F7EF162398F30019E633 /* GonkaWhite_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_E.png; sourceTree = "<group>"; };
@@ -1308,6 +1308,8 @@
 		3677770D1599691A002717CB /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				DDA9061B1624F2D90019121A /* cars */,
+				DDA906191624F21F0019121A /* weapon */,
 				3677770F1599695A002717CB /* countdown.plist */,
 				DD9A35A315D81A5800EAFC09 /* bonus.plist */,
 				9C32CFD9161C20CD00C50C94 /* profiles.plist */,
@@ -1366,7 +1368,7 @@
 				9CF2F4DB161D615C001F259C /* ProfileMenuScene.h */,
 				9CF2F4DC161D615C001F259C /* ProfileMenuScene.mm */,
 				DD95F7E61623940D0019E633 /* GarageMenuScene.h */,
-				DD95F7E71623940D0019E633 /* GarageMenuScene.m */,
+				DD95F7E71623940D0019E633 /* GarageMenuScene.mm */,
 				04CBE3C015C53EFB0019DF36 /* CustomizeScene.h */,
 				04CBE3C115C53EFB0019DF36 /* CustomizeScene.mm */,
 				36F845B3157764D50000C838 /* MenuScene.h */,
@@ -2227,10 +2229,6 @@
 				DD3072BB15F5FE2C004461F5 /* rear_machinegun */,
 				DD3072C415F5FE2C004461F5 /* spearthrower */,
 				DD3072CD15F5FE2C004461F5 /* spearthrower_bullet */,
-				DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */,
-				DD3072D715F5FE2C004461F5 /* w_machinegun.plist */,
-				DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */,
-				DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */,
 			);
 			path = guns_stage1;
 			sourceTree = "<group>";
@@ -2324,6 +2322,24 @@
 			);
 			name = GonkaWhite;
 			path = ../GonkaWhite;
+			sourceTree = "<group>";
+		};
+		DDA906191624F21F0019121A /* weapon */ = {
+			isa = PBXGroup;
+			children = (
+				DD3072D615F5FE2C004461F5 /* w_flamethrower.plist */,
+				DD3072D715F5FE2C004461F5 /* w_machinegun.plist */,
+				DD3072D815F5FE2C004461F5 /* w_rear_machinegun.plist */,
+				DD3072D915F5FE2C004461F5 /* w_spearthrower.plist */,
+			);
+			name = weapon;
+			sourceTree = "<group>";
+		};
+		DDA9061B1624F2D90019121A /* cars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cars;
 			sourceTree = "<group>";
 		};
 		DDFAE14015E033A2002DE713 /* test_moon_maps */ = {
@@ -2942,7 +2958,7 @@
 				9C32CFD8161C1F9D00C50C94 /* SelectProfileScene.mm in Sources */,
 				9CE434A9161C5272004C1B15 /* CreateProfileScene.mm in Sources */,
 				9CF2F4DD161D615C001F259C /* ProfileMenuScene.mm in Sources */,
-				DD95F7E81623940D0019E633 /* GarageMenuScene.m in Sources */,
+				DD95F7E81623940D0019E633 /* GarageMenuScene.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
