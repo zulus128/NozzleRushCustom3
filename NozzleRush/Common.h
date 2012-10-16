@@ -62,10 +62,12 @@ enum game_type { GT_RACE, GT_FREERIDE };
     NSDictionary* cd_params;
     NSDictionary* bonus_params;
     NSDictionary* details_order;
-    NSDictionary* pl_beavis;
-    NSDictionary* players;
-    NSMutableDictionary* players_ref;
+    NSDictionary* details;
+//    NSDictionary* pl_beavis;
+//    NSDictionary* players;
+//    NSMutableDictionary* players_ref;
     NSDictionary* jeep_corr;
+    NSDictionary* gonkawhite_corr;
     NSMutableDictionary* bodies_ref;
     NSMutableArray* bonuses;
 
@@ -91,7 +93,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
 - (int) getBonusParam: (NSString*)n;
 - (NSString*) getDetail:(NSString*)key number:(int)num; 
 - (int) getDetailCnt:(NSString*)key;
-- (NSString*) getBeaParam: (NSString*)n player_index: (int)ind;
+//- (NSString*) getBeaParam: (NSString*)n player_index: (int)ind;
+- (NSString*) getCarParamForSelectedProfile: (NSString*)n;
 - (NSString*) getBodyParam: (NSString*)n forBody:(NSString*)bo;
 - (NSMutableArray*) getBonuses;
 - (int) profilesCnt;
@@ -120,6 +123,8 @@ enum game_type { GT_RACE, GT_FREERIDE };
 @property (nonatomic, retain) Car* me;
 @property (nonatomic, retain) NSDictionary* w_machinegun;
 @property (nonatomic, retain) NSDictionary* w_spearthrower;
+@property (nonatomic, retain) NSDictionary* w_rear_machinegun;
+@property (nonatomic, retain) NSDictionary* w_flamethrower;
 
 @property (assign, readwrite) int selProfile;
 

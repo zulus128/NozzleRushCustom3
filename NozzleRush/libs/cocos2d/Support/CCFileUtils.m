@@ -124,7 +124,7 @@ NSInteger ccLoadFileIntoMemory(const char *filename, unsigned char **out)
 	if( [__localFileManager fileExistsAtPath:newName] )
 		return newName;
 
-	CCLOG(@"cocos2d: CCFileUtils: Warning file not found: %@", [newName lastPathComponent] );
+//vvv	CCLOG(@"cocos2d: CCFileUtils: Warning file not found: %@", [newName lastPathComponent] );
 
 	return nil;
 }

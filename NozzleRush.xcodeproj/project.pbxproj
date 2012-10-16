@@ -188,8 +188,8 @@
 		36A1641D1585C53200E163F4 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A1641C1585C53200E163F4 /* smoke.png */; };
 		36AF39AE154C0466008C3F63 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36AF39AD154C0466008C3F63 /* HudLayer.mm */; };
 		36BDFE181592C9430042A1C8 /* machinegun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BDFE171592C9430042A1C8 /* machinegun.plist */; };
-		36EE270A15ABEF6500880A63 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep.plist */; };
-		36EE270B15ABEF6500880A63 /* order.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270815ABEF6500880A63 /* order.plist */; };
+		36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270715ABEF6500880A63 /* jeep1.plist */; };
+		36EE270B15ABEF6500880A63 /* order2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270815ABEF6500880A63 /* order2.plist */; };
 		36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36EE270915ABEF6500880A63 /* pl_beavis.plist */; };
 		36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE271015ABF94B00880A63 /* disk_E_1.png */; };
 		36EE276D15ABF94B00880A63 /* disk_E_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EE271115ABF94B00880A63 /* disk_E_2.png */; };
@@ -325,6 +325,7 @@
 		9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221BF1609E4A40029494A /* Zel_mars1 - копия (10).tmx */; };
 		9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */; };
 		9CE434A9161C5272004C1B15 /* CreateProfileScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CE434A8161C5272004C1B15 /* CreateProfileScene.mm */; };
+		9CEBC78F1626BE52004F0331 /* order.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CEBC78E1626BE52004F0331 /* order.plist */; };
 		9CF2F4DD161D615C001F259C /* ProfileMenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2F4DC161D615C001F259C /* ProfileMenuScene.mm */; };
 		A41448711597125C0079040F /* secondFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A414485F1597125C0079040F /* secondFireField.png */; };
 		A41448721597125C0079040F /* firstFireField.png in Resources */ = {isa = PBXBuildFile; fileRef = A41448601597125C0079040F /* firstFireField.png */; };
@@ -449,7 +450,7 @@
 		DD55AE0515D827A3006F4E45 /* SlowEnemyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0415D827A3006F4E45 /* SlowEnemyBonus.mm */; };
 		DD55AE0815D82C66006F4E45 /* FightDenyBonus.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */; };
 		DD95F7E81623940D0019E633 /* GarageMenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD95F7E71623940D0019E633 /* GarageMenuScene.mm */; };
-		DD95F7EB162397BC0019E633 /* jeep2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep2.plist */; };
+		DD95F7EB162397BC0019E633 /* jeep.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EA162397BC0019E633 /* jeep.plist */; };
 		DD95F7ED162398BC0019E633 /* GonkaWhite.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EC162398BC0019E633 /* GonkaWhite.plist */; };
 		DD95F7F7162398F30019E633 /* GonkaWhite_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7EF162398F30019E633 /* GonkaWhite_E.png */; };
 		DD95F7F8162398F30019E633 /* GonkaWhite_N.png in Resources */ = {isa = PBXBuildFile; fileRef = DD95F7F0162398F30019E633 /* GonkaWhite_N.png */; };
@@ -881,8 +882,8 @@
 		36AF39AC154C0466008C3F63 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
 		36AF39AD154C0466008C3F63 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HudLayer.mm; sourceTree = "<group>"; };
 		36BDFE171592C9430042A1C8 /* machinegun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = machinegun.plist; sourceTree = "<group>"; };
-		36EE270715ABEF6500880A63 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
-		36EE270815ABEF6500880A63 /* order.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order.plist; sourceTree = "<group>"; };
+		36EE270715ABEF6500880A63 /* jeep1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep1.plist; sourceTree = "<group>"; };
+		36EE270815ABEF6500880A63 /* order2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order2.plist; sourceTree = "<group>"; };
 		36EE270915ABEF6500880A63 /* pl_beavis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pl_beavis.plist; sourceTree = "<group>"; };
 		36EE271015ABF94B00880A63 /* disk_E_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk_E_1.png; sourceTree = "<group>"; };
 		36EE271115ABF94B00880A63 /* disk_E_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk_E_2.png; sourceTree = "<group>"; };
@@ -1022,6 +1023,7 @@
 		9CB221C01609E4A40029494A /* Zel_mars1 - копия.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Zel_mars1 - копия.tmx"; sourceTree = "<group>"; };
 		9CE434A7161C5272004C1B15 /* CreateProfileScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateProfileScene.h; sourceTree = "<group>"; };
 		9CE434A8161C5272004C1B15 /* CreateProfileScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CreateProfileScene.mm; sourceTree = "<group>"; };
+		9CEBC78E1626BE52004F0331 /* order.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = order.plist; sourceTree = "<group>"; };
 		9CF2F4DB161D615C001F259C /* ProfileMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileMenuScene.h; sourceTree = "<group>"; };
 		9CF2F4DC161D615C001F259C /* ProfileMenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProfileMenuScene.mm; sourceTree = "<group>"; };
 		A414485F1597125C0079040F /* secondFireField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondFireField.png; sourceTree = "<group>"; };
@@ -1160,7 +1162,7 @@
 		DD55AE0715D82C66006F4E45 /* FightDenyBonus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FightDenyBonus.mm; sourceTree = "<group>"; };
 		DD95F7E61623940D0019E633 /* GarageMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageMenuScene.h; sourceTree = "<group>"; };
 		DD95F7E71623940D0019E633 /* GarageMenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GarageMenuScene.mm; sourceTree = "<group>"; };
-		DD95F7EA162397BC0019E633 /* jeep2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep2.plist; sourceTree = "<group>"; };
+		DD95F7EA162397BC0019E633 /* jeep.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jeep.plist; sourceTree = "<group>"; };
 		DD95F7EC162398BC0019E633 /* GonkaWhite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GonkaWhite.plist; sourceTree = "<group>"; };
 		DD95F7EF162398F30019E633 /* GonkaWhite_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_E.png; sourceTree = "<group>"; };
 		DD95F7F0162398F30019E633 /* GonkaWhite_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GonkaWhite_N.png; sourceTree = "<group>"; };
@@ -1251,11 +1253,8 @@
 			children = (
 				36EE270E15ABF94B00880A63 /* Sprites */,
 				A41448BF1597A9AA0079040F /* transparent.png */,
-				DD95F7EA162397BC0019E633 /* jeep2.plist */,
-				36EE270715ABEF6500880A63 /* jeep.plist */,
-				DD95F7EC162398BC0019E633 /* GonkaWhite.plist */,
-				DD95F7FF1623A16F0019E633 /* details.plist */,
-				36EE270815ABEF6500880A63 /* order.plist */,
+				36EE270715ABEF6500880A63 /* jeep1.plist */,
+				36EE270815ABEF6500880A63 /* order2.plist */,
 				DD2C00A115C4DD8E00CF2E62 /* order1.plist */,
 				DD2C00A215C4DD8E00CF2E62 /* players1.plist */,
 				36EE270915ABEF6500880A63 /* pl_beavis.plist */,
@@ -1308,6 +1307,7 @@
 		3677770D1599691A002717CB /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				9CEBC78C1626BE29004F0331 /* custom */,
 				DDA9061B1624F2D90019121A /* cars */,
 				DDA906191624F21F0019121A /* weapon */,
 				3677770F1599695A002717CB /* countdown.plist */,
@@ -2058,6 +2058,17 @@
 			path = wheels;
 			sourceTree = "<group>";
 		};
+		9CEBC78C1626BE29004F0331 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				9CEBC78E1626BE52004F0331 /* order.plist */,
+				DD95F7EA162397BC0019E633 /* jeep.plist */,
+				DD95F7EC162398BC0019E633 /* GonkaWhite.plist */,
+				DD95F7FF1623A16F0019E633 /* details.plist */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
 		A414485D1597123E0079040F /* MenuGUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -2519,8 +2530,8 @@
 				A4AA9A8115A089A3008C0C0E /* r270.png in Resources */,
 				A4AA9A8215A089A3008C0C0E /* r225.png in Resources */,
 				A4AA9A8315A089A3008C0C0E /* r180.png in Resources */,
-				36EE270A15ABEF6500880A63 /* jeep.plist in Resources */,
-				36EE270B15ABEF6500880A63 /* order.plist in Resources */,
+				36EE270A15ABEF6500880A63 /* jeep1.plist in Resources */,
+				36EE270B15ABEF6500880A63 /* order2.plist in Resources */,
 				36EE270C15ABEF6500880A63 /* pl_beavis.plist in Resources */,
 				36EE276C15ABF94B00880A63 /* disk_E_1.png in Resources */,
 				36EE276D15ABF94B00880A63 /* disk_E_2.png in Resources */,
@@ -2752,7 +2763,7 @@
 				9CB221CC1609E4A40029494A /* Zel_mars1 - копия (10).tmx in Resources */,
 				9CB221CD1609E4A40029494A /* Zel_mars1 - копия.tmx in Resources */,
 				9C32CFDA161C20CD00C50C94 /* profiles.plist in Resources */,
-				DD95F7EB162397BC0019E633 /* jeep2.plist in Resources */,
+				DD95F7EB162397BC0019E633 /* jeep.plist in Resources */,
 				DD95F7ED162398BC0019E633 /* GonkaWhite.plist in Resources */,
 				DD95F7F7162398F30019E633 /* GonkaWhite_E.png in Resources */,
 				DD95F7F8162398F30019E633 /* GonkaWhite_N.png in Resources */,
@@ -2763,6 +2774,7 @@
 				DD95F7FD162398F30019E633 /* GonkaWhite_SW.png in Resources */,
 				DD95F7FE162398F30019E633 /* GonkaWhite_W.png in Resources */,
 				DD95F8001623A1700019E633 /* details.plist in Resources */,
+				9CEBC78F1626BE52004F0331 /* order.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

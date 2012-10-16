@@ -514,7 +514,13 @@
 
                 NSString* str = [[Common instance] getDetail:direction number:i];
 //                NSLog(@"str = %@", str);
-                NSString* pl = [[Common instance] getBeaParam:str player_index:1];
+//                NSString* pl = [[Common instance] getBeaParam:str player_index:1];
+                NSString* pl = [[Common instance] getCarParamForSelectedProfile:str];
+//                if([str isEqualToString:@"BO"])
+//                    pl = @"transparent";
+//                if([str isEqualToString:@"WH"])
+//                    pl = @"transparent";
+                
 //                NSLog(@"pl = %@", pl);
                 NSString* add = @"";
 //                if ([pl isEqualToString:@"disk"] || [pl isEqualToString:@"wheels"])
@@ -554,7 +560,8 @@
                 
                 NSString* corr = [NSString stringWithFormat:@"%@_%@", direction, str];
 //                NSLog(@"corr = %@", corr);
-                NSString* corr1 = [[Common instance] getBodyParam:corr forBody:[[Common instance] getBeaParam:@"BO" player_index:1]];
+//                NSString* corr1 = [[Common instance] getBodyParam:corr forBody:[[Common instance] getBeaParam:@"BO" player_index:1]];
+                NSString* corr1 = [[Common instance] getBodyParam:corr forBody:[[Common instance] getCarParamForSelectedProfile:@"BO"]];
 //                NSLog(@"corr1 = %@", corr1);
                 NSArray *listItems = [corr1 componentsSeparatedByString:@" "];
                 int x = [((NSString*)[listItems objectAtIndex:0]) intValue];

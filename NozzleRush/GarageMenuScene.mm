@@ -39,6 +39,10 @@
         
         body = [[NSArray alloc] initWithObjects:@"jeep_SW.png", @"GonkaWhite_SW.png", nil];
         bodyindex = [[di objectForKey:@"body_index"] intValue];
+        rwindex = [[di objectForKey:@"RW_index"] intValue];
+        lwindex = [[di objectForKey:@"LW_index"] intValue];
+        bwindex = [[di objectForKey:@"BW_index"] intValue];
+
         sprite = [CCSprite spriteWithFile:[body objectAtIndex:bodyindex]];
         [self addChild:sprite];
         sprite.position = ccp(110, backgroundSprite.contentSize.height - 120);
@@ -62,9 +66,6 @@
         rw = [details objectForKey:@"RW"];
         lw = [details objectForKey:@"LW"];
         bw = [details objectForKey:@"BW"];
-        rwindex = 0;
-        lwindex = 0;
-        bwindex = 0;
         label_rw = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"RW: %@", [rw objectAtIndex:rwindex]] fontName:@"GoodDogCool" fontSize:25];
         CCMenuItemLabel* item2 = [CCMenuItemLabel itemWithLabel:label_rw target:self selector:@selector(rwchange:)];
         item2.position = ccp(360, backgroundSprite.contentSize.height - 130);
@@ -84,9 +85,9 @@
 
 - (void) back:(id) sender {
     
-    [di setObject:[NSNumber numberWithInt:rwindex] forKey:@"rw_index"];
-    [di setObject:[NSNumber numberWithInt:lwindex] forKey:@"lw_index"];
-    [di setObject:[NSNumber numberWithInt:bwindex] forKey:@"bw_index"];
+    [di setObject:[NSNumber numberWithInt:rwindex] forKey:@"RW_index"];
+    [di setObject:[NSNumber numberWithInt:lwindex] forKey:@"LW_index"];
+    [di setObject:[NSNumber numberWithInt:bwindex] forKey:@"BW_index"];
     [di setObject:[NSNumber numberWithInt:bodyindex] forKey:@"body_index"];
     [[Common instance] setSelectedProfile:di];
     

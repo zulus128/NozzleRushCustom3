@@ -365,24 +365,30 @@
 		NSString *appFile1 = [[NSBundle mainBundle] pathForResource:@"bonus" ofType:@"plist"];
 		bonus_params = [[NSDictionary alloc] initWithContentsOfFile:appFile1];
         
-		NSString *order_file = [[NSBundle mainBundle] pathForResource:@"order1" ofType:@"plist"];
+		NSString *order_file = [[NSBundle mainBundle] pathForResource:@"order" ofType:@"plist"];
         details_order = [[NSDictionary alloc] initWithContentsOfFile:order_file];
         detail = 0;
 
-		NSString *plbeav_file = [[NSBundle mainBundle] pathForResource:@"pl_beavis" ofType:@"plist"];
-        pl_beavis = [[NSDictionary alloc] initWithContentsOfFile:plbeav_file];
-        
-		NSString *players_file = [[NSBundle mainBundle] pathForResource:@"players1" ofType:@"plist"];
-        players = [[NSDictionary alloc] initWithContentsOfFile:players_file];
+        NSString *details_file = [[NSBundle mainBundle] pathForResource:@"details" ofType:@"plist"];
+        details = [[NSDictionary alloc] initWithContentsOfFile:details_file];
 
-        players_ref = [[NSMutableDictionary alloc] init];
-        [players_ref setObject:pl_beavis forKey:@"beavis"];
+//		NSString *plbeav_file = [[NSBundle mainBundle] pathForResource:@"pl_beavis" ofType:@"plist"];
+//        pl_beavis = [[NSDictionary alloc] initWithContentsOfFile:plbeav_file];
+//        
+//		NSString *players_file = [[NSBundle mainBundle] pathForResource:@"players1" ofType:@"plist"];
+//        players = [[NSDictionary alloc] initWithContentsOfFile:players_file];
+//
+//        players_ref = [[NSMutableDictionary alloc] init];
+//        [players_ref setObject:pl_beavis forKey:@"beavis"];
 
 		NSString *jeep_file = [[NSBundle mainBundle] pathForResource:@"jeep" ofType:@"plist"];
         jeep_corr = [[NSDictionary alloc] initWithContentsOfFile:jeep_file];
+		NSString *gonkawhite_file = [[NSBundle mainBundle] pathForResource:@"GonkaWhite" ofType:@"plist"];
+        gonkawhite_corr = [[NSDictionary alloc] initWithContentsOfFile:gonkawhite_file];
 
         bodies_ref = [[NSMutableDictionary alloc] init];
         [bodies_ref setObject:jeep_corr forKey:@"jeep"];
+        [bodies_ref setObject:gonkawhite_corr forKey:@"GonkaWhite"];
 
         
         [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(putBonuses) userInfo:nil repeats:YES];
@@ -392,8 +398,12 @@
         
         NSString *mach_file = [[NSBundle mainBundle] pathForResource:@"w_machinegun" ofType:@"plist"];
         self.w_machinegun = [[NSDictionary alloc] initWithContentsOfFile:mach_file];
+        NSString *rearmach_file = [[NSBundle mainBundle] pathForResource:@"w_rear_machinegun" ofType:@"plist"];
+        self.w_rear_machinegun = [[NSDictionary alloc] initWithContentsOfFile:rearmach_file];
         NSString *spear_file = [[NSBundle mainBundle] pathForResource:@"w_spearthrower" ofType:@"plist"];
         self.w_spearthrower = [[NSDictionary alloc] initWithContentsOfFile:spear_file];
+        NSString *flame_file = [[NSBundle mainBundle] pathForResource:@"w_flamethrower" ofType:@"plist"];
+        self.w_flamethrower = [[NSDictionary alloc] initWithContentsOfFile:flame_file];
         
         
  		NSArray* sp = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -454,18 +464,38 @@
 	[profiles writeToFile:prof_file atomically: YES];
 }
 
-- (NSString*) getBeaParam: (NSString*)n player_index: (int)ind {
+- (NSString*) getCarParamForSelectedProfile: (NSString*)n {
     
-//	NSString *s = [pl_beavis objectForKey:n];
-//	return s;
+    NSDictionary* profile = [self getSelectedProfile];
     
-    NSString* s = [players objectForKey:[NSString stringWithFormat:@"pl_%02d",ind]];
-    NSDictionary* d = [players_ref objectForKey:s];
-    NSString *s1 = [d objectForKey:n];
+    if([n isEqualToString:@"WH"]) {
     
-    return s1;
+        return @"wheels";
+    }
+    
+    if([n isEqualToString:@"BO"]) {
+        switch ([[profile objectForKey:@"body_index"] integerValue]){
+            case 0: return @"jeep";
+            default:
+            case 1: return @"GonkaWhite";
+        }
+    }
 
+    NSInteger w = [[profile objectForKey:[NSString stringWithFormat:@"%@_index",n]] integerValue];
+//    NSNumber* wn = [NSNumber numberWithInteger:w];
+    NSArray* a = [details objectForKey:n];
+    return [a objectAtIndex:w];
 }
+
+//- (NSString*) getBeaParam: (NSString*)n player_index: (int)ind {
+//    
+//    NSString* s = [players objectForKey:[NSString stringWithFormat:@"pl_%02d",ind]];
+//    NSDictionary* d = [players_ref objectForKey:s];
+//    NSString *s1 = [d objectForKey:n];
+//    
+//    return s1;
+//
+//}
 
 - (NSString*) getBodyParam: (NSString*)n forBody:(NSString*)bo {
     
@@ -566,10 +596,10 @@
     [remove_objects release];
     [cd_params release];
     [details_order release];
-    [pl_beavis release];
+//    [pl_beavis release];
     [jeep_corr release];
-    [players release];
-    [players_ref release];
+//    [players release];
+//    [players_ref release];
     [bodies_ref release];
     [bonuses release];
     

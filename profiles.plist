@@ -10,11 +10,11 @@
 		<integer>3</integer>
 		<key>body_index</key>
 		<integer>0</integer>
-		<key>rw_index</key>
+		<key>RW_index</key>
 		<integer>0</integer>
-		<key>lw_index</key>
+		<key>LW_index</key>
 		<integer>0</integer>
-		<key>bw_index</key>
+		<key>BW_index</key>
 		<integer>0</integer>
 	</dict>
 	<key>profile0</key>
@@ -25,12 +25,12 @@
 		<integer>2</integer>
 		<key>body_index</key>
 		<integer>1</integer>
-		<key>rw_index</key>
-		<integer>0</integer>
-		<key>lw_index</key>
-		<integer>0</integer>
-		<key>bw_index</key>
-		<integer>0</integer>
+		<key>RW_index</key>
+		<integer>1</integer>
+		<key>LW_index</key>
+		<integer>1</integer>
+		<key>BW_index</key>
+		<integer>1</integer>
 	</dict>
 </dict>
 </plist>

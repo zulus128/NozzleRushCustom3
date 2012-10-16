@@ -2,197 +2,69 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>N_TW</key>
-	<string>1 78</string>
-	<key>N_SP</key>
-	<string>3 -5</string>
 	<key>N_BW</key>
 	<string>2 -50</string>
-	<key>N_CO</key>
-	<string>3 43</string>
 	<key>N_RW</key>
 	<string>93 82</string>
 	<key>N_LW</key>
 	<string>-92 82</string>
-	<key>N_BR</key>
-	<string>104 -32</string>
-	<key>N_FR</key>
-	<string>104 46</string>
-	<key>N_BL</key>
-	<string>-104 -32</string>
-	<key>N_FL</key>
-	<string>-104 46</string>
 	<key>N_WH</key>
 	<string>0 0</string>
-	<key>N_BU</key>
-	<string>3 104</string>
-	<key>NW_TW</key>
-	<string>18 80</string>
-	<key>NW_SP</key>
-	<string>92 10</string>
 	<key>NW_BW</key>
 	<string>98 -31</string>
-	<key>NW_CO</key>
-	<string>7 59</string>
 	<key>NW_RW</key>
 	<string>-2 106</string>
 	<key>NW_LW</key>
 	<string>-107 51</string>
-	<key>NW_BR</key>
-	<string>-62 -44</string>
-	<key>NW_FR</key>
-	<string>16 49</string>
-	<key>NW_BL</key>
-	<string>-23 -118</string>
-	<key>NW_FL</key>
-	<string>-137 -49</string>
 	<key>NW_WH</key>
 	<string>0 0</string>
-	<key>NW_BU</key>
-	<string>-63 89</string>
-	<key>W_TW</key>
-	<string>23 79</string>
-	<key>W_SP</key>
-	<string>118 53</string>
 	<key>W_BW</key>
 	<string>131 37</string>
-	<key>W_CO</key>
-	<string>21 50</string>
 	<key>W_RW</key>
 	<string>-76 92</string>
 	<key>W_LW</key>
 	<string>-76 -4</string>
-	<key>W_BR</key>
-	<string>67 68</string>
-	<key>W_FR</key>
-	<string>-74 68</string>
-	<key>W_BL</key>
-	<string>68 -118</string>
-	<key>W_FL</key>
-	<string>-68 -118</string>
 	<key>W_WH</key>
 	<string>0 0</string>
-	<key>W_BU</key>
-	<string>-147 5</string>
-	<key>SW_TW</key>
-	<string>3 81</string>
-	<key>SW_SP</key>
-	<string>97 101</string>
 	<key>SW_BW</key>
 	<string>94 73</string>
-	<key>SW_CO</key>
-	<string>3 43</string>
 	<key>SW_RW</key>
 	<string>-114 41</string>
 	<key>SW_LW</key>
 	<string>-11 -15</string>
-	<key>SW_BR</key>
-	<string>-10 34</string>
-	<key>SW_FR</key>
-	<string>-120 -39</string>
-	<key>SW_BL</key>
-	<string>143 -47</string>
-	<key>SW_FL</key>
-	<string>28 -115</string>
 	<key>SW_WH</key>
 	<string>0 0</string>
-	<key>SW_BU</key>
-	<string>-111 -52</string>
-	<key>S_TW</key>
-	<string>3 90</string>
-	<key>S_SP</key>
-	<string>3 122</string>
 	<key>S_BW</key>
 	<string>3 105</string>
-	<key>S_CO</key>
-	<string>3 70</string>
 	<key>S_RW</key>
 	<string>-84 16</string>
 	<key>S_LW</key>
 	<string>90 16</string>
-	<key>S_BR</key>
-	<string>-101 56</string>
-	<key>S_FR</key>
-	<string>-101 -19</string>
-	<key>S_BL</key>
-	<string>107 56</string>
-	<key>S_FL</key>
-	<string>107 -19</string>
 	<key>S_WH</key>
 	<string>0 0</string>
-	<key>S_BU</key>
-	<string>3 -62</string>
-	<key>SE_TW</key>
-	<string>-3 81</string>
-	<key>SE_SP</key>
-	<string>-97 101</string>
 	<key>SE_BW</key>
 	<string>-94 73</string>
-	<key>SE_CO</key>
-	<string>-3 43</string>
 	<key>SE_RW</key>
 	<string>11 -15</string>
 	<key>SE_LW</key>
 	<string>114 41</string>
-	<key>SE_BR</key>
-	<string>-143 -47</string>
-	<key>SE_FR</key>
-	<string>-28 -115</string>
-	<key>SE_BL</key>
-	<string>10 34</string>
-	<key>SE_FL</key>
-	<string>120 -39</string>
 	<key>SE_WH</key>
 	<string>0 0</string>
-	<key>SE_BU</key>
-	<string>111 -52</string>
-	<key>E_TW</key>
-	<string>-23 79</string>
-	<key>E_SP</key>
-	<string>-118 53</string>
 	<key>E_BW</key>
 	<string>-131 37</string>
-	<key>E_CO</key>
-	<string>-21 50</string>
 	<key>E_RW</key>
 	<string>76 -4</string>
 	<key>E_LW</key>
 	<string>76 92</string>
-	<key>E_BR</key>
-	<string>-68 -118</string>
-	<key>E_FR</key>
-	<string>68 -118</string>
-	<key>E_BL</key>
-	<string>-67 68</string>
-	<key>E_FL</key>
-	<string>74 68</string>
 	<key>E_WH</key>
 	<string>0 0</string>
-	<key>E_BU</key>
-	<string>147 5</string>
-	<key>NE_TW</key>
-	<string>-18 80</string>
-	<key>NE_SP</key>
-	<string>-92 10</string>
 	<key>NE_BW</key>
 	<string>-98 -31</string>
-	<key>NE_CO</key>
-	<string>-7 59</string>
 	<key>NE_RW</key>
 	<string>107 51</string>
 	<key>NE_LW</key>
 	<string>2 106</string>
-	<key>NE_BR</key>
-	<string>23 -118</string>
-	<key>NE_FR</key>
-	<string>137 -49</string>
-	<key>NE_BL</key>
-	<string>62 -44</string>
-	<key>NE_FL</key>
-	<string>-16 49</string>
 	<key>NE_WH</key>
 	<string>0 0</string>
-	<key>NE_BU</key>
-	<string>63 89</string>
 </dict>
 </plist>

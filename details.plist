@@ -4,26 +4,26 @@
 <dict>
 	<key>RW</key>
 	<array>
-		<string>none</string>
+		<string>transparent</string>
 		<string>machinegun</string>
 		<string>flamethrower</string>
 		<string>spearthrower</string>
 	</array>
 	<key>LW</key>
 	<array>
-		<string>none</string>
+		<string>transparent</string>
 		<string>machinegun</string>
 		<string>flamethrower</string>
 		<string>spearthrower</string>
 	</array>
 	<key>BW</key>
 	<array>
-		<string>none</string>
+		<string>transparent</string>
 		<string>rear_machinegun</string>
 	</array>
 	<key>WH</key>
 	<array>
-		<string>none</string>
+		<string>transparent</string>
 		<string>wheels</string>
 	</array>
 </dict>
