@@ -50,42 +50,23 @@
         
         direction1 = @"NE";
 
-        
-//        for (int i = 0; i < SPRITES_CNT; i++) {
-//
-//            sprites[i] = [CCSprite spriteWithFile:@"jeep_NE.png"];
-////            sprites[i] = [CCSprite spriteWithFile:@"transparent.png"];
-////            sprites[i].scale = 0.5;
-//            [sprite addChild:sprites[i] z:(-i)];
-//            
-//        }
-        
-//        [Common instance].direction = ccp(1,1);
-        
         firsttime = YES;
         
         bodyDef.type = b2_dynamicBody;
         
         self.body = [Common instance].world->CreateBody(&bodyDef);
         self.body->SetLinearDamping(1.0f);
-//        self.body->SetUserData(sprite);
         self.body->SetUserData(self);
         
-        // Define another box shape for our dynamic body.
         b2PolygonShape dynamicBox;
-        //        dynamicBox.SetAsBox(2.1f, 2.1f);
         dynamicBox.SetAsBox(1.0f, 1.0f);
         
-        // Define the dynamic body fixture.
         b2FixtureDef fixtureDef;
         fixtureDef.shape = &dynamicBox;	
         fixtureDef.density = 0.02f;
-        //        fixtureDef.friction = 4.3f;
         
         if (typ == CT_ME) {
 
-//            fixtureDef.filter.categoryBits = CB;
-//            fixtureDef.filter.maskBits = maskBits;
             fixtureDef.filter.groupIndex = -1;
         }
         else {
@@ -107,30 +88,6 @@
         emitter.emitterMode = kCCParticleModeRadius;
         [[Common instance].tileMap addChild:emitter z:-1];
         
-//        mach = [[MachParticleSystem alloc]initWithFile:@"mgun.plist"];
-//        mach.positionType = kCCPositionTypeRelative;
-//        [[Common instance].tileMap addChild:mach z:0];
-//        [mach stopSystem];
-
-//        expl = [[CCParticleExplosion alloc]initWithFile:@"em_ring_explosion.plist"];
-        expl = [[CCParticleExplosion alloc]initWithFile:@"rocketFlame.plist"];
-        expl.position = ccp(0,0);
-        [[Common instance].tileMap addChild:expl z:-1];
-        [expl stopSystem];
-
-//        if (typ == CT_ME) {
-//
-//            
-//
-//
-////            mach = [[MachParticleSystem particleWithFile:@"mgun.plist"] retain];
-//            
-//            
-////            rocketFlame = [[CCParticleMeteor particleWithFile:@"rocketFlame.plist"] retain];
-////            rocketFlame.positionType = kCCPositionTypeRelative;
-////            [[Common instance].tileMap addChild:rocketFlame z:0];
-//////            [rocketFlame stopSystem];
-//        }
         
     }
     return self;
@@ -139,9 +96,6 @@
 -(void) dealloc {
 
     [emitter release];
-
-//    if (typ == CT_ME)        
-//        [mach release];
     
     [super dealloc];
 }
@@ -150,7 +104,6 @@
 
     CGPoint p = ccp(x, y);
     sprite.position = [[Common instance] ort2iso:p];
-//    bodyDef.position.Set(p.x/PTM_RATIO, p.y/PTM_RATIO);
     body->SetTransform(b2Vec2(x / PTM_RATIO, y / PTM_RATIO), 0);
 
     [[Common instance] getCheckpointPos:1];
@@ -160,23 +113,13 @@
     CCTexture2D* tex = [[CCTextureCache sharedTextureCache] addImage:@"jeep7.png"];
     [sprite setTexture: tex];
 
-//    mach_angle = 315;
-    //////////////////////////////////////////
-    // - Changed by MSyasko on 28.06.2012 - //
-    //////////////////////////////////////////
-    mach_angle = 301; ////
+    mach_angle = 301;
     
     emitter.position = [[Common instance] ort2iso:p];
-
-//    if (typ == CT_ME)
-//        mach.position = [[Common instance] ort2iso:p];
 
 }
 
 - (CGPoint) getGroundPosition {
-    
-//    NSLog(@"hh = %d", hh);
-//    return ccp(sprite.position.x, sprite.position.y - ((hh<0)?0:(hh>hmax?hmax:hh)));
     
     return groundPosition;
 }
@@ -187,27 +130,16 @@
         
         [rocket update];
         
-        //        NSLog(@"vel = %f", rocket.body->GetLinearVelocity().Normalize());
-        
 //        if ((rocket.body->GetLinearVelocity().Normalize() < 0.4) || rocket.died) {
         if (rocket.died) {
             
             //            [rocket release];
             [[Common instance] markObjectForDelete:rocket];
             
-//            expl.position = rocket.sprite.position;
-
             rocket = nil;
-            
-//            [expl resetSystem];
         }
         
-//        rocketFlame.position = rocket.position;
-        
     }
-    
-//    if(typ == CT_ME)
-//    NSLog(@"%f",self.body->GetLinearVelocity().Normalize() );
 
     float ss =  self.body->GetLinearVelocity().Normalize();
     if(ss > 5)
@@ -218,23 +150,13 @@
     else
         speed = 1000;
     
-//    if(typ == CT_ME)
-//        NSLog(@"%f, %f, %d", self.body->GetLinearVelocity().Normalize(), ss, speed );
-    
     float rot = -1 * CC_RADIANS_TO_DEGREES(body->GetAngle());
     
-//    NSString* name1 = @"";
-//    NSString* name2 = @"";
-//    NSString* name3 = @"";
-    NSString* rocketAngle = @"";
     int w1ZOrder = 2;
     CGPoint w1Position = ccp(0, 0);
     CGPoint w1MuzzlePosition = ccp(0, 0);
     float a = (rot < 0)?(360 + rot):rot;
     a = a + 22.5f;
-    
-//    int disk = DT_NONE;
-//    id wanim = nil;
     
     CGPoint machCorr = ccp(0,0);
     
@@ -243,11 +165,6 @@
  
     NSString* direction = @"N";
     
-    
-    //    a = 250;
-    //////////////////////////////////////////
-    // - Changed by MSyasko on 28.06.2012 - //
-    //////////////////////////////////////////
     if (a < 360.0f) {
         if (a < 315.0f) {
             if (a < 270.0f) {
@@ -256,48 +173,23 @@
                         if (a < 135.0f) {
                             if (a < 90.0f) {
                                 if (a < 45.0f) {
-//                                    name1 = @"JeepWheels45Flip_1.png"; 
-//                                    name2 = @"jeep7.png"; 
                                     direction = @"NE";
 
-//                                    wanim = wheel45Flip;
-                                    //                                    danim = diski45Flip;
-//                                    disk = DT_45FLIP;
-                                    //                                    b = 31/*45*/; 
-                                    
-                                    // First Weapon
-//                                    name3 = @"mGun315.png";
-                                    //                                    w1Position = ccp(-10, 27);  //на капоте
                                     w1Position = ccp(-30, 15);
                                     w1MuzzlePosition = ccp(0, 0);
                                     w1ZOrder = 1;
-                                    
-                                    // Secon Weapon
-                                    rocketAngle = @"r315.png";
                                     
                                     b = 59;
                                     r = 90;
                                     machCorr = ccp(-21, 25);
                                     //                                    mach.rotation = 45;
                                 } else {
-//                                    name1 = @"JeepWheelsSide_1.png"; 
-//                                    name2 = @"jeep4.png";
+
                                     direction = @"E";
 
-//                                    wanim = wheelSide;
-                                    //                                    danim = diskiSide;
-//                                    disk = DT_SIDE;
-                                    //                                    b = 0; 
-                                    
-                                    // First Weapon
-//                                    name3 = @"mGun0.png";
-                                    //                                    w1Position = ccp(17, 28);
                                     w1Position = ccp(-16, 27);
                                     w1MuzzlePosition = ccp(0, 0);
                                     w1ZOrder = 1;
-                                    
-                                    // Secon Weapon
-                                    rocketAngle = @"r0.png";
                                     
                                     b = 90;
                                     r = 135;
@@ -306,24 +198,12 @@
                                     //                                    mach.rotation = 0;
                                 }
                             } else {
-//                                name1 = @"JeepWheels45_1.png"; 
-//                                name2 = @"jeep6.png"; 
+
                                 direction = @"SE";
 
-//                                wanim = wheel45;
-                                //                                danim = diski45;
-//                                disk = DT_45;
-                                //                                b = -31/*-45*/;   
-                                
-                                // First Weapon
-//                                name3 = @"mGun45.png";
-                                //                                w1Position = ccp(31, 13); 
                                 w1Position = ccp(5, 28);
                                 w1MuzzlePosition = ccp(0, 0);
                                 w1ZOrder = 1;
-                                
-                                // Secon Weapon
-                                rocketAngle = @"r45.png";
                                 
                                 b = 121;
                                 r = 180;
@@ -332,22 +212,12 @@
                                 //                                mach.rotation = 315;
                             }
                         } else {
-//                            name1 = @"JeepWheels_1.png"; 
-//                            name2 = @"jeep1.png"; 
+
                             direction = @"S";
 
-//                            wanim = wheel;
-                            //                            b = 270;  
-                            
-                            // First Weapon
-//                            name3 = @"mGun90.png";
-                            //                            w1Position = ccp(28, -3);
                             w1Position = ccp(27, 18);
                             w1MuzzlePosition = ccp(0, 0);
                             w1ZOrder = 2;
-                            
-                            // Secon Weapon
-                            rocketAngle = @"r90.png";
                             
                             b = 180;
                             r = 225;
@@ -356,24 +226,12 @@
                             //                            mach.rotation = 270;
                         }
                     } else {
-//                        name1 = @"JeepWheels45Flip_1.png"; 
-//                        name2 = @"jeep8.png"; 
+
                         direction = @"SW";
 
-//                        wanim = wheel45Flip;
-                        //                        danim = diski45Flip;
-//                        disk = DT_45FLIP;
-                        //                        b = 212/*225*/; 
-                        
-                        // First Weapon
-//                        name3 = @"mGun135.png";
-                        //                        w1Position = ccp(7, -8);
                         w1Position = ccp(27, 10);
                         w1MuzzlePosition = ccp(0, 0);
                         w1ZOrder = 2;
-                        
-                        // Secon Weapon
-                        rocketAngle = @"r135.png";
                         
                         b = 239;
                         r = 270;
@@ -382,24 +240,12 @@
                         //                        mach.rotation = 225;
                     }
                 } else {
-//                    name1 = @"JeepWheelsSide_1.png"; 
-//                    name2 = @"jeep3.png";
+
                     direction = @"W";
 
-//                    wanim = wheelSide;
-                    //                    danim = diskiSide;
-//                    disk = DT_SIDE;
-                    //                    b = 180;
-                    
-                    // First Weapon
-//                    name3 = @"mGun180.png";
-                    //                    w1Position = ccp(-18, -10);
                     w1Position = ccp(16, -3);
                     w1MuzzlePosition = ccp(3, 0);
                     w1ZOrder = 2;
-                    
-                    // Secon Weapon
-                    rocketAngle = @"r180.png";
                     
                     b = 270;
                     r = 315;
@@ -408,24 +254,12 @@
                     //                    mach.rotation = 180;
                 } 
             } else {
-//                name1 = @"JeepWheels45_1.png"; 
-//                name2 = @"jeep5.png"; 
+
                 direction = @"NW";
 
-//                wanim = wheel45;
-                //                danim = diski45;
-//                disk = DT_45;
-                //                b = 151/*135*/; 
-                
-                // First Weapon
-//                name3 = @"mGun225.png";
-                //                w1Position = ccp(-32, 10);
                 w1Position = ccp(-7, -2);
                 w1MuzzlePosition = ccp(-50, 50);
                 w1ZOrder = 2;
-                
-                // Secon Weapon
-                rocketAngle = @"r225.png";
                 
                 b = 301;
                 r = 0;
@@ -434,23 +268,12 @@
                 //                mach.rotation = 135;
             }  
         } else {
-//            name1 = @"JeepWheels_1.png"; 
-//            name2 = @"jeep2.png"; 
-            
+
             direction = @"N";
             
-//            wanim = wheel;
-            //            b = 90; 
-            
-            // First Weapon
-//            name3 = @"mGun270.png";
-            //            w1Position = ccp(-28, 13);
             w1Position = ccp(-26, 1);
             w1MuzzlePosition = ccp(0, 0);
             w1ZOrder = 2;
-            
-            // Secon Weapon
-            rocketAngle = @"r270.png";
             
             b = 0;
             r = 45;
@@ -459,24 +282,12 @@
             //            mach.rotation = 90;
         }              
     } else {
-//        name1 = @"JeepWheels45Flip_1.png"; 
-//        name2 = @"jeep7.png"; 
+
         direction = @"NE";
 
-//        wanim = wheel45Flip;
-        //        danim = diski45Flip;
-//        disk = DT_45FLIP;
-        //        b = 31/*45*/; 
-        
-        // First Weapon
-//        name3 = @"mGun315.png";
-        //        w1Position = ccp(-10, 27);
         w1Position = ccp(-30, 15);
         w1MuzzlePosition = ccp(0, 0);
         w1ZOrder = 1;
-        
-        // Secon Weapon
-        rocketAngle = @"r315.png";
         
         b = 59;
         r = 90;
@@ -486,24 +297,10 @@
     }      
     
     
-//    if(typ == CT_ME)
-//    NSLog(@"Direction1: %@", direction);
-
-    // Set the proper sprite for a rocket
-//    if (rocket != nil)
-//        if (rocket.sprite.tag == 0) {
-//            CCTexture2D* texture = [[CCTextureCache sharedTextureCache] addImage:rocketAngle];
-//            NSLog(@"Angle = %@", rocketAngle);
-//            [rocket.sprite setTexture:texture];
-//            
-//            rocket.sprite.tag = 1;
-//        }
-    
     if(bb != b)
         if(([Common instance].direction.x != 0) || ([Common instance].direction.y != 0) || (typ != CT_ME) || firsttime) {
             
 
-//            if(![direction isEqualToString:@"NIL"])
                 direction1 = direction;
 
                 if(typ == CT_ME)
@@ -513,29 +310,15 @@
 
 
                 NSString* str = [[Common instance] getDetail:direction number:i];
-//                NSLog(@"str = %@", str);
-//                NSString* pl = [[Common instance] getBeaParam:str player_index:1];
                 NSString* pl = [[Common instance] getCarParamForSelectedProfile:str];
-//                if([str isEqualToString:@"BO"])
-//                    pl = @"transparent";
-//                if([str isEqualToString:@"WH"])
-//                    pl = @"transparent";
-                
-//                NSLog(@"pl = %@", pl);
+
                 NSString* add = @"";
 //                if ([pl isEqualToString:@"disk"] || [pl isEqualToString:@"wheels"])
                 NSString* s = @"WH,FR,FL,BR,BL";
                 if ([s rangeOfString:str].location != NSNotFound)
                     add = @"_1";
                 NSString* name1 = [NSString stringWithFormat:@"%@_%@%@.png", pl, direction, add];
-//                NSLog(@"detail %d : %@", i, name1);
-//                CCTexture2D* tex1 = [[CCTextureCache sharedTextureCache] addImage:name1];
-//                NSLog(@"size : %f, %f", tex1.contentSize.width, tex1.contentSize.height);
-//                [sprites[i] setTexture: tex1];
 
-//                CCSpriteFrame* frame1 = [CCSpriteFrame frameWithTexture:tex1 rect:CGRectMake(0, 0, tex1.pixelsWide, tex1.pixelsHigh)];
-//                [sprites[i] setDisplayFrame:frame1];
-                
                 if (sprites[i] != nil)
                     [sprite removeChild:sprites[i] cleanup:YES];
                 sprites[i] = [CCSprite spriteWithFile:name1];
@@ -577,13 +360,9 @@
             mach_angle = b;
             
             rocket_angle = r;
-            
-            rocket_sprite = rocketAngle;
-            
-//            if(typ == CT_ME) {
-//                NSLog(@"direction = %@, rocket = %@", direction, rocketAngle);
-//            }
+
         }
+
     bb = b;
     firsttime = NO;
     
@@ -593,20 +372,14 @@
      if(speedcnt > speed) {
         
         framecnt++;
-        NSString* name1 = [NSString stringWithFormat:@"%@%d.png", self.diskname, framecnt];
-        CCTexture2D* tex1 = [[CCTextureCache sharedTextureCache] addImage:name1];
-        NSString* name2 = [NSString stringWithFormat:@"%@%d.png", self.wheelname, framecnt];
-        CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:name2];
 
         for (CCNode* n in sprite.children) {
             
             if(n.tag == DISKTAG) {
                 
+                NSString* name1 = [NSString stringWithFormat:@"%@%d.png", self.diskname, framecnt];
+                CCTexture2D* tex1 = [[CCTextureCache sharedTextureCache] addImage:name1];
                 CCSprite* spr = (CCSprite*)n;
-                
-//                if(typ != CT_ME)
-//                NSLog(@"DISKTAG! %@", name1);
-                
                 [spr setTexture: tex1];
                 
 
@@ -614,6 +387,8 @@
                 else
                     if(n.tag == WHEELTAG) {
                         
+                        NSString* name2 = [NSString stringWithFormat:@"%@%d.png", self.wheelname, framecnt];
+                        CCTexture2D* tex2 = [[CCTextureCache sharedTextureCache] addImage:name2];
                         CCSprite* spr = (CCSprite*)n;
                         [spr setTexture: tex2];
                     }
@@ -665,20 +440,7 @@
     CGPoint p2 = [[Common instance] getCheckpointPos:self.checkpoint];//[[Common instance] getCurCheckpoint];
     distToChp = ccpDistance(p1, p2);
     
-    //        if(typ == CT_ME)
-    //            [Common instance].distToChp = distToChp;
-    
-    
-    
     if(distToChp < 200) {
-        
-        //            [Common instance].checkpoint++;
-        //            if([Common instance].checkpoint >= [[Common instance] getCheckpointCnt]) {
-        //                
-        //                [Common instance].checkpoint = 0;
-        //                [Common instance].laps++;
-        //                
-        //            }
         
         checkpoint++;
         if(checkpoint >= [[Common instance] getCheckpointCnt]) {
@@ -691,12 +453,6 @@
         }
         
     }
-    //        NSLog(@"dist = %f", d);
-    
-    
-//    if(typ != CT_ME)
-//        NSLog(@"distChg = %d point = %d", prevDistToChp - distToChp, checkpoint);
-    
 
     CGPoint t = [[Common instance] getCheckpointPos:self.checkpoint];
     CGPoint t1 = [[Common instance] iso2ort:t];
@@ -718,7 +474,7 @@
 
         if(stuck > 20) {
             
-            NSLog(@"STUCK!!!! %d", stuck);
+//            NSLog(@"STUCK!!!! %d", stuck);
             angle = 90 + CC_RADIANS_TO_DEGREES(atan2f( -tChp.x, tChp.y )) + ((stuck>100)?180:0);
 
             if(stuck > 110)
@@ -789,54 +545,15 @@
                 
                 b2Vec2 bodyP = self.body->GetPosition();
                 
-//                if (machinegun == nil) {
-
-                    //                    [rocket release];
-                    machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:(rocket_angle + 180) Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
-                    
-//                    NSLog(@"MACH ON cnt = %d", [machinegun retainCount]);
-
-                    //                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
-//                }
-//                else {
-//                    
-//                    NSLog(@"MACH OFF");
-//
-//                    [machinegun release];
-//                    machinegun = nil;
-//                }
-
-//                if (rocket == nil) {
-//
-//                    if(typ == CT_ME)
-//                        NSLog(@"Direction2: %@", direction1);
-//
-//                    //                    [rocket release];
-//                    rocket = [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:rocket_angle Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
-////                    rocketFlame.position = ccp(rocket.position.x, rocket.position.y);
-//                }
+                machinegun = [[Machinegun alloc] initWithX:bodyP.x Y:bodyP.y Angle:(rocket_angle + 180) Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
+                
+                rocket= [[Rocket alloc] initWithX:bodyP.x Y:bodyP.y Angle:(rocket_angle) Type:(typ == CT_ME)?WT_MYWEAPON:WT_STANDARD Direction:direction1 Car:self];
+                
             }
             else {
-//                [mach stopSystem];
-                
-//                NSLog(@"MACH OFF1 cnt = %d", [machinegun retainCount]);
-                
-//                [machinegun release];
-//                [machinegun release];
-                
-//                NSLog(@"MACH OFF2 cnt = %d", [machinegun retainCount]);
 
-//                machinegun = nil;
-                
-//                if (machinegun != nil) {
-                
-//                    [machinegun release];
                 [machinegun clear];
                 [[Common instance] markObjectForDelete:machinegun];
-//                    NSLog(@"MACH OFF1 cnt = %d", [machinegun retainCount]);
-//                    machinegun = nil;
-//                }
-
             }
             
         }

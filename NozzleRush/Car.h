@@ -32,7 +32,7 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     CCParticleSystem *emitter;
 //    CCParticleSystem* mach;
 //    CCParticleSystem* rocketFlame;
-    CCParticleExplosion* expl;
+//    CCParticleExplosion* expl;
     float mach_angle;
     BOOL prev_mach;
     
@@ -41,7 +41,7 @@ enum disk_type { DT_NONE, DT_45, DT_45FLIP, DT_SIDE };
     
     
     float rocket_angle;
-    NSString* rocket_sprite;
+//    NSString* rocket_sprite;
     BOOL firsttime;
     CGPoint f;
     float bb;
